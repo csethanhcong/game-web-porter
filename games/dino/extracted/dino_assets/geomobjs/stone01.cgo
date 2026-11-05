@@ -1,0 +1,14 @@
+[meshes]
+
+nummeshes=2
+
+mesh0=stone_01.msh
+texture0=stone01.jpg
+
+mesh1=travka_01.msh
+texture1=lazer_screen.jpg
+
+[bounds]
+
+numbounds=0
+

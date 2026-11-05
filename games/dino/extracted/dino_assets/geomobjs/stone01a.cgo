@@ -1,0 +1,11 @@
+[meshes]
+
+nummeshes=1
+
+mesh0=stone_01_a.msh
+texture0=stone01.jpg
+
+[bounds]
+
+numbounds=0
+

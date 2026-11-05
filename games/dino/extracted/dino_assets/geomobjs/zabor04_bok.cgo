@@ -1,0 +1,11 @@
+[meshes]
+
+nummeshes=1
+
+mesh0=zabor_04_bok.msh
+texture0=zabor_screen.jpg
+
+[bounds]
+
+numbounds=0
+

@@ -1,0 +1,11 @@
+[meshes]
+
+nummeshes=1
+
+mesh0=box.msh
+texture0=metal_box.jpg
+
+[bounds]
+
+numbounds=0
+

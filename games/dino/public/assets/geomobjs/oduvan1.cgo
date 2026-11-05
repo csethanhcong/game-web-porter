@@ -1,0 +1,11 @@
+[meshes]
+
+nummeshes=1
+
+mesh0=oduvan.msh
+texture0=trava1.tga
+
+[bounds]
+
+numbounds=0
+

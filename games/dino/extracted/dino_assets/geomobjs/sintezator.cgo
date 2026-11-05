@@ -1,0 +1,11 @@
+[meshes]
+
+nummeshes=1
+
+mesh0=sintezator.msh
+texture0=sintezator_screen.jpg
+
+[bounds]
+
+numbounds=0
+

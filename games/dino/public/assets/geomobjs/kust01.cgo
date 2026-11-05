@@ -1,0 +1,11 @@
+[meshes]
+
+nummeshes=1
+
+mesh0=kust_01.msh
+texture0=kust1.tga
+
+[bounds]
+
+numbounds=0
+

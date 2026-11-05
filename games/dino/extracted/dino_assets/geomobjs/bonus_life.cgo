@@ -1,0 +1,11 @@
+[meshes]
+
+nummeshes=1
+
+mesh0=yabloko_1.msh
+texture0=bonus_screen.jpg
+
+[bounds]
+
+numbounds=0
+

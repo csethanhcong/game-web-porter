@@ -1,0 +1,23 @@
+
+Dino and Aliens 
+version 1.1
+
+
+LICENSE:
+
+  Dino and Aliens is shareware. All copyrights to Dino and Aliens are exclusively owned by the developer - NevoSoft.
+  You may not alter this software in any way; you may not use or distribute any part of the original package. Also you are not allowed to emulate, decompile, disassemble, otherwise reverse engineer any executable part of original package. Any such unauthorized use shall result in immediate and automatic termination of this license and may result in criminal and/or civil prosecution.
+  Dino and Aliens IS DISTRIBUTED ON THE "AS IS" BASIS. NO WARRANTY OF ANY KIND IS EXPRESSED OR IMPLIED. YOU USE AT YOUR OWN RISK. THE DEVELOPER WILL NOT BE LIABLE FOR DATA LOSS, DAMAGES, LOSS OF PROFITS OR ANY OTHER KIND OF LOSS WHILE USING OR MISUSING THIS SOFTWARE.
+  You may make as many copies of the SHAREWARE version of this distribution package as you wish; you may give exact copies of the original SHAREWARE version of this distribution package; distribute the SHAREWARE version of this distribution package in its unmodified form via electronic means. There is no charge for any of the above. No person or company may charge a fee for the distribution of Dino and Aliens without written permission from all of the copyright holders. If you want to distribute Dino and Aliens in a retail location, or as part of a hardware or software bundle, or on CD-ROM you must get PRIOR signed written permission from NevoSoft. NevoSoft reserves its right to withhold permission.
+  Installing and using Dino and Aliens signifies acceptance of these terms and conditions of the license. If you do not agree with the terms of this license you must remove Dino and Aliens files from your storage devices and cease to use the product.
+  Once registered, the user is granted a non-exclusive license to use Dino and Aliens on one computer. The registered version of Dino and Aliens may not be rented or leased, but may be permanently transferred, if the person receiving it agrees to terms of this license.
+  To obtain exclusive license to use Dino and Aliens you have to contact with NevoSoft and get written permission.
+
+
+www.nevosoft.com
+
+mailto:support@nevosoft.com
+
+
+Copyright (C) 2004 NevoSoft.
+All Rights Reserved.

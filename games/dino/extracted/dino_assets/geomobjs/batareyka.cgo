@@ -1,0 +1,11 @@
+[meshes]
+
+nummeshes=1
+
+mesh0=batareyka.msh
+texture0=lazer_zerkalo_screen.jpg
+
+[bounds]
+
+numbounds=0
+

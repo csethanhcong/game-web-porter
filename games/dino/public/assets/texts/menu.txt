@@ -1,0 +1,127 @@
+
+main=
+new game
+options
+demo
+info
+exit
+
+demomain=
+new game
+buynow
+options
+demo
+info
+exit
+
+exitgamenag=
+getdino
+demoexit
+
+startmenunag=
+getfullversion
+later
+
+levelpassnag=
+getfullversion
+later
+
+startgamenag=
+getfullversion
+later
+
+gameplaynag=
+getfullversion
+later
+
+endtrialnag=
+getfullversion
+later
+
+congratulations=
+okay
+
+congratulationsnag=
+getfullversion
+later
+
+
+new game=
+start
+back
+
+options=
+video
+audio
+keyboard
+joystick
+other
+back
+
+keyboard=
+apply
+default
+cancel
+
+joystick=
+apply
+default
+cancel
+
+video=
+apply
+default
+cancel
+
+audio=
+apply
+default
+
+other=
+apply
+default
+
+info=
+history
+bonuses
+monsters
+credits
+back
+
+history=
+back
+
+monsters=
+back
+
+bonuses=
+back
+
+gameplay=
+resume game
+restart level
+options
+main
+
+defeat=
+restart level
+replay
+main
+
+victory=
+next level
+replay
+restart level
+main
+
+replaywin=
+resumereplay
+next level
+restart level
+main
+
+replayloss=
+resumereplay
+restart level
+main
+

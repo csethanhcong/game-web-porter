@@ -1,0 +1,11 @@
+[meshes]
+
+nummeshes=1
+
+mesh0=grib1.msh
+texture0=grib1.jpg
+
+[bounds]
+
+numbounds=0
+

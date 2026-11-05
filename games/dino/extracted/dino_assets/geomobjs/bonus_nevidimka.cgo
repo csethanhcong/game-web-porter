@@ -1,0 +1,11 @@
+[meshes]
+
+nummeshes=1
+
+mesh0=nevidimka.msh
+texture0=hat.jpg
+
+[bounds]
+
+numbounds=0
+

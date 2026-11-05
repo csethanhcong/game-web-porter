@@ -1,0 +1,14 @@
+[meshes]
+
+nummeshes=2
+
+mesh0=penek1.msh
+texture0=bark02.jpg
+
+mesh1=penek1_top.msh
+texture1=RINGS.JPG
+
+[bounds]
+
+numbounds=0
+

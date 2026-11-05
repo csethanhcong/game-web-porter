@@ -1,0 +1,11 @@
+[meshes]
+
+nummeshes=1
+
+mesh0=tablichka_strelka.msh
+texture0=strelka_screen.jpg
+
+[bounds]
+
+numbounds=0
+

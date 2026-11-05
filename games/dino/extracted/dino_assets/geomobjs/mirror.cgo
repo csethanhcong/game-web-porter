@@ -1,0 +1,11 @@
+[meshes]
+
+nummeshes=1
+
+mesh0=lazer_zerkalo.msh
+texture0=lazer_zerkalo_screen.jpg
+
+[bounds]
+
+numbounds=0
+

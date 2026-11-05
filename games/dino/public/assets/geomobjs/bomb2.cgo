@@ -1,0 +1,11 @@
+[meshes]
+
+nummeshes=1
+
+mesh0=spherebmb.msh
+texture0=bomb_sphere0.jpg
+
+[bounds]
+
+numbounds=0
+

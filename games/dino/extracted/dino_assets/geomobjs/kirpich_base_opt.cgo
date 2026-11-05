@@ -1,0 +1,11 @@
+[meshes]
+
+nummeshes=1
+
+mesh0=ograda_centr_opt.msh
+texture0=ograda_screen.jpg
+
+[bounds]
+
+numbounds=0
+

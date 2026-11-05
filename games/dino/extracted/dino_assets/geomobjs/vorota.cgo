@@ -1,0 +1,11 @@
+[meshes]
+
+nummeshes=1
+
+mesh0=ograda_vorota1.msh
+texture0=ograda_vorota1_screen.jpg
+
+[bounds]
+
+numbounds=0
+

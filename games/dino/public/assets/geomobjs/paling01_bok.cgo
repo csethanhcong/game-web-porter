@@ -1,0 +1,11 @@
+[meshes]
+
+nummeshes=1
+
+mesh0=paling2_bok.msh
+texture0=chastokol.jpg
+
+[bounds]
+
+numbounds=0
+

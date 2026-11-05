@@ -1,0 +1,14 @@
+[meshes]
+
+nummeshes=2
+
+mesh0=derevo_suhoe_2_stvol.msh
+texture0=BARKDRK.JPG
+
+mesh1=derevo_suhoe_vetki_2.msh
+texture1=vetki1.tga
+
+[bounds]
+
+numbounds=0
+

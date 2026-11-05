@@ -1,0 +1,14 @@
+[meshes]
+
+nummeshes=2
+
+mesh0=palma_02_listva.msh
+texture0=list_palma_screen.tga
+
+mesh1=palma_02_stvol.msh
+texture1=403094.JPG
+
+[bounds]
+
+numbounds=0
+

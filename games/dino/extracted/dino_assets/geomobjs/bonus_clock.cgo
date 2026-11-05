@@ -1,0 +1,14 @@
+[meshes]
+
+nummeshes=2
+
+mesh0=budilnik.msh
+texture0=budilnik_screen.jpg
+
+mesh1=budilnik_zvonok.msh
+texture1=budilnik_zvonok.jpg
+
+[bounds]
+
+numbounds=0
+

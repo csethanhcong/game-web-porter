@@ -1,0 +1,14 @@
+[meshes]
+
+nummeshes=2
+
+mesh0=derevo2.msh
+texture0=BARK02.JPG
+
+mesh1=derevo_vetki.msh
+texture1=vetki1.tga
+
+[bounds]
+
+numbounds=0
+

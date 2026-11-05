@@ -77,5 +77,5 @@ game-web-porter-harness/
 
 ## Repo layout
 - Root (`rules/`, `pipeline/`, `agents/`, `templates/`, `tools/`, `examples/`): the reusable, game-agnostic porting harness.
-- `games/<name>/`: one folder per ported game (source, format notes, coverage audit). Third-party game assets are never committed (see each game's `ASSETS.md`).
+- `games/<name>/`: one folder per ported game (source, format notes, coverage audit). Game assets/originals are committed only while the repo is private (see each game's `ASSETS.md`).
 - `games/dino/`: Dino and Aliens (D3D8 shareware demo) → three.js port. This was the reference port the harness was distilled from.

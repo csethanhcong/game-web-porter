@@ -1,0 +1,17 @@
+[meshes]
+
+nummeshes=3
+
+mesh0=stone_03.msh
+texture0=stone03.JPG
+
+mesh1=travka_3a.msh
+texture1=lazer_screen.jpg
+
+mesh2=travka_3b.msh
+texture2=lazer_screen.jpg
+
+[bounds]
+
+numbounds=0
+

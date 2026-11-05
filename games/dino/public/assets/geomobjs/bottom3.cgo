@@ -1,0 +1,11 @@
+[meshes]
+
+nummeshes=1
+
+mesh0=bottom3.msh
+texture0=bottom.jpg
+
+[bounds]
+
+numbounds=0
+

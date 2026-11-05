@@ -1,0 +1,14 @@
+[meshes]
+
+nummeshes=2
+
+mesh0=palma_01.msh
+texture0=flower.tga
+
+mesh1=palma_01_stvol.msh
+texture1=palma_01_stvol.jpg
+
+[bounds]
+
+numbounds=0
+

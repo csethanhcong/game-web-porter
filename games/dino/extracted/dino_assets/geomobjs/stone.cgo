@@ -1,0 +1,14 @@
+[meshes]
+
+nummeshes=2
+
+mesh0=stone_01.msh
+texture0=TEXASROS.JPG
+
+mesh1=Object03.msh
+texture1=green1.jpg
+
+[bounds]
+
+numbounds=0
+

@@ -1,0 +1,11 @@
+[meshes]
+
+nummeshes=1
+
+mesh0=logo.msh
+texture0=redblue.jpg
+
+[bounds]
+
+numbounds=0
+

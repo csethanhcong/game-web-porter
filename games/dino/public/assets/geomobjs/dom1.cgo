@@ -1,0 +1,11 @@
+[meshes]
+
+nummeshes=1
+
+mesh0=dom1.msh
+texture0=dom01_tex1.jpg
+
+[bounds]
+
+numbounds=0
+

@@ -1,0 +1,11 @@
+[meshes]
+
+nummeshes=1
+
+mesh0=bugai_mesh.msh
+texture0=bugai_screen.jpg
+
+[bounds]
+
+numbounds=0
+

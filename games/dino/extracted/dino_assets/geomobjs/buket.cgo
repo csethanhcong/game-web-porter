@@ -1,0 +1,11 @@
+[meshes]
+
+nummeshes=1
+
+mesh0=buket.msh
+texture0=flower.tga
+
+[bounds]
+
+numbounds=0
+

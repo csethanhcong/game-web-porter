@@ -1,0 +1,14 @@
+[meshes]
+
+nummeshes=2
+
+mesh0=teleport_kamni.msh
+texture0=teleport_kamni.jpg
+
+mesh1=teleport_base.msh
+texture1=teleport_screen.jpg
+
+[bounds]
+
+numbounds=0
+
