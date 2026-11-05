@@ -1,0 +1,16 @@
+import * as THREE from 'three';
+import { Character, loadSkl, loadAnm, EULER } from './character.js';
+const q = new URLSearchParams(location.search);
+EULER.order = q.get('order') || 'XYZ'; EULER.scale = +(q.get('scale') || 1);
+const r = new THREE.WebGLRenderer({ antialias: true }); r.setSize(innerWidth, innerHeight); document.body.appendChild(r.domElement);
+const sc = new THREE.Scene(); sc.add(new THREE.AmbientLight(0xffffff, 2)); const dl = new THREE.DirectionalLight(0xffffff, 2); dl.position.set(1, 2, 3); sc.add(dl);
+const cam = new THREE.PerspectiveCamera(40, innerWidth / innerHeight, 0.1, 500);
+const ch = new Character(await loadSkl('characters/' + (q.get('skl') || 'pups') + '.skl'), q.get('tex') || 'glavnyi_screen.jpg');
+sc.add(ch.mesh); ch.play(await loadAnm('animations/' + (q.get('anim') || 'stand') + '.anm'));
+ch.update(+(q.get('t') || 0));
+const b = new THREE.Box3().setFromObject(ch.mesh), c = b.getCenter(new THREE.Vector3()), s = b.getSize(new THREE.Vector3());
+window.__ch = ch; window.__info = { c: c.toArray(), s: s.toArray() };
+const d = Math.max(s.x, s.y, s.z) * 2.2; cam.position.set(c.x + d * (+q.get('cx') || 0), c.y, c.z + d); cam.lookAt(c);
+if (q.get('cx')) cam.position.set(c.x + d, c.y, c.z), cam.lookAt(c);
+(function loop() { requestAnimationFrame(loop); if (q.get('anim_run')) ch.update(1 / 60); r.render(sc, cam); })();
+window.__ready = true;

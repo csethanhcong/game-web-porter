@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.DS_Store
+.work/
+# third-party game assets / binaries are never committed
+**/original/
+games/*/public/assets/
