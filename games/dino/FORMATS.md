@@ -4,7 +4,7 @@ Source: DinoAndAliens.exe (Ghidra 12.2 decompile, 2201 functions). Local, non-co
 
 ## Containers (*.dat)
 Sequence of entries: `name\0` + `uint32 size` + `size` bytes. Body is XOR-ed with `name` repeated.
-Unpacker: scratchpad `unpack.py`; output in `<workspace>/dino_assets/<dat>/`.
+Unpacker: scratchpad `unpack.py`; output in `/Users/congpham/Desktop/game/dino_assets/<dat>/`.
 Sounds are plain .ogg, textures plain JPEG after unpack.
 
 ## .cgo  (text INI, CRLF) object description
