@@ -1,0 +1,12 @@
+<InterfaceScreenMenu 
+        ModelName="data/Interface/GameMenu.scene" 
+        AnimationName="data/Interface/_night.anim" 
+        Cursor="data/interface/cursor"
+        Music="data/music/menu">
+    <Controls>
+        <ControlButton KeyboardAlias="GCMenuBack" Name="data/Interface/EmissiveButton_" NodeName="btnReturn" Link="Return"/>
+	<ControlButton Name="data/Interface/EmissiveButton_" NodeName="btnOptions" PushScreen="true" Link="data/interface/controlsingame.screen"/>
+        <ControlButton Name="data/Interface/EmissiveButton_" NodeName="btnMenu" Link="data/interface/MainMenu.screen"/>
+        <ControlButton Name="data/Interface/EmissiveButton_" NodeName="btnExit" Link="Exit"/>
+    </Controls>
+</InterfaceScreenMenu>

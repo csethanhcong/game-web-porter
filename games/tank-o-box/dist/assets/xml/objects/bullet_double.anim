@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Animation>
+     <Commands>
+        <Command Target="snd_fire|snd">
+            <Execute Name="Play" Time="0"/>
+        </Command>
+    </Commands>
+</Animation>

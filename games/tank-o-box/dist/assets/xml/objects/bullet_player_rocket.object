@@ -1,0 +1,47 @@
+<GameObject Type="PlayerBulletRocket">
+    <Properties>
+            <Property Name="Speed" Value="10"/>
+    </Properties>
+    
+    <GameObjectView ModelName="data/objects/Rocket.scene"/>
+
+    <Strategies>
+        <StrategyGlobalCounter PropertyName="BulletRocketPlayerCount"/>
+    </Strategies>
+    
+    <GameObjectStates>
+        <GameObjectState Name="Default"             
+                TemplateName="data/objects/collision_with_enemy.state"
+                TemplateName="data/objects/collision_with_player.state"
+                TemplateName="data/objects/collision_with_enemy_bullet.state"              
+                TemplateName="data/objects/collision_with_object.state">
+            <GameObjectStateView AnimationName="data/objects/Rocket.anim"/>
+            <Strategies>
+                <StrategyMoveBullet CollisionState="Explode" Mask="1"/>
+            </Strategies>
+        </GameObjectState>
+
+        <GameObjectState Name="Explode">
+            <EventHandlers>
+                <EventHandler>
+                    <EventNames>
+                        <EventName Name="AnimFinished"/>
+                    </EventNames>
+                    <Strategies>
+                        <StrategyChangeState StateName="Dead"/>
+                    </Strategies>
+                </EventHandler>
+            </EventHandlers>            
+            <Strategies>
+                <StrategyGlobalCounter PropertyName="BulletRocketPlayerCount" Step="-1"/>
+                <StrategyMask Mask="0"/>
+            </Strategies>
+            <GameObjectStateView AnimationName="data/objects/rocket_explode.anim" Loop="false"/>
+        </GameObjectState>
+        <GameObjectState Name="Dead"/>
+
+    </GameObjectStates>
+    
+
+
+</GameObject>

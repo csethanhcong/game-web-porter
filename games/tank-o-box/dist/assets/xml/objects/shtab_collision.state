@@ -1,0 +1,12 @@
+<GameObjectState>
+    <EventHandlers>
+        <EventHandler>
+            <EventNames>
+                <EventName Name="BonusShtabArmor"/>
+            </EventNames>
+            <Strategies>
+                <StrategyChangeCounter PropertyName="BonusArmor" Step="20"/>
+            </Strategies>
+        </EventHandler>
+    </EventHandlers>
+</GameObjectState>

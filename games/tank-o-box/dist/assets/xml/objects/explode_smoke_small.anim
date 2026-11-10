@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Animation>
+    <Commands>
+        <!Command Target="explode_smoke_small|SmokePS">
+            <Execute Name="Emit" Time="0"/>
+        </Command!>
+        <Command Target="explode_smoke_small|FirePS">
+            <Execute Name="Emit" Time="0"/>
+        </Command>
+    </Commands>
+</Animation>

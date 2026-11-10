@@ -12,6 +12,7 @@ Dev server URL; danh sách level; ảnh/video tham chiếu; debug hooks.
 Bảng level x kết quả (OK/lỗi), ảnh (JPEG) trong scratch, danh sách lỗi gán agent chủ.
 
 ## Rules riêng
+HARD RULE R4b (rules/00-standing-rules.md): CẤM Page.bringToFront, Target.activateTarget, switch_tab, new_tab, activate Chrome. Chỉ goto_url trên tab đang có; setFocusEmulationEnabled được phép. grep script trước khi chạy. TAB RIÊNG ở nền (cdp Target.createTarget background=True qua helper skill, KHÔNG tự dựng kết nối CDP mới), không điều hướng tab của user, gom vào ít script dài.
 1 instance + 1 tab; tái sử dụng tab (goto_url); đợi __ready; KHÔNG sửa code (trừ khi orchestrator giao); ghi 'CONFIRMED visually' chỉ khi đối chiếu trực tiếp; ảnh không dán vào context orchestrator - tóm tắt + đường dẫn.
 
 ## Ghi chú
@@ -33,4 +34,5 @@ ROLE: QA visual (SOLE BROWSER OWNER). CATEGORY: <điền>.
 VẤN ĐỀ/MỤC TIÊU CỤ THỂ: <điền: triệu chứng user thấy hoặc phạm vi>.
 ĐÃ BIẾT/ĐÃ LOẠI TRỪ: <điền>. FILE SỞ HỮU: <điền>. KHÔNG ĐỤNG: <điền>.
 GOAL: Duy nhất điều khiển trình duyệt: quét mọi màn, bắt lỗi console, chụp, so với tham chiếu, kịch bản gameplay qua hooks.
+USER PREFERENCE: KHÔNG tự đưa tab/cửa sổ Chrome lên đầu hoặc chiếm focus (không bring_to_front/activate); debug ở nền để user còn dùng tab khác. Cần foreground mới chạy được thì ghi KHÔNG-SO-ĐƯỢC, đừng tự kéo lên.
 ```

@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Scene>
+    <Node Name="snd_death0" Children="data/sounds/steam.scene"/>
+    <Node Name="snd_explode" Children="data/sounds/object_explode.scene"/>
+
+    <Node Name="fire" Position="0 0 -1" Children="data/objects/tube_steam.scene"/>
+
+    <Node Name="explode_smoke_big" Children="data/objects/explode_smoke_big.scene"/>
+
+    <Node Name="live">
+        <ModelFixed Name="polySurface51" Source="data/objects/models/lokomotiv_2x4_polySurface51-lokomotiv_2x4_live.model" >
+            <#Shaders#>
+                <Shader Name="Disk1" TrianglesCount="80">
+                    <Material SpecularPower="40" Diffuse="1 1 1" Specular="0.2314 0.2314 0.2314"/>
+                    <Diffuse Image="data/objects/textures/lokomotiv"/>
+                </Shader>
+            </#Shaders#>
+        </ModelFixed>
+	<Node Name="shadow_0" Visibility="false"  Children="data/objects/lokomotiv_shadow_0.scene"/>
+	<Node Name="shadow_90" Visibility="false"  Children="data/objects/lokomotiv_shadow_90.scene"/>
+	<Node Name="shadow_180" Visibility="false"  Children="data/objects/lokomotiv_shadow_180.scene"/>
+	<Node Name="shadow_270" Visibility="false"  Children="data/objects/lokomotiv_shadow_270.scene"/>
+    </Node>
+    <Node Name="death0" Visibility="false">
+        <ModelFixed Name="polySurface52" Source="data/objects/models/lokomotiv_2x4_polySurface52-lokomotiv_2x4_death0.model" >
+            <#Shaders#>
+                <Shader Name="Disk1" TrianglesCount="72">
+                    <Material SpecularPower="40" Diffuse="1 1 1" Specular="0.2314 0.2314 0.2314"/>
+                    <Diffuse Image="data/objects/textures/lokomotiv"/>
+                </Shader>
+            </#Shaders#>
+        </ModelFixed>
+	<Node Name="shadow_0" Visibility="false"  Children="data/objects/lokomotiv_shadow_0.scene"/>
+	<Node Name="shadow_90" Visibility="false"  Children="data/objects/lokomotiv_shadow_90.scene"/>
+	<Node Name="shadow_180" Visibility="false"  Children="data/objects/lokomotiv_shadow_180.scene"/>
+	<Node Name="shadow_270" Visibility="false"  Children="data/objects/lokomotiv_shadow_270.scene"/>
+    </Node>
+    <Node Name="death1" Visibility="false"> 
+        <ModelFixed Name="polySurface53" Source="data/objects/models/lokomotiv_2x4_polySurface53-lokomotiv_2x4_death1.model" >
+            <#Shaders#>
+                <Shader Name="Disk1" TrianglesCount="66">
+                    <Material SpecularPower="40" Diffuse="0.6 0.6 0.6" Specular="0.2314 0.2314 0.2314"/>
+                    <Diffuse Image="data/objects/textures/lokomotiv"/>
+                </Shader>
+            </#Shaders#>
+        </ModelFixed>
+    </Node>
+</Scene>

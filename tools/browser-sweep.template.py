@@ -10,7 +10,8 @@ WAIT_MAX = 40                           # giây chờ __ready
 SETTLE   = 1.0
 os.makedirs(OUT, exist_ok=True)
 results = []
-cdp("Page.bringToFront"); cdp("Emulation.setFocusEmulationEnabled", enabled=True)
+# HARD RULE R4b: KHÔNG gọi Page.bringToFront / Target.activateTarget / switch_tab / new_tab (không đưa tab lên trước, user đang dùng Chrome)
+cdp("Emulation.setFocusEmulationEnabled", enabled=True)   # giả focus, không đưa cửa sổ lên
 for lv in LEVELS:
     goto_url(URLFMT.format(lv))          # dùng lại tab hiện tại, không mở tab mới
     t0 = time.time(); ready = False

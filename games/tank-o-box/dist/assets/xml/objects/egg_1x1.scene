@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Scene>
+    <Node Name="live">
+        <ModelFixed Name="polySurface11" Source="data/objects/models/egg_1x1_polySurface11-egg_1x1_live.model" >
+            <#Shaders#>
+                <Shader Name="home1" TrianglesCount="12">
+                    <Material SpecularPower="40" Diffuse="1 1 1" Specular="0.00826 0.00826 0.00826"/>
+                    <Diffuse Image="data/objects/textures/egg"/>
+                </Shader>
+            </#Shaders#>
+        </ModelFixed>
+    </Node>
+    <Node Name="death" Visibility="false">
+        <ModelFixed Name="polySurface12" Source="data/objects/models/egg_1x1_polySurface12-egg_1x1_death.model" >
+            <#Shaders#>
+                <Shader Name="home3" TrianglesCount="12">
+                    <Material SpecularPower="40" Diffuse="0.4 0.4 0.4" Specular="0.5 0.5 0.5"/>
+                </Shader>
+            </#Shaders#>
+        </ModelFixed>
+    </Node>
+</Scene>

@@ -1,0 +1,85 @@
+<GameObject>
+    <GameObjectStates>
+
+        <GameObjectState Name="AfterBonus">
+            <EventHandlers>
+                <EventHandler>
+                    <EventNames>
+                        <EventName Name="AnimFinished"/>
+                    </EventNames>
+                    <Strategies>                        
+                        <StrategyChangeState StateName="Dead"/>                        
+                    </Strategies>
+                </EventHandler>
+            </EventHandlers>
+            <GameObjectStateView AnimationName="data/objects/bonus_take.anim" Loop="false"/>
+            <Strategies>
+                <StrategyMask Mask = "000 000 000"/>
+                <StrategyGlobalCounter PropertyName="TankCountEnemy" Step="-1"/>
+            </Strategies>
+        </GameObjectState>
+
+        <GameObjectState Name="AirStrike">
+            <EventHandlers>
+                <EventHandler>
+                    <EventNames>
+                        <EventName Name="AnimFinished"/>
+                    </EventNames>
+                    <Strategies>
+                        <StrategyGlobalEvent EventName="AirStrikeHit"/>
+                        <StrategyChangeState StateName="Explode"/>                        
+                        <!StrategyChangeState StateName="Dead"/!>
+                    </Strategies>
+                </EventHandler>
+            </EventHandlers>
+            <GameObjectStateView AnimationName="data/objects/tank_air_strike.anim" Loop="false"/>
+            <Strategies>
+                <StrategyMoveRandom Mask = "111 111 111" MinTime="100" MaxTime="100"/>
+            </Strategies>
+        </GameObjectState>
+    
+        <GameObjectState Name="BonusFast" TemplateName="data/objects/bonus_collision.state">
+            <GameObjectStateView AnimationName="data/objects/speedup.anim" Loop="true"/>
+            <Strategies>
+                <StrategyGlobalCounter PropertyName="TankCountEnemy" Step="-1"/>
+            </Strategies>
+        </GameObjectState>
+
+        <GameObjectState Name="BonusArmor" TemplateName="data/objects/bonus_collision.state">
+            <GameObjectStateView AnimationName="data/objects/shieldtank.anim" Loop="true"/>
+            <Strategies>
+                <StrategyGlobalCounter PropertyName="TankCountEnemy" Step="-1"/>
+            </Strategies>
+        </GameObjectState>
+
+        <GameObjectState Name="BonusShtabArmor" TemplateName="data/objects/bonus_collision.state">
+            <GameObjectStateView AnimationName="data/objects/shieldshtab.anim" Loop="true"/>
+            <Strategies>
+                <StrategyGlobalCounter PropertyName="TankCountEnemy" Step="-1"/>
+            </Strategies>
+        </GameObjectState>
+        
+        <GameObjectState Name="BonusTimeStop" TemplateName="data/objects/bonus_collision.state">
+            <GameObjectStateView AnimationName="data/objects/timestop.anim" Loop="true"/>
+            <Strategies>
+                <StrategyGlobalCounter PropertyName="TankCountEnemy" Step="-1"/>
+            </Strategies>
+        </GameObjectState>
+        
+        <GameObjectState Name="BonusAirStrike" TemplateName="data/objects/bonus_collision.state">
+            <GameObjectStateView AnimationName="data/objects/airstrike.anim" Loop="true"/>
+            <Strategies>
+                <StrategyGlobalCounter PropertyName="TankCountEnemy" Step="-1"/>
+            </Strategies>
+        </GameObjectState>
+        
+        <GameObjectState Name="BonusUpgrade" TemplateName="data/objects/bonus_collision.state">
+            <GameObjectStateView AnimationName="data/objects/upgrade.anim" Loop="true"/>
+            <Strategies>
+                <StrategyGlobalCounter PropertyName="TankCountEnemy" Step="-1"/>
+            </Strategies>
+        </GameObjectState>
+
+        
+    </GameObjectStates>
+</GameObject>

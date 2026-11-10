@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Scene>
+    <Node Name="snd_explode" Children="data/sounds/object_explode.scene"/>
+
+    <Node Name="fire" Children="data/objects/wall_fire.scene"/>
+
+    <Node Name="live">
+        <ModelFixed Name="pCube1" Source="data/objects/models/wall_st_1x3_pCube1-wall_st_1x3_live.model" >
+            <#Shaders#>
+                <Shader Name="phong1" TrianglesCount="16">
+                    <Material SpecularPower="40" Diffuse="1 1 1" Specular="0.03306 0.03306 0.03306"/>
+                    <Diffuse Image="data/objects/textures/wall_st_1x3"/>
+                </Shader>
+            </#Shaders#>
+        </ModelFixed>
+	<Node Name="shadow_0" Visibility="false"  Children="data/objects/wall_st_shadow_0.scene"/>
+	<Node Name="shadow_90" Visibility="false"  Children="data/objects/wall_st_shadow_90.scene"/>
+
+	<Node Name="shadow_180" Visibility="false"  Children="data/objects/wall_st_shadow_180.scene"/>
+	<Node Name="shadow_270" Visibility="false"  Children="data/objects/wall_st_shadow_270.scene"/>
+    </Node>
+    <Node Name="death0">
+        <ModelFixed Name="pCube2" Position="0 0 -0.0455843" Scale="1 0.685587 1" Source="data/objects/models/wall_st_1x3_pCube2-wall_st_1x3_death0.model" >
+            <#Shaders#>
+                <Shader Name="phong1" TrianglesCount="16">
+                    <Material SpecularPower="40" Diffuse="1 1 1" Specular="0.03306 0.03306 0.03306"/>
+                    <Diffuse Image="data/objects/textures/wall_st_1x3"/>
+                </Shader>
+            </#Shaders#>
+        </ModelFixed>
+	<Node Name="shadow_0" Visibility="false"  Children="data/objects/wall_st_shadow_0.scene"/>
+	<Node Name="shadow_90" Visibility="false"  Children="data/objects/wall_st_shadow_90.scene"/>
+
+	<Node Name="shadow_180" Visibility="false"  Children="data/objects/wall_st_shadow_180.scene"/>
+	<Node Name="shadow_270" Visibility="false"  Children="data/objects/wall_st_shadow_270.scene"/>
+    </Node>
+    <Node Name="death1">
+        <ModelFixed Name="pCube2" Position="0 0 -0.0455843" Scale="1 0.685587 1" Source="data/objects/models/wall_st_1x3_pCube2-wall_st_1x3_death1.model">
+            <#Shaders#>
+                <Shader Name="phong1" TrianglesCount="16">
+                    <Material SpecularPower="40" Diffuse="0.3 0.3 0.3" Specular="0.03306 0.03306 0.03306"/>
+                    <Diffuse Image="data/objects/textures/wall_st_1x3"/>
+                </Shader>
+            </#Shaders#>
+        </ModelFixed>
+    </Node>
+</Scene>

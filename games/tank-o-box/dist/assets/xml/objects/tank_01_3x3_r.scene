@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Scene>
+    <Node Name="snd_shield" Children="data/sounds/tank_shield.scene"/>
+    <Node Name="snd_explode" Children="data/sounds/tank_explode.scene"/>
+    <Node Name="snd_engine" Children="data/sounds/tank1_engine.scene"/>
+    <Node Name="snd_landing" Children="data/sounds/tank_landing.scene"/>
+    <Node Name="snd_upgrade" Children="data/sounds/upgrade.scene"/>
+    
+    <Node Name="airstrikeanim" Children="data/objects/airstrikeanim.scene"/>
+
+    <Node Name="explode_flash_red" Children="data/objects/explode_flash_red.scene"/>
+    <Node Name="explode_flash_yellow" Children="data/objects/explode_flash_yellow.scene"/>
+    <Node Name="explode_particles_6" Children="data/objects/explode_particles_6.scene"/>
+    <Node Name="explode_particles_3" Children="data/objects/explode_particles_3.scene"/>
+    <Node Name="explode_sphere" Children="data/objects/explode_particles_6.scene"/>
+
+    <Node Name="explode_smoke_big" Children="data/objects/explode_smoke_big.scene"/>
+    
+    <Node Name="ring" Children="data/objects/ring.scene"/>
+
+    <Node Name="parashute_group1"/>
+    <Node Name="parashute_pSphere1" Position="0 3.16438 0" Scale="1.67842 1.67842 1.67842">
+        <Node Name="parashute_transform2"/>
+    </Node>
+    <Node Name="parashute_pSphere2" Position="0 3.16438 0" Scale="1.67842 1.67842 1.67842">
+        <Node Name="parashute_transform1"/>
+    </Node>
+    <Node Name="upgrade_nurbsCircle7detachedCurve2" Rotation="0 0 -3.14159" Scale="3 3 3"/>
+    <Node Name="upgrade_loftedSurface1" Rotation="0 0 -0.523599" Scale="1.05 1.05 1">
+        <Node Name="upgrade_transform2"/>
+    </Node>
+    <Node Name="upgrade_loftedSurface9" Rotation="0 0 -3.14159" Scale="1.025 1.025 1"/>
+    <Node Name="upgrade_loftedSurface10" Rotation="0 0 -3.14159" Scale="0.95 0.95 1"/>
+    <Node Name="upgrade_loftedSurface11" Rotation="0 0 -0.523599" Scale="0.95 0.95 1"/>
+    <Node Name="upgrade_loftedSurface12" Rotation="0 0 -0.523599"/>
+    <Node Name="upgrade_loftedSurface13" Rotation="0 0 -0.523599" Scale="1.05 1.05 1">
+        <Node Name="upgrade_transform1"/>
+    </Node>
+    <Node Name="upgrade_locator1" Visibility="false">
+        <ModelFixed Name="upgrade_polySurface1" Scale="1.05 1.05 1" Source="data/objects/models/upgrade_polySurface1-upgrade_locator1.model" >
+            <#Shaders#>
+                <Shader Name="upgrade_phong1" TrianglesCount="40">
+                    <Material SpecularPower="40" Diffuse="1 1 1" Specular="0.5 0.5 0.5"/>
+                    <Diffuse Image="data/objects/textures/upgrade"/>
+                </Shader>
+            </#Shaders#>
+        </ModelFixed>
+        <ModelFixed Name="upgrade_polySurface2" Scale="0.95 0.95 1" Source="data/objects/models/upgrade_polySurface1-upgrade_locator1.model" >
+            <#Shaders#>
+                <Shader Name="upgrade_phong1" TrianglesCount="40">
+                    <Material SpecularPower="40" Diffuse="1 1 1" Specular="0.5 0.5 0.5"/>
+                    <Diffuse Image="data/objects/textures/upgrade"/>
+                </Shader>
+            </#Shaders#>
+        </ModelFixed>
+        <ModelFixed Name="upgrade_polySurface3" Rotation="1.22515e-016 3.14159 0" Scale="1.05 1.05 1" Source="data/objects/models/upgrade_polySurface1-upgrade_locator1.model">
+            <#Shaders#>
+                <Shader Name="upgrade_phong1" TrianglesCount="40">
+                    <Material SpecularPower="40" Diffuse="1 1 1" Specular="0.5 0.5 0.5"/>
+                    <Diffuse Image="data/objects/textures/upgrade"/>
+                </Shader>
+            </#Shaders#>
+        </ModelFixed>
+        <ModelFixed Name="upgrade_polySurface4" Rotation="1.22515e-016 3.14159 0" Scale="0.95 0.95 1" Source="data/objects/models/upgrade_polySurface1-upgrade_locator1.model">
+            <#Shaders#>
+                <Shader Name="upgrade_phong1" TrianglesCount="40">
+                    <Material SpecularPower="40" Diffuse="1 1 1" Specular="0.5 0.5 0.5"/>
+                    <Diffuse Image="data/objects/textures/upgrade"/>
+                </Shader>
+            </#Shaders#>
+        </ModelFixed>
+        <ModelFixed Name="upgrade_polySurface5" Rotation="1.22515e-016 3.14159 0" Source="data/objects/models/upgrade_polySurface1-upgrade_locator1.model" >
+            <#Shaders#>
+                <Shader Name="upgrade_phong1" TrianglesCount="40">
+                    <Material SpecularPower="40" Diffuse="1 1 1" Specular="0.5 0.5 0.5"/>
+                    <Diffuse Image="data/objects/textures/upgrade"/>
+                </Shader>
+            </#Shaders#>
+        </ModelFixed>
+        <ModelFixed Name="upgrade_polySurface6" Source="data/objects/models/upgrade_polySurface1-upgrade_locator1.model" >
+            <#Shaders#>
+                <Shader Name="upgrade_phong1" TrianglesCount="40">
+                    <Material SpecularPower="40" Diffuse="1 1 1" Specular="0.5 0.5 0.5"/>
+                    <Diffuse Image="data/objects/textures/upgrade"/>
+                </Shader>
+            </#Shaders#>
+        </ModelFixed>
+    </Node>
+    <Node Name="shield_tank_locator1" Visibility="false">
+        <ModelFixed Name="shield_tank_pSphere1" Scale="3 3 3" Source="data/objects/models/shield_tank_tank_pSphere1-shield_tank_tank_locator1.model" >
+            <#Shaders#>
+                <Shader Name="shield_tank_phong2" TrianglesCount="50">
+                    <Material Transparency="0.5" SpecularPower="40" Emissive="1 1 1"  Specular="0.6281 0.6281 0.6281"/>
+                    <Emissive Image="data/objects/textures/shield_tank"/>
+                </Shader>
+            </#Shaders#>
+        </ModelFixed>
+    </Node>
+    <Node Name="tank_01_3x3_0_locator1" Visibility="false">
+	<Node Name="shadow_0"  Children="data/objects/tank_01_01_shadow.scene"/>
+    <Node Name="trek" Children="data/objects/trek.scene"/>
+
+        <ModelFixed Name="tank_01_3x3_0_polySurface3" Position="0 0.371291 0" Scale="0.969132 0.969132 0.903795" Source="data/objects/models/tank_01_3x3_0_01_3x3_0_polySurface3-tank_01_3x3_0_01_3x3_0_locator1.model" >
+            <#Shaders#>
+                <Shader Name="tank_01_3x3_0_phong1" TrianglesCount="140">
+                    <Material SpecularPower="40" Diffuse="1 1 1" Specular="0.09918 0.09918 0.09918"/>
+                    <Diffuse Image="data/objects/textures/tank_00_0_R"/>
+                </Shader>
+            </#Shaders#>
+        </ModelFixed>
+    </Node>
+    <Node Name="tank_01_3x3_1_locator2" Visibility="false">
+	<Node Name="shadow_0"  Children="data/objects/tank_01_02_shadow.scene"/>
+    <Node Name="trek" Children="data/objects/trek.scene"/>
+
+        <ModelFixed Name="tank_01_3x3_1_polySurface4" Source="data/objects/models/tank_01_3x3_1_01_3x3_1_polySurface4-tank_01_3x3_1_01_3x3_1_locator2.model" >
+            <#Shaders#>
+                <Shader Name="tank_01_3x3_1_phong1" TrianglesCount="154">
+                    <Material SpecularPower="40" Diffuse="1 1 1"/>
+                    <Diffuse Image="data/objects/textures/tank_00_1_R"/>
+                </Shader>
+            </#Shaders#>
+        </ModelFixed>
+    </Node>
+    <Node Name="tank_01_3x3_2_locator3" Visibility="false">
+	<Node Name="shadow_0"  Children="data/objects/tank_01_03_shadow.scene"/>
+    <Node Name="trek" Children="data/objects/trek.scene"/>
+
+        <ModelFixed Name="tank_01_3x3_2_polySurface7" Source="data/objects/models/tank_01_3x3_2_01_3x3_2_polySurface7-tank_01_3x3_2_01_3x3_2_locator3.model" >
+            <#Shaders#>
+                <Shader Name="tank_01_3x3_2_phong2" TrianglesCount="160">
+                    <Material SpecularPower="40" Diffuse="1 1 1"/>
+                    <Diffuse Image="data/objects/textures/tank_00_2_R"/>
+                </Shader>
+            </#Shaders#>
+        </ModelFixed>
+    </Node>
+    <Node Name="locator1" Visibility="false">
+	<Node Name="shadow_0"  Children="data/objects/tank_01_00_shadow.scene"/>
+    <Node Name="trek" Children="data/objects/trek.scene"/>
+
+        <ModelFixed Name="polySurface1" Source="data/objects/models/tank_01_3x3_polySurface1-tank_01_3x3_locator1.model" >
+            <#Shaders#>
+                <Shader Name="phong1" TrianglesCount="140">
+                    <Material SpecularPower="40" Diffuse="1 1 1" Specular="0.03306 0.03306 0.03306"/>
+                    <Diffuse Image="data/objects/textures/tank_00_R"/>
+                </Shader>
+            </#Shaders#>
+        </ModelFixed>
+    </Node>
+    <ModelFixed Name="parashute_polySurface1" Scale="1.13895 1.13895 1.13895" Source="data/objects/models/parashute_polySurface1.model" >
+        <#Shaders#>
+            <Shader Name="parashute_phong1" TrianglesCount="130">
+                <Material SpecularPower="40" Diffuse="1 1 1" Specular="0.1157 0.1157 0.1157"/>
+                <Diffuse Image="data/objects/textures/parashute"/>
+            </Shader>
+        </#Shaders#>
+    </ModelFixed>
+</Scene>

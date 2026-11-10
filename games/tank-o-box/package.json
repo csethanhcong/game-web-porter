@@ -1,0 +1,20 @@
+{
+  "name": "tank-o-box-web",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "predev": "node tools/copy_chiptune.mjs",
+    "dev": "vite",
+    "prebuild": "node tools/copy_chiptune.mjs",
+    "build": "vite build",
+    "sync": "node tools/sync_data.mjs"
+  },
+  "devDependencies": {
+    "vite": "5.4.11"
+  },
+  "dependencies": {
+    "chiptune3": "0.8.9",
+    "three": "0.170.0"
+  }
+}

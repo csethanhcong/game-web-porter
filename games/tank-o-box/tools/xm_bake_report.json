@@ -1,0 +1,205 @@
+[
+ [
+  "energy.xm",
+  "Kick el",
+  "15elec~1.wav",
+  "kick el_15elec~1.wav.wav",
+  44544
+ ],
+ [
+  "energy.xm",
+  "Snare",
+  "68tr90~1.wav",
+  "snare_68tr90~1.wav.wav",
+  17832
+ ],
+ [
+  "energy.xm",
+  "Hhat",
+  "808chh.wav",
+  "hhat_808chh.wav.wav",
+  8820
+ ],
+ [
+  "energy.xm",
+  "Ohat",
+  "808ohh.wav",
+  "ohat_808ohh.wav.wav",
+  33832
+ ],
+ [
+  "energy.xm",
+  "Synth Bass 1",
+  "SawBassWave C1",
+  "synth bass 1_sawbasswave c1.wav",
+  4364
+ ],
+ [
+  "energy.xm",
+  "Synth Bass 1",
+  "SawBassWave C3",
+  "synth bass 1_sawbasswave c3.wav",
+  3586
+ ],
+ [
+  "energy.xm",
+  "Halo Pad",
+  "SynVox Gb3",
+  "halo pad_synvox gb3.wav",
+  19910
+ ],
+ [
+  "energy.xm",
+  "Halo Pad",
+  "SynVox C5",
+  "halo pad_synvox c5.wav",
+  22862
+ ],
+ [
+  "energy.xm",
+  "Fuzz",
+  "Paulmc~1.wav",
+  "fuzz_paulmc~1.wav.wav",
+  143532
+ ],
+ [
+  "energy.xm",
+  "Trumpet",
+  "",
+  "trumpet_.wav",
+  65088
+ ],
+ [
+  "energy.xm",
+  "Crash",
+  "Splshc.wav",
+  "crash_splshc.wav.wav",
+  63032
+ ],
+ [
+  "energy.xm",
+  "Space Voice",
+  "Spectrum Eb5",
+  "space voice_spectrum eb5.wav",
+  9756
+ ],
+ [
+  "energy.xm",
+  "RevCrash",
+  "56reve~1.wav",
+  "revcrash_56reve~1.wav.wav",
+  126408
+ ],
+ [
+  "energy.xm",
+  "DistGuit",
+  "Paul2d~1.wav",
+  "distguit_paul2d~1.wav.wav",
+  78036
+ ],
+ [
+  "energy.xm",
+  "Orchestra Hit",
+  "OrchHit C5",
+  "orchestra hit_orchhit c5.wav",
+  25918
+ ],
+ [
+  "menu.xm",
+  "Kick",
+  "21mond~1.wav",
+  "kick_21mond~1.wav.wav",
+  36928
+ ],
+ [
+  "menu.xm",
+  "Snare",
+  "37loos~1.wav",
+  "snare_37loos~1.wav.wav",
+  54994
+ ],
+ [
+  "menu.xm",
+  "Tuba",
+  "Tubac4~1.wav",
+  "tuba_tubac4~1.wav.wav",
+  1216
+ ],
+ [
+  "menu.xm",
+  "Trumpet",
+  "",
+  "trumpet_.wav",
+  65088
+ ],
+ [
+  "menu.xm",
+  "Saw",
+  "S.wav",
+  "saw_s.wav.wav",
+  22970
+ ],
+ [
+  "positive.xm",
+  "Kick",
+  "21mond~1.wav",
+  "kick_21mond~1.wav.wav",
+  36928
+ ],
+ [
+  "positive.xm",
+  "Snare",
+  "37loos~1.wav",
+  "snare_37loos~1.wav.wav",
+  54994
+ ],
+ [
+  "positive.xm",
+  "Ride",
+  "Ridec~1.wav",
+  "ride_ridec~1.wav.wav",
+  68420
+ ],
+ [
+  "positive.xm",
+  "RevCrash",
+  "56reve~1.wav",
+  "revcrash_56reve~1.wav.wav",
+  126408
+ ],
+ [
+  "positive.xm",
+  "Tuba",
+  "Tubac4~1.wav",
+  "tuba_tubac4~1.wav.wav",
+  1216
+ ],
+ [
+  "positive.xm",
+  "Trumpet",
+  "",
+  "trumpet_.wav",
+  65088
+ ],
+ [
+  "positive.xm",
+  "Halo Pad",
+  "SynVox Gb3",
+  "halo pad_synvox gb3.wav",
+  19910
+ ],
+ [
+  "positive.xm",
+  "Halo Pad",
+  "SynVox C5",
+  "halo pad_synvox c5.wav",
+  22862
+ ],
+ [
+  "positive.xm",
+  "Space Voice",
+  "Spectrum Eb5",
+  "space voice_spectrum eb5.wav",
+  9756
+ ]
+]

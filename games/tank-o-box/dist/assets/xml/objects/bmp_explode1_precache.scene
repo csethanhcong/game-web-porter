@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Scene>
+            <ModelFixed Name="pPlane1" Scale="2 2 2" Source="data/objects/models/speedup_pPlane1-speedup_locator2-speedup_locator1.model">
+                <#Shaders#>
+                    <Shader Name="phong3" TrianglesCount="2">
+                        <Material Transparency="0.001" Emissive="1 1 1"/>
+                        <Emissive Image="data/objects/textures/bmp1/exp_00"/>
+                    </Shader>
+                </#Shaders#>
+            </ModelFixed>
+            <ModelFixed Name="pPlane1" Scale="2 2 2" Source="data/objects/models/speedup_pPlane1-speedup_locator2-speedup_locator1.model">
+                <#Shaders#>
+                    <Shader Name="phong3" TrianglesCount="2">
+                        <Material Transparency="0.001" Emissive="1 1 1"/>
+                        <Emissive Image="data/objects/textures/bmp1/exp_01"/>
+                    </Shader>
+                </#Shaders#>
+            </ModelFixed>
+            <ModelFixed Name="pPlane1" Scale="2 2 2" Source="data/objects/models/speedup_pPlane1-speedup_locator2-speedup_locator1.model">
+                <#Shaders#>
+                    <Shader Name="phong3" TrianglesCount="2">
+                        <Material Transparency="0.001" Emissive="1 1 1"/>
+                        <Emissive Image="data/objects/textures/bmp1/exp_02"/>
+                    </Shader>
+                </#Shaders#>
+            </ModelFixed>
+            <ModelFixed Name="pPlane1" Scale="2 2 2" Source="data/objects/models/speedup_pPlane1-speedup_locator2-speedup_locator1.model">
+                <#Shaders#>
+                    <Shader Name="phong3" TrianglesCount="2">
+                        <Material Transparency="0.001" Emissive="1 1 1"/>
+                        <Emissive Image="data/objects/textures/bmp1/exp_03"/>
+                    </Shader>
+                </#Shaders#>
+            </ModelFixed>
+            <ModelFixed Name="pPlane1" Scale="2 2 2" Source="data/objects/models/speedup_pPlane1-speedup_locator2-speedup_locator1.model">
+                <#Shaders#>
+                    <Shader Name="phong3" TrianglesCount="2">
+                        <Material Transparency="0.001" Emissive="1 1 1"/>
+                        <Emissive Image="data/objects/textures/bmp1/exp_04"/>
+                    </Shader>
+                </#Shaders#>
+            </ModelFixed>
+            <ModelFixed Name="pPlane1" Scale="2 2 2" Source="data/objects/models/speedup_pPlane1-speedup_locator2-speedup_locator1.model">
+                <#Shaders#>
+                    <Shader Name="phong3" TrianglesCount="2">
+                        <Material Transparency="0.001" Emissive="1 1 1"/>
+                        <Emissive Image="data/objects/textures/bmp1/exp_05"/>
+                    </Shader>
+                </#Shaders#>
+            </ModelFixed>
+            <ModelFixed Name="pPlane1" Scale="2 2 2" Source="data/objects/models/speedup_pPlane1-speedup_locator2-speedup_locator1.model">
+                <#Shaders#>
+                    <Shader Name="phong3" TrianglesCount="2">
+                        <Material Transparency="0.001" Emissive="1 1 1"/>
+                        <Emissive Image="data/objects/textures/bmp1/exp_06"/>
+                    </Shader>
+                </#Shaders#>
+            </ModelFixed>
+            <ModelFixed Name="pPlane1" Scale="2 2 2" Source="data/objects/models/speedup_pPlane1-speedup_locator2-speedup_locator1.model">
+                <#Shaders#>
+                    <Shader Name="phong3" TrianglesCount="2">
+                        <Material Transparency="0.001" Emissive="1 1 1"/>
+                        <Emissive Image="data/objects/textures/bmp1/exp_07"/>
+                    </Shader>
+                </#Shaders#>
+            </ModelFixed>
+            <ModelFixed Name="pPlane1" Scale="2 2 2" Source="data/objects/models/speedup_pPlane1-speedup_locator2-speedup_locator1.model">
+                <#Shaders#>
+                    <Shader Name="phong3" TrianglesCount="2">
+                        <Material Transparency="0.001" Emissive="1 1 1"/>
+                        <Emissive Image="data/objects/textures/bmp1/exp_08"/>
+                    </Shader>
+                </#Shaders#>
+            </ModelFixed>
+            <ModelFixed Name="pPlane1" Scale="2 2 2" Source="data/objects/models/speedup_pPlane1-speedup_locator2-speedup_locator1.model">
+                <#Shaders#>
+                    <Shader Name="phong3" TrianglesCount="2">
+                        <Material Transparency="0.001" Emissive="1 1 1"/>
+                        <Emissive Image="data/objects/textures/bmp1/exp_09"/>
+                    </Shader>
+                </#Shaders#>
+            </ModelFixed>
+            <ModelFixed Name="pPlane1" Scale="2 2 2" Source="data/objects/models/speedup_pPlane1-speedup_locator2-speedup_locator1.model">
+                <#Shaders#>
+                    <Shader Name="phong3" TrianglesCount="2">
+                        <Material Transparency="0.001" Emissive="1 1 1"/>
+                        <Emissive Image="data/objects/textures/bmp1/exp_10"/>
+                    </Shader>
+                </#Shaders#>
+            </ModelFixed>
+            <ModelFixed Name="pPlane1" Scale="2 2 2" Source="data/objects/models/speedup_pPlane1-speedup_locator2-speedup_locator1.model">
+                <#Shaders#>
+                    <Shader Name="phong3" TrianglesCount="2">
+                        <Material Transparency="0.001" Emissive="1 1 1"/>
+                        <Emissive Image="data/objects/textures/bmp1/exp_11"/>
+                    </Shader>
+                </#Shaders#>
+            </ModelFixed>
+            <ModelFixed Name="pPlane1" Scale="2 2 2" Source="data/objects/models/speedup_pPlane1-speedup_locator2-speedup_locator1.model">
+                <#Shaders#>
+                    <Shader Name="phong3" TrianglesCount="2">
+                        <Material Transparency="0.001" Emissive="1 1 1"/>
+                        <Emissive Image="data/objects/textures/bmp1/exp_12"/>
+                    </Shader>
+                </#Shaders#>
+            </ModelFixed>
+            <ModelFixed Name="pPlane1" Scale="2 2 2" Source="data/objects/models/speedup_pPlane1-speedup_locator2-speedup_locator1.model">
+                <#Shaders#>
+                    <Shader Name="phong3" TrianglesCount="2">
+                        <Material Transparency="0.001" Emissive="1 1 1"/>
+                        <Emissive Image="data/objects/textures/bmp1/exp_13"/>
+                    </Shader>
+                </#Shaders#>
+            </ModelFixed>
+            <ModelFixed Name="pPlane1" Scale="2 2 2" Source="data/objects/models/speedup_pPlane1-speedup_locator2-speedup_locator1.model">
+                <#Shaders#>
+                    <Shader Name="phong3" TrianglesCount="2">
+                        <Material Transparency="0.001" Emissive="1 1 1"/>
+                        <Emissive Image="data/objects/textures/bmp1/exp_14"/>
+                    </Shader>
+                </#Shaders#>
+            </ModelFixed>
+            <ModelFixed Name="pPlane1" Scale="2 2 2" Source="data/objects/models/speedup_pPlane1-speedup_locator2-speedup_locator1.model">
+                <#Shaders#>
+                    <Shader Name="phong3" TrianglesCount="2">
+                        <Material Transparency="0.001" Emissive="1 1 1"/>
+                        <Emissive Image="data/objects/textures/bmp1/exp_15"/>
+                    </Shader>
+                </#Shaders#>
+            </ModelFixed>
+</Scene>

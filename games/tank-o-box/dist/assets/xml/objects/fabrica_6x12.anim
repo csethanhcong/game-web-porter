@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Animation>
+	<!double>
+        <PrimitiveAnimation Target="SmokeLive" Param="ParticlesPerSec">
+            <Envelope PreBehave="CONSTANT" PostBehave="CONSTANT">
+                <Keys>
+                    <Key Time="0" Linear="0" Quadratic="0" Cubic="0" Value="80"/>
+                </Keys>
+            </Envelope>
+        </PrimitiveAnimation>
+	</double!>
+	<math::Vector[float,3]>
+		<PrimitiveAnimation Target="live|stvorki_00" Param="Rotation">
+			<Envelope PreBehave="CONSTANT" PostBehave="CONSTANT">
+				<Keys>
+					<Key Time="0" Linear="0 0 -0.785398" Quadratic="0 0 -0.392699" Cubic="0 0 0.19635" Value="0 0 0"/>
+					<Key Time="2" Linear="0 0 0" Quadratic="0 0 6.30497e-005" Cubic="0 0 0.000265838" Value="0 0 -1.5708"/>
+					<Key Time="20" Linear="0 0 0" Quadratic="0 0 0" Cubic="0 0 0" Value="0 0 0"/>
+				</Keys>
+			</Envelope>
+		</PrimitiveAnimation>
+		<PrimitiveAnimation Target="live|stvorki_01" Param="Rotation">
+			<Envelope PreBehave="CONSTANT" PostBehave="CONSTANT">
+				<Keys>
+					<Key Time="0" Linear="0 0 0.785398" Quadratic="0 0 0.392699" Cubic="0 0 -0.19635" Value="0 0 0"/>
+					<Key Time="2" Linear="0 0 0" Quadratic="0 0 -0.000657045" Cubic="0 0 -0.000232838" Value="0 0 1.5708"/>
+					<Key Time="20" Linear="0 0 0" Quadratic="0 0 0" Cubic="0 0 0" Value="0 0 0"/>
+				</Keys>
+			</Envelope>
+		</PrimitiveAnimation>
+		<PrimitiveAnimation Target="death0|stvorki_06" Param="Rotation">
+			<Envelope PreBehave="CONSTANT" PostBehave="CONSTANT">
+				<Keys>
+					<Key Time="0" Linear="0 0 -0.785398" Quadratic="0 0 -0.392699" Cubic="0 0 0.19635" Value="0 0 0"/>
+					<Key Time="2" Linear="0 0 0" Quadratic="0 0 6.30497e-005" Cubic="0 0 0.000265838" Value="0 0 -1.5708"/>
+					<Key Time="20" Linear="0 0 0" Quadratic="0 0 0" Cubic="0 0 0" Value="0 0 0"/>
+				</Keys>
+			</Envelope>
+		</PrimitiveAnimation>
+		<PrimitiveAnimation Target="death0|stvorki_07" Param="Rotation">
+			<Envelope PreBehave="CONSTANT" PostBehave="CONSTANT">
+				<Keys>
+					<Key Time="0" Linear="0 0 0.785398" Quadratic="0 0 0.392699" Cubic="0 0 -0.19635" Value="0 0 0"/>
+					<Key Time="2" Linear="0 0 0" Quadratic="0 0 -0.000657045" Cubic="0 0 -0.000232838" Value="0 0 1.5708"/>
+					<Key Time="20" Linear="0 0 0" Quadratic="0 0 0" Cubic="0 0 0" Value="0 0 0"/>
+				</Keys>
+			</Envelope>
+		</PrimitiveAnimation>
+	</math::Vector[float,3]>
+</Animation>

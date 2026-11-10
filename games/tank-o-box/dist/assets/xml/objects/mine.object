@@ -1,0 +1,32 @@
+<GameObject Type="Mine">
+    <GameObjectView ModelName="data/objects/mine.scene"/>
+    <GameObjectStates>
+        <GameObjectState Name="Default" TemplateName="data/objects/collision_with_player.state">
+            <GameObjectStateView AnimationName="data/objects/Mine.anim"/>
+            <Strategies>
+                <StrategyMask Mask = "1"/>
+            </Strategies>
+        </GameObjectState>
+
+        <GameObjectState Name="Explode">
+            <EventHandlers>
+                <EventHandler>
+                    <EventNames>
+                        <EventName Name="AnimFinished"/>
+                    </EventNames>
+                    <Strategies>                    
+                        <StrategyChangeState StateName="Dead"/>
+                    </Strategies>
+                 </EventHandler>
+           </EventHandlers>
+           <Strategies>
+                <StrategyMask Mask = "1"/>
+            </Strategies>
+           <GameObjectStateView AnimationName="data/objects/death1.anim" Loop="false"/>
+        </GameObjectState>
+
+        <GameObjectState Name="Dead"/>
+
+    </GameObjectStates>
+
+</GameObject>

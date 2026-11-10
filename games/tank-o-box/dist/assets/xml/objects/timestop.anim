@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Animation>
+    <double>
+        <PrimitiveAnimation Target="timestop" Param="Visibility">
+            <Envelope PreBehave="CONSTANT" PostBehave="CONSTANT">
+                <Keys>
+                    <Key Time="0" Linear="0" Quadratic="0" Cubic="0" Value="1"/>
+                </Keys>
+            </Envelope>
+        </PrimitiveAnimation>
+        <PrimitiveAnimation Target="locator1" Param="Visibility">
+            <Envelope PreBehave="CONSTANT" PostBehave="CONSTANT">
+                <Keys>
+                    <Key Time="0" Linear="0" Quadratic="0" Cubic="0" Value="0"/>
+                </Keys>
+            </Envelope>
+        </PrimitiveAnimation>
+    </double>
+    <math::Vector[float,3]>
+        <PrimitiveAnimation Target="timestop|locator1|polySurface8" Param="Rotation">
+            <Envelope PreBehave="CONSTANT" PostBehave="CONSTANT">
+                <Keys>
+                    <Key Time="0" Linear="0 3.14159 0" Quadratic="0 1.80648e-007 0" Cubic="0 -5.25752e-008 0" Value="0 0 0"/>
+                    <Key Time="2" Linear="0 0 0" Quadratic="0 0 0" Cubic="0 0 0" Value="0 6.28319 0"/>
+                </Keys>
+            </Envelope>
+        </PrimitiveAnimation>
+    </math::Vector[float,3]>
+</Animation>

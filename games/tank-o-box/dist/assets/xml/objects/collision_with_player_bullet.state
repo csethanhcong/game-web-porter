@@ -1,0 +1,14 @@
+<GameObjectState>
+    <EventHandlers>
+        <EventHandler>
+            <EventNames>
+                <EventName Name="CollisionPlayerBulletDefault"/>
+                <EventName Name="CollisionPlayerBulletDoubleDefault"/>
+                <EventName Name="CollisionPlayerBulletRocketDefault"/>              
+            </EventNames>
+            <Strategies>
+                <StrategyChangeState StateName="Explode"/>
+            </Strategies>
+        </EventHandler>
+    </EventHandlers>
+</GameObjectState>

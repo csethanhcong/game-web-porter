@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Animation>
+    <Commands>
+        <Command Target="snd_explode|snd">
+            <Execute Name="Play" Time="0"/>
+        </Command>
+        <Command Target="snd_live|snd">
+            <Execute Name="Stop" Time="0"/>
+        </Command>
+        <Command Target="snd_death0|snd">
+            <Execute Name="Play" Time="0"/>
+        </Command>
+        <Command Target="snd_death1|snd">
+            <Execute Name="Stop" Time="0"/>
+        </Command>
+        <Command Target="snd_death2|snd">
+            <Execute Name="Stop" Time="0"/>
+        </Command>
+    </Commands>
+	<double>
+		<PrimitiveAnimation Target="fire|FirePS" Param="ParticlesPerSec">
+			<Envelope PreBehave="CONSTANT" PostBehave="CONSTANT">
+				<Keys>
+					<Key Time="0" Linear="0" Quadratic="0" Cubic="0.0" Value="40"/>
+				</Keys>
+			</Envelope>
+		</PrimitiveAnimation>
+		<PrimitiveAnimation Target="fire|SmokePS" Param="ParticlesPerSec">
+			<Envelope PreBehave="CONSTANT" PostBehave="CONSTANT">
+				<Keys>
+					<Key Time="0" Linear="0" Quadratic="0" Cubic="0.0" Value="40"/>
+				</Keys>
+			</Envelope>
+		</PrimitiveAnimation>
+	</double>
+</Animation>

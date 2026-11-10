@@ -33,6 +33,14 @@ Gốc (user): "muốn chạy chrome browser-use thì dùng 1 instance thôi, m�
 - Trong 1 instance: dùng 1 tab, `goto_url` lại thay vì mở tab mới; đóng tab thừa (nhiều tab song song làm treo máy).
 - Khi orchestrator giao việc cho agent khác trong lúc QA đang chạy: nói rõ "không dùng browser".
 
+## R4b. HARD RULE: KHÔNG BAO GIỜ đưa Chrome/tab lên trước (focus-stealing)
+Gốc (user, 2 lần): "đừng tự đưa chrome tab lên đầu, cứ debug bình thường, để t còn xài chrome tabs khác" / "sao vẫn đưa tab debug lên front vậy".
+- CẤM tuyệt đối trong mọi script/agent: `Page.bringToFront`, `Target.activateTarget`, `switch_tab(...)`, `new_tab(...)` (có thể activate target; chưa xác nhận từ nguồn skill nên coi như cấm), AppleScript/`open -a`/`activate` lên Chrome, `window.focus()` từ trang.
+- Được phép: `Emulation.setFocusEmulationEnabled enabled=True` (giả focus cho trang ở nền, không đưa cửa sổ lên), `goto_url` trên tab đang có, `Input.dispatchKeyEvent`, `Page.captureScreenshot`/`capture_screenshot`.
+- Nếu tab hiện tại không phải tab game: dùng `goto_url` để điều hướng chính tab đó, KHÔNG chuyển/mở tab khác. Cần foreground mới chạy được -> ghi "KHÔNG-SO-ĐƯỢC", không tự kéo lên.
+- TAB RIÊNG (user chốt 2026-11-09): QA KHÔNG điều hướng tab có sẵn của user (vd Mattermost). CHỈ dùng helper có sẵn của skill browser-use (goto_url, js, cdp, capture_screenshot) trên kết nối giữ suốt phiên; KHÔNG tự dựng websocket/kết nối CDP mới (mỗi kết nối mới làm Chrome hỏi 'Allow debugging' lại - user đã phàn nàn). Tab game riêng tạo ở NỀN bằng `cdp("Target.createTarget", url=..., background=True)`; không activateTarget/switch_tab/new_tab. Gom thao tác vào ÍT script dài. Không làm được -> KHÔNG-SO-ĐƯỢC, hỏi user.
+- Trước khi bàn giao script: `grep -nE "bringToFront|activateTarget|switch_tab|new_tab" <script>` phải trống. Orchestrator spot-check điều này khi nhận báo cáo QA; vi phạm = báo user ngay.
+
 ## R5. Deviations phải gắn cờ
 Mọi chỗ cố ý khác bản gốc (mở khoá, bỏ giới hạn demo, sửa lỗi, thay API không có tương đương) phải:
 - Nằm sau **một cờ cấu hình duy nhất** trong `config.js` (vd `UNLOCK_ALL`), có comment `DELIBERATE DEVIATION from the original (see FORMATS.md "DEVIATION: <name>")`.

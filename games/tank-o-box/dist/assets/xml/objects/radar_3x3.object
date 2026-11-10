@@ -1,0 +1,139 @@
+<GameObject Type="Object">
+    <GameObjectView ModelName="data/objects/radar_3x3.scene"/>
+
+    <Properties>
+        <Property Name="HitPoints" Value="4"/>
+        <Property Name="Damage" Value="-1"/>
+        <Property Name="DamageDouble" Value="-2"/>
+        <Property Name="DamageRocket" Value="-3"/>
+	<Property Name="ExplodeScore" Value="700"/>
+    </Properties>
+
+    <Strategies>
+        <StrategyGlobalCounter PropertyName="ObjectRadarCount"/>
+    </Strategies>
+
+    <GameObjectStates>
+        <GameObjectState Name="Default">
+            <GameObjectStateView AnimationName="data/objects/Default.anim"/>
+            <Strategies>                
+                <StrategyMask Mask = "111 111 111"/>
+                <StrategyChangeState StateName="Live"/>             
+			<StrategyShadow MainNode="live" ShadowName="shadow"/>
+            </Strategies>
+        </GameObjectState>
+
+        <GameObjectState Name="Live" TemplateName="data/objects/object_collision.state">
+            <GameObjectStateView AnimationName="data/objects/radar_3x3.anim"/>
+            <Strategies>
+                <StrategyChangeStateByCounter StateName="Exploding1" PropertyName="HitPoints" MinValue="-9999" MaxValue="3"/>
+                <StrategyMask Mask = "111 111 111"/>
+                <StrategyShadow MainNode="live" ShadowName="shadow"/>
+            </Strategies>
+        </GameObjectState>
+
+        <GameObjectState Name="Exploding1">
+            <EventHandlers>
+                <EventHandler>
+                    <EventNames>
+                        <EventName Name="AnimFinished"/>
+                    </EventNames>
+                    <Strategies>                    
+                        <StrategyChangeState StateName="Death1"/>
+                    </Strategies>
+                 </EventHandler>
+           </EventHandlers>
+           <Strategies>
+                <StrategyMask Mask = "111 111 111"/>
+			<StrategyShadow MainNode="death0" ShadowName="shadow"/>
+            </Strategies>
+           <GameObjectStateView AnimationName="data/objects/death1.anim" 
+                AnimationName="data/blasts/radar.anim" 
+                AnimationName="data/objects/explode_particles.anim" 
+                AnimationName="data/objects/explode_flash_blue.anim" 
+                Loop="false"/>
+        </GameObjectState>
+
+        <GameObjectState Name="Death1" TemplateName="data/objects/object_collision.state">
+            <GameObjectStateView AnimationName="data/objects/radar_3x3.anim"/>
+            <Strategies>
+                <StrategyChangeStateByCounter StateName="Exploding2" PropertyName="HitPoints" MinValue="-9999" MaxValue="2"/>
+                <StrategyMask Mask = "111 111 111"/>
+			<StrategyShadow MainNode="death0" ShadowName="shadow"/>
+            </Strategies>
+        </GameObjectState>
+
+        <GameObjectState Name="Exploding2">
+            <EventHandlers>
+                <EventHandler>
+                    <EventNames>
+                        <EventName Name="AnimFinished"/>
+                    </EventNames>
+                    <Strategies>                    
+                        <StrategyChangeState StateName="Death2"/>
+                    </Strategies>
+                 </EventHandler>
+           </EventHandlers>
+           <Strategies>
+                <StrategyMask Mask = "111 111 111"/>
+			<StrategyShadow MainNode="death1" ShadowName="shadow"/>
+            </Strategies>
+           <GameObjectStateView AnimationName="data/objects/death2.anim"  
+                AnimationName="data/blasts/radar.anim" 
+                AnimationName="data/objects/explode_particles.anim" 
+                AnimationName="data/objects/explode_flash_blue.anim" 
+                Loop="false"/>
+        </GameObjectState>
+
+        <GameObjectState Name="Death2" TemplateName="data/objects/object_collision.state">
+            <GameObjectStateView AnimationName="data/objects/radar_3x3.anim"/>
+            <Strategies>
+                <StrategyChangeStateByCounter StateName="Exploding3" PropertyName="HitPoints" MinValue="-9999" MaxValue="1"/>
+                <StrategyMask Mask = "111 111 111"/>
+			<StrategyShadow MainNode="death1" ShadowName="shadow"/>
+            </Strategies>
+        </GameObjectState>
+
+        <GameObjectState Name="Exploding3">
+            <EventHandlers>
+		<EventHandler>
+                    <EventNames>
+                        <EventName Name="AnimStart"/>
+                    </EventNames>
+                    <Strategies>                                    
+                        <StrategyChangeGlobalCounter PropertyName="Score" StepPropertyName="ExplodeScore"/>
+		    </Strategies>
+		</EventHandler>
+                <EventHandler>
+                    <EventNames>
+                        <EventName Name="AnimFinished"/>
+                    </EventNames>
+                    <Strategies>
+                        <StrategyGlobalCounter PropertyName="ObjectRadarCount" Step="-1"/>
+                        <StrategyChangeState StateName="Death3"/>
+                    </Strategies>
+                 </EventHandler>
+           </EventHandlers>
+           <Strategies>
+                <StrategyMask Mask = "000 000 000"/>
+            </Strategies>
+           <GameObjectStateView AnimationName="data/objects/death3.anim"  
+                AnimationName="data/blasts/radar.anim" 
+		AnimationName="data/objects/scores/score.anim"
+                AnimationName="data/objects/death3.anim" 
+                AnimationName="data/objects/explode_particles.anim" 
+                AnimationName="data/objects/explode_flash_blue.anim" 
+                Loop="false"/>
+        </GameObjectState>
+
+        <GameObjectState Name="Death3" TemplateName="data/objects/object_collision.state">
+            <GameObjectStateView AnimationName="data/objects/radar_3x3.anim"/>
+            <Strategies>
+                <StrategyGlobalCounter PropertyName="ObjectRadarCount" Step="-1"/>
+                <StrategyMask Mask = "000 000 000"/>
+            </Strategies>
+        </GameObjectState>
+
+    </GameObjectStates>
+
+</GameObject>

@@ -1,0 +1,11 @@
+<InterfaceScreenMenuScore ModelName="data/Levels/LevelScore.scene" 
+    Cursor="data/interface/cursor"
+    AnimationName="data/Interface/_night.anim" >
+    <Controls>
+        <ControlLabel PropertyName="MenuScore" NodeName="Score"/>
+        <ControlLabel PropertyName="MenuScoreBonus" NodeName="ScoreBonus"/>
+        <ControlLabel PropertyName="MenuScoreTotal" NodeName="ScoreTotal"/>
+        <ControlLabel PropertyName="MenuScoreLives" NodeName="MenuLives"/>
+        <ControlButton KeyboardAlias="GCMenuSelect" Name="data/Interface/EmissiveButton_" NodeName="btnNext" Link="Next"/>
+    </Controls>
+</InterfaceScreenMenuScore>

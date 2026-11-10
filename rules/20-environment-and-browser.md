@@ -15,7 +15,7 @@
 Gợi ý chung: `window.__ready`, `window.__err`, state hiện tại (`__st`), hàm cheat để tái hiện tình huống (đặt vật phẩm, giết/hồi sinh nhân vật, nhảy màn). Hooks nằm sau cờ debug; không phải deviation gameplay. Danh sách hooks thực tế: ../examples/dino/environment.md.
 
 ## Browser (chỉ QA-visual)
-- Dùng skill `browser-use`; trong stdin Python có sẵn `goto_url, js, cdp, capture_screenshot, switch_tab` (switch_tab cần id đầy đủ). Mẫu ở `tools/browser-sweep.template.py`.
+- Dùng skill `browser-use`; trong stdin Python có sẵn `goto_url, js, cdp, capture_screenshot`. KHÔNG dùng `switch_tab`/`new_tab`/`bringToFront`/`activateTarget` (HARD RULE R4b: không được đưa tab lên trước). Mẫu ở `tools/browser-sweep.template.py`.
 - 1 instance, 1 tab. Chờ `window.__ready` (thời gian load tuỳ game). `capture_screenshot(path)`.
 - Sự kiện phím: `cdp("Input.dispatchKeyEvent", type="keyDown", key=..., code=..., windowsVirtualKeyCode=...)`; `cdp("Emulation.setFocusEmulationEnabled", enabled=True)` để tab nhận focus.
 - Ảnh chụp lớn (8 MB PNG) -> dùng JPEG khi quét hàng loạt.

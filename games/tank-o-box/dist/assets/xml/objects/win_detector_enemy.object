@@ -1,0 +1,18 @@
+<GameObject Type="Object">
+    <GameObjectStates>
+
+        <GameObjectState Name="Default">
+            <Strategies>
+                <StrategyCheckGlobalCounter PropertyName="TankCountPlayer" MaxValue="1"/>
+                <StrategyCheckGlobalCounter PropertyName="GenerateTankPlayer" MaxValue="1"/>
+                <StrategyCheckGlobalCounter PropertyName="GenerateTankPlayer2" MaxValue="1"/>
+                <StrategyCheckGlobalCounter PropertyName="Lives" MaxValue="1"/>
+                <StrategyGlobalEvent EventName="GameOver"/>
+                <StrategyChangeState StateName="Waiting"/>
+            </Strategies>
+        </GameObjectState>
+        
+        <GameObjectState Name="Waiting"/>
+
+    </GameObjectStates>
+</GameObject>

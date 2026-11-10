@@ -1,0 +1,314 @@
+<GameObject Type="Camera">
+    <GameObjectView NodeName="CameraBase"/>
+    <GameObjectStates>
+
+        <GameObjectState Name="Default">        
+            <EventHandlers>
+                <EventHandler>
+                    <EventNames>
+                        <EventName Name="PlayerHit"/>
+                        <EventName Name="PlayerHit2"/>
+                    </EventNames>
+                    <Strategies>
+                        <StrategyChangeState StateName="PlayerHit"/>
+                    </Strategies>
+                 </EventHandler>
+                                  
+                 <EventHandler>
+                    <EventNames>
+                        <EventName Name="TankExplodeEnemy"/>
+                    </EventNames>
+                    <Strategies>
+                        <StrategyChangeState StateName="TankExplodeEnemy"/>
+                    </Strategies>
+                 </EventHandler>
+
+                 <EventHandler>
+                    <EventNames>
+                        <EventName Name="HQExplode"/>
+                    </EventNames>
+                    <Strategies>
+                        <StrategyChangeState StateName="HQExplode"/>
+                    </Strategies>
+                 </EventHandler>
+
+                 <EventHandler>
+                    <EventNames>
+                        <EventName Name="PlayerWin"/>
+                    </EventNames>
+                    <Strategies>
+                        <StrategyChangeState StateName="PlayerWin"/>
+                    </Strategies>
+                 </EventHandler>
+
+                 <EventHandler>
+                    <EventNames>
+                        <EventName Name="GameOver"/>
+                    </EventNames>
+                    <Strategies>
+                        <StrategyChangeState StateName="GameOver"/>
+                    </Strategies>
+                 </EventHandler>
+
+                 <EventHandler>
+                    <EventNames>
+                        <EventName Name="AirStrikeHit"/>
+                    </EventNames>
+                    <Strategies>
+                        <StrategyChangeState StateName="AirStrikeHit"/>
+                    </Strategies>
+                 </EventHandler>
+
+            </EventHandlers>
+            <Strategies>
+                <StrategyCameraAngle TargetType="Player"
+                    Start="0 58 35"
+                    BoxCenter="0 58 -2" Box="20 120 10"
+                    MinDistance="60"
+                    MovementShift="3" MovementShiftSpeed="2"
+                    MaxAngleX="0.01" AngleSpeedX="0.01"
+                    MaxAngleZ1="-0.02" MaxAngleZ2="0.01"
+                    AngleSpeedZ="0.01"
+                    Advance="15" Speed="6" ZoomSpeed="8"/>
+            </Strategies>
+        </GameObjectState>
+        
+        <GameObjectState Name="PlayerHit">  
+            <EventHandlers>
+                <EventHandler>
+                    <EventNames>
+                        <EventName Name="AnimFinished"/>
+                    </EventNames>
+                    <Strategies>
+                        <StrategyChangeState StateName="Default"/>
+                    </Strategies>
+                 </EventHandler>
+
+                 <EventHandler>
+                    <EventNames>
+                        <EventName Name="HQExplode"/>
+                    </EventNames>
+                    <Strategies>
+                        <StrategyChangeState StateName="HQExplode"/>
+                    </Strategies>
+                 </EventHandler>
+
+                 <EventHandler>
+                    <EventNames>
+                        <EventName Name="PlayerWin"/>
+                    </EventNames>
+                    <Strategies>
+                        <StrategyChangeState StateName="PlayerWin"/>
+                    </Strategies>
+                 </EventHandler>
+                 
+                 <EventHandler>
+                    <EventNames>
+                        <EventName Name="GameOver"/>
+                    </EventNames>
+                    <Strategies>
+                        <StrategyChangeState StateName="GameOver"/>
+                    </Strategies>
+                 </EventHandler>
+
+            </EventHandlers>
+            <GameObjectStateView AnimationName="data/objects/camera_tank_hit.anim" Loop="false"/>
+                <Strategies>
+                <StrategyCameraAngle TargetType="Player"
+                    Start="0 58 35"
+                    BoxCenter="0 58 -2" Box="20 120 10"
+                    MinDistance="60"
+                    MovementShift="3" MovementShiftSpeed="2"
+                    MaxAngleX="0.01" AngleSpeedX="0.01"
+                    MaxAngleZ1="-0.02" MaxAngleZ2="0.01"
+                    AngleSpeedZ="0.01"
+                    Advance="15" Speed="6" ZoomSpeed="8"/>
+                </Strategies>
+        </GameObjectState>
+
+        <GameObjectState Name="AirStrikeHit">  
+            <EventHandlers>
+                <EventHandler>
+                    <EventNames>
+                        <EventName Name="AnimFinished"/>
+                    </EventNames>
+                    <Strategies>
+                        <StrategyChangeState StateName="Default"/>
+                    </Strategies>
+                 </EventHandler>
+
+                 <EventHandler>
+                    <EventNames>
+                        <EventName Name="HQExplode"/>
+                    </EventNames>
+                    <Strategies>
+                        <StrategyChangeState StateName="HQExplode"/>
+                    </Strategies>
+                 </EventHandler>
+
+                 <EventHandler>
+                    <EventNames>
+                        <EventName Name="PlayerWin"/>
+                    </EventNames>
+                    <Strategies>
+                        <StrategyChangeState StateName="PlayerWin"/>
+                    </Strategies>
+                 </EventHandler>
+
+                 <EventHandler>
+                    <EventNames>
+                        <EventName Name="GameOver"/>
+                    </EventNames>
+                    <Strategies>
+                        <StrategyChangeState StateName="GameOver"/>
+                    </Strategies>
+                 </EventHandler>
+
+            </EventHandlers>
+            <GameObjectStateView AnimationName="data/objects/camera_air_strike.anim" Loop="false"/>
+                <Strategies>
+                <StrategyCameraAngle TargetType="Player"
+                    Start="0 58 35"
+                    BoxCenter="0 58 -2" Box="20 120 10"
+                    MinDistance="60"
+                    MovementShift="3" MovementShiftSpeed="2"
+                    MaxAngleX="0.01" AngleSpeedX="0.01"
+                    MaxAngleZ1="-0.02" MaxAngleZ2="0.01"
+                    AngleSpeedZ="0.01"
+                    Advance="15" Speed="6" ZoomSpeed="8"/>
+                </Strategies>
+        </GameObjectState>
+
+        <GameObjectState Name="TankExplodeEnemy">  
+            <EventHandlers>
+                <EventHandler>
+                    <EventNames>
+                        <EventName Name="AnimFinished"/>
+                    </EventNames>
+                    <Strategies>
+                        <StrategyChangeState StateName="Default"/>
+                    </Strategies>
+                 </EventHandler>
+
+                 <EventHandler>
+                    <EventNames>
+                        <EventName Name="HQExplode"/>
+                    </EventNames>
+                    <Strategies>
+                        <StrategyChangeState StateName="HQExplode"/>
+                    </Strategies>
+                 </EventHandler>
+
+                 <EventHandler>
+                    <EventNames>
+                        <EventName Name="PlayerWin"/>
+                    </EventNames>
+                    <Strategies>
+                        <StrategyChangeState StateName="PlayerWin"/>
+                    </Strategies>
+                 </EventHandler>
+
+                 <EventHandler>
+                    <EventNames>
+                        <EventName Name="GameOver"/>
+                    </EventNames>
+                    <Strategies>
+                        <StrategyChangeState StateName="GameOver"/>
+                    </Strategies>
+                 </EventHandler>
+
+            </EventHandlers>
+            <GameObjectStateView AnimationName="data/objects/camera_enemy_hit.anim" Loop="false"/>
+            <Strategies>
+                <StrategyCameraAngle TargetType="Player"
+                    Start="0 58 35"
+                    BoxCenter="0 58 -2" Box="20 120 10"
+                    MinDistance="60"
+                    MovementShift="3" MovementShiftSpeed="2"
+                    MaxAngleX="0.01" AngleSpeedX="0.01"
+                    MaxAngleZ1="-0.02" MaxAngleZ2="0.01"
+                    AngleSpeedZ="0.01"
+                    Advance="15" Speed="6" ZoomSpeed="8"/>
+            </Strategies>
+        </GameObjectState>
+        
+        <GameObjectState Name="HQExplode">  
+            <EventHandlers>
+                <EventHandler>
+                    <EventNames>
+                        <EventName Name="AnimFinished"/>
+                    </EventNames>
+                    <Strategies>
+                        <StrategyEpisodeLink LinkName="GameOver"/>
+                    </Strategies>
+                 </EventHandler>
+            </EventHandlers>
+            <GameObjectStateView AnimationName="data/objects/camera_around_shtab.anim" Loop="false"/>
+            <Strategies>
+                <StrategySetGlobalProperty PropertyName="MissionStatus" StartValue="YOU FAILED TO DEFEND HQ"/>
+                <StrategyCameraAngle TargetType="Player"
+                    Start="0 58 35"
+                    BoxCenter="0 58 -2" Box="20 120 10"
+                    MinDistance="60"
+                    MovementShift="3" MovementShiftSpeed="2"
+                    MaxAngleX="0.01" AngleSpeedX="0.01"
+                    MaxAngleZ1="-0.02" MaxAngleZ2="0.01"
+                    AngleSpeedZ="0.01"
+                    Advance="15" Speed="6" ZoomSpeed="8"/>
+            </Strategies>
+        </GameObjectState>
+
+        <GameObjectState Name="PlayerWin">  
+            <EventHandlers>
+                <EventHandler>
+                    <EventNames>
+                        <EventName Name="AnimFinished"/>
+                    </EventNames>
+                    <Strategies>
+                        <StrategyEpisodeLink LinkName="Next"/>
+                    </Strategies>
+                 </EventHandler>
+            </EventHandlers>
+            <GameObjectStateView AnimationName="data/objects/camera_around_player.anim" Loop="false"/>
+            <Strategies>
+                <StrategySetGlobalProperty PropertyName="MissionStatus" StartValue="MISSION COMPLETE"/>
+                <StrategyCameraAngle TargetType="Player"
+                    Start="0 58 35"
+                    BoxCenter="0 58 -2" Box="20 120 10"
+                    MinDistance="60"
+                    MovementShift="3" MovementShiftSpeed="2"
+                    MaxAngleX="0.01" AngleSpeedX="0.01"
+                    MaxAngleZ1="-0.02" MaxAngleZ2="0.01"
+                    AngleSpeedZ="0.01"
+                    Advance="15" Speed="6" ZoomSpeed="8"/>
+            </Strategies>
+        </GameObjectState>
+
+        <GameObjectState Name="GameOver">  
+            <EventHandlers>
+                <EventHandler>
+                    <EventNames>
+                        <EventName Name="AnimFinished"/>
+                    </EventNames>
+                    <Strategies>
+                        <StrategyEpisodeLink LinkName="GameOver"/>
+                    </Strategies>
+                 </EventHandler>
+            </EventHandlers>
+            <GameObjectStateView AnimationName="data/objects/camera_game_over.anim" Loop="false"/>
+            <Strategies>
+                <StrategySetGlobalProperty PropertyName="MissionStatus" StartValue="MISSION FAILED"/>
+                <StrategyCameraAngle TargetType="Player"
+                    Start="0 58 35"
+                    BoxCenter="0 58 -2" Box="20 120 10"
+                    MinDistance="60"
+                    MovementShift="3" MovementShiftSpeed="2"
+                    MaxAngleX="0.01" AngleSpeedX="0.01"
+                    MaxAngleZ1="-0.02" MaxAngleZ2="0.01"
+                    AngleSpeedZ="0.01"
+                    Advance="15" Speed="6" ZoomSpeed="8"/>
+            </Strategies>
+        </GameObjectState>
+
+    </GameObjectStates>
+</GameObject>

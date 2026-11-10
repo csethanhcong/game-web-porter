@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Scene>
+    <Node Name="snd_explode" Children="data/sounds/object_explode.scene"/>
+    
+    <Node Name="explode_particles" Children="data/objects/explode_particles.scene"/>
+
+    <Node Name="live">
+        <ModelFixed Name="pCube1" Source="data/objects/models/house_1x1_pCube1-house_1x1_live.model" >
+            <#Shaders#>
+                <Shader Name="phong1" TrianglesCount="16">
+                    <Material SpecularPower="40" Diffuse="1 1 1"/>
+                    <Diffuse Image="data/objects/textures/house_1x1"/>
+                </Shader>
+            </#Shaders#>
+        </ModelFixed>
+	<Node Name="shadow_0" Visibility="false"  Children="data/objects/house_1x1_shadow_0.scene"/>
+	<Node Name="shadow_90" Visibility="false"  Children="data/objects/house_1x1_shadow_90.scene"/>
+	<Node Name="shadow_180" Visibility="false"  Children="data/objects/house_1x1_shadow_180.scene"/>
+	<Node Name="shadow_270" Visibility="false"  Children="data/objects/house_1x1_shadow_270.scene"/>
+    </Node>
+    <Node Name="death0" Visibility="false">
+        <ModelFixed Name="pCube1" Source="data/objects/models/house_1x1_pCube1-house_1x1_death0.model" >
+            <#Shaders#>
+                <Shader Name="phong1" TrianglesCount="16">
+                    <Material SpecularPower="40" Diffuse="1 1 1"/>
+                    <Diffuse Image="data/objects/textures/house_1x1"/>
+                </Shader>
+            </#Shaders#>
+        </ModelFixed>
+    </Node>
+</Scene>

@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Scene>
+    <Node Name="_night" Children="data/interface/_night.scene"/>
+
+
+    <Text Name="" Position="4 15.5 -15" Rotation="-1.57 0 0" Scale="4 4 4" Font="data/fonts/hiscore_small.font" Alignment="RIGHT"
+        Text="min.">
+        <#Shader#>
+            <Material Transparency="0.001" Emissive="1 1 1"/>
+            <Emissive Image="data/fonts/hiscore_small"/>
+        </#Shader#>
+    </Text>
+
+    <Text Name="" Position="14 15.5 -15" Rotation="-1.57 0 0" Scale="4 4 4" Font="data/fonts/hiscore_small.font" Alignment="RIGHT"
+        Text="Trial Time:">
+        <#Shader#>
+            <Material Transparency="0.001" Emissive="1 1 1"/>
+            <Emissive Image="data/fonts/hiscore_small"/>
+        </#Shader#>
+    </Text>
+   
+    <Text Name="txtTime" Position="12 15.5 -15" Rotation="-1.57 0 0" Scale="4 4 4" Font="data/fonts/hiscore_small.font" Alignment="CENTER"
+        Text="">
+        <#Shader#>
+            <Material Transparency="0.001" Emissive="1 1 1"/>
+            <Emissive Image="data/fonts/hiscore_small"/>
+        </#Shader#>
+    </Text>
+
+    <Text Name="header" Position="0 5.5 -17" Rotation="-1.57 0 0" Scale="4.5 4.5 4.5" Font="data/fonts/bc.font" Alignment="CENTER" Text="MAIN MENU">
+        <#Shader#>
+            <Material Transparency="0.001" Emissive="0.8 0.8 0.7"/>
+            <Emissive Image="data/fonts/bc"/>
+        </#Shader#>
+    </Text>
+
+    <Text Name="btn1Player" Position="0 5.5 -10" Rotation="-1.57 0 0" Scale="4 4 4" Font="data/fonts/bc.font" Alignment="CENTER" Text="1 PLAYER">
+        <#Shader#>
+            <Material Transparency="0.001" Emissive="1 1 1"/>
+            <Emissive Image="data/fonts/bc"/>
+        </#Shader#>
+        <HitNode Position="0 0 -1.5" Height="0.1" Width="0.35"/>
+        <SoundSource Name="Snd" Sound="data/sounds/click" ChannelType="2D" Loop="false"/>
+    </Text>
+    <Text Name="btn2Player" Position="0 5.5 -6" Rotation="-1.57 0 0" Scale="4 4 4" Font="data/fonts/bc.font" Alignment="CENTER" Text="2 PLAYER">
+        <#Shader#>
+            <Material Transparency="0.001" Emissive="0.7 0.7 0.7"/>
+            <Emissive Image="data/fonts/bc"/>
+        </#Shader#>
+        <HitNode Position="0 0 -1.5" Height="0.1" Width="0.35"/>
+        <SoundSource Name="Snd" Sound="data/sounds/click" ChannelType="2D" Loop="false"/>
+    </Text> 
+    <Text Name="btnTutorial" Position="0 5.5 -2" Rotation="-1.57 0 0" Scale="4 4 4" Font="data/fonts/bc.font" Alignment="CENTER" Text="TUTORIAL">
+        <#Shader#>
+            <Material Transparency="0.001" Emissive="0.7 0.7 0.7"/>
+            <Emissive Image="data/fonts/bc"/>
+        </#Shader#>
+        <HitNode Position="0 0 -1.75" Height="0.1" Width="0.35"/>
+        <SoundSource Name="Snd" Sound="data/sounds/click" ChannelType="2D" Loop="false"/>
+    </Text>
+    <Text Name="btnPassword" Position="0 5.5 2" Rotation="-1.57 0 0" Scale="4 4 4" Font="data/fonts/bc.font" Alignment="CENTER" Text="PASSWORD">
+        <#Shader#>
+            <Material Transparency="0.001" Emissive="0.7 0.7 0.7"/>
+            <Emissive Image="data/fonts/bc"/>
+        </#Shader#>
+        <HitNode Position="0 0 -1.75" Height="0.1" Width="0.35"/>
+        <SoundSource Name="Snd" Sound="data/sounds/click" ChannelType="2D" Loop="false"/>
+    </Text>
+    <Text Name="btnControls" Position="0 5.5 6" Rotation="-1.57 0 0" Scale="4 4 4" Font="data/fonts/bc.font" Alignment="CENTER" Text="CONTROLS">
+        <#Shader#>
+            <Material Transparency="0.001" Emissive="0.7 0.7 0.7"/>
+            <Emissive Image="data/fonts/bc"/>
+        </#Shader#>
+        <HitNode Position="0 0 -1.95" Height="0.1" Width="0.35"/>
+        <SoundSource Name="Snd" Sound="data/sounds/click" ChannelType="2D" Loop="false"/>
+    </Text>
+    <Text Name="btnHiscore" Position="0 5.5 10" Rotation="-1.57 0 0" Scale="4 4 4" Font="data/fonts/bc.font" Alignment="CENTER" Text="HISCORE">
+        <#Shader#>
+            <Material Transparency="0.001" Emissive="0.7 0.7 0.7"/>
+            <Emissive Image="data/fonts/bc"/>
+        </#Shader#>
+        <HitNode Position="0 0 -2.10" Height="0.1" Width="0.35"/>
+        <SoundSource Name="Snd" Sound="data/sounds/click" ChannelType="2D" Loop="false"/>
+    </Text>
+    <Text Name="btnExit" Position="0 5.5 16 " Rotation="-1.57 0 0" Scale="4 4 4" Font="data/fonts/bc.font" Alignment="CENTER" Text="EXIT">
+        <#Shader#>
+            <Material Transparency="0.001" Emissive="0.7 0.7 0.7"/>
+            <Emissive Image="data/fonts/bc"/>
+        </#Shader#>
+        <HitNode Position="0 0 -2.75" Height="0.1" Width="0.35"/>
+        <SoundSource Name="Snd" Sound="data/sounds/click" ChannelType="2D" Loop="false"/>
+    </Text>
+</Scene>

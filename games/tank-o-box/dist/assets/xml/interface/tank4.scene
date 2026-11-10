@@ -1,0 +1,12 @@
+<Scene>
+    <Node Name="tank_01_3x3_2_locator3">
+        <ModelFixed Name="tank_01_3x3_2_polySurface7" Source="data/objects/models/tank_01_3x3_2_01_3x3_2_polySurface7-tank_01_3x3_2_01_3x3_2_locator3.model">
+            <#Shaders#>
+                <Shader Name="tank_01_3x3_2_phong2" TrianglesCount="160">
+                    <Material SpecularPower="40" Diffuse="1 1 1"/>
+                    <Diffuse Image="data/objects/textures/tank_00_2"/>
+                </Shader>
+            </#Shaders#>
+        </ModelFixed>
+    </Node>
+</Scene>

@@ -1,0 +1,23 @@
+<Animation>
+    <Commands>
+        <Command Target="snd_shield|snd">
+            <Execute Name="Play" Time="0"/>
+        </Command>
+    </Commands>
+    <double>
+        <PrimitiveAnimation Target="shield_tank_locator1" Param="Visibility">
+            <Envelope PreBehave="CONSTANT" PostBehave="CONSTANT">
+                <Keys>
+                    <Key Time="0" Linear="0" Quadratic="0" Cubic="0" Value="1"/>
+                </Keys>
+            </Envelope>
+        </PrimitiveAnimation>
+        <PrimitiveAnimation Target="shield_tank_locator1|shield_tank_pSphere1|#Shaders#|shield_tank_phong2" Param="Transparency">
+            <Envelope PreBehave="CONSTANT" PostBehave="CONSTANT">
+                <Keys>
+                    <Key Time="0" Linear="0" Quadratic="0" Cubic="0" Value="0.5"/>
+                </Keys>
+            </Envelope>
+        </PrimitiveAnimation>
+    </double>
+</Animation>

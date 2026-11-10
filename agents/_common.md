@@ -13,7 +13,8 @@ LUẬT KHÔNG THƯƠNG LƯỢNG (rules/00-standing-rules.md):
 5. KHÔNG mở trình duyệt (chỉ agent qa-visual được). Cần ảnh -> ghi yêu cầu cho orchestrator.
 6. File chung (ví dụ main.js): chỉ Edit nhỏ có neo duy nhất, đọc lại vùng ngay trước khi sửa, không ghi đè cả file; ưu tiên module của riêng bạn (file-ownership trong TASKS.md).
 7. File tạm/script vào scratch dir, không /tmp, không source tree. Sau mỗi thay đổi: tools/syntax-check-all.sh.
-8. Nếu bị rate limit / treo: báo trạng thái hiện tại để resume (đừng lặp việc đã xong).
+8. (qa-visual) HARD RULE R4b: CẤM bringToFront/activateTarget/switch_tab/new_tab/activate Chrome; debug ở nền, chỉ goto_url trên tab hiện có.
+9. Nếu bị rate limit / treo: báo trạng thái hiện tại để resume (đừng lặp việc đã xong).
 
 BÁO CÁO CUỐI (tiếng Việt, templates/AGENT_REPORT.md): Đã làm / CONFIRMED (+bằng chứng) / GUESS (+cách đóng) / Chưa xong / Deviation flags / Kiểm chứng đã chạy / Hand-off. Nói rõ nếu chưa hoàn thành.
 ```

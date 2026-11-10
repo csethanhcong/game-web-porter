@@ -1,0 +1,13 @@
+<InterfaceScreenMenuScore 
+    ModelName="data/Levels/MissionFailedScore.scene" 
+    Cursor="data/interface/cursor" 
+    AnimationName="data/Interface/_night.anim" 
+    Music="data/music/menu">
+    <Controls>
+        <ControlLabel PropertyName="MenuScore" NodeName="Score"/>
+        <ControlLabel PropertyName="MenuScoreBonus" NodeName="ScoreBonus"/>
+        <ControlLabel PropertyName="MenuScoreTotal" NodeName="ScoreTotal"/>
+        <ControlButton Name="data/Interface/EmissiveButton_" NodeName="btnNext" Link="data/interface/HiScoreCooperativeGame.screen"/>
+        <!ControlButton KeyboardAlias="GCMenuSelect" Name="data/Interface/EmissiveButton_" NodeName="btnMenu" Link="data/interface/MainMenu.screen"/!>
+    </Controls>
+</InterfaceScreenMenuScore>

@@ -1,0 +1,99 @@
+<GameObject Type="Tank">
+    <GameObjectView ModelName="data/objects/fabrica_6x12.scene"/>
+
+    <Properties>
+        <Property Name="HitPoints" Value="20"/>
+        <Property Name="Damage" Value="-1"/>
+        <Property Name="DamageDouble" Value="-2"/>
+        <Property Name="DamageRocket" Value="-3"/>
+	<Property Name="ExplodeScore" Value="5000"/>
+    </Properties>
+
+    <Strategies>
+        <StrategyGlobalCounter PropertyName="TankCountEnemy"/>
+    </Strategies>
+
+    <GameObjectStates>
+        <!GameObjectState Name="Default">
+            <GameObjectStateView AnimationName="data/objects/Default.anim"/>
+            <Strategies>                
+                <StrategyMask Mask = "111111111111 111111111111 111111111111 111110000011 111110000011 111110000011"/>
+                <StrategyChangeState StateName="Live"/>             
+            </Strategies>
+        </GameObjectState!>
+
+        <GameObjectState Name="Default" TemplateName="data/objects/tank_collision.state">
+            <GameObjectStateView AnimationName="data/objects/fabrica_6x12.anim"/>
+            <Strategies>
+                <StrategyChangeStateByCounter StateName="Exploding1" PropertyName="HitPoints" MinValue="-9999" MaxValue="10"/>
+                <StrategyMask Mask = "111111111111 111111111111 111111111111 111110000011 111110000011 111110000011"/>
+                <StrategyFireByTime TemplateName="data/objects/tank_3.object" MinTime="10" MaxTime="10" FireMask2 = "000000000000 000000000000 000000010000 000000000000 000000000000 000000000000"/>
+            </Strategies>
+        </GameObjectState>
+
+        <GameObjectState Name="Exploding1">
+            <EventHandlers>
+                <EventHandler>
+                    <EventNames>
+                        <EventName Name="AnimFinished"/>
+                    </EventNames>
+                    <Strategies>                    
+                        <StrategyChangeState StateName="Death1"/>
+                    </Strategies>
+                 </EventHandler>
+           </EventHandlers>
+           <Strategies>
+                <StrategyMask Mask = "111111111111 111111111111 111111111111 111110000011 111110000011 111110000011"/>
+            </Strategies>
+           <GameObjectStateView AnimationName="data/objects/fabrica_6x12_death1.anim" Loop="false"/>
+        </GameObjectState>
+
+        <GameObjectState Name="Death1" TemplateName="data/objects/tank_collision.state">
+            <GameObjectStateView AnimationName="data/objects/fabrica_6x12.anim"/>
+            <Strategies>
+                <StrategyChangeStateByCounter StateName="Exploding2" PropertyName="HitPoints" MinValue="-9999" MaxValue="1"/>
+                <StrategyMask Mask = "111111111111 111111111111 111111111111 111110000011 111110000011 111110000011"/>
+                <StrategyFireByTime TemplateName="data/objects/tank_3.object" MinTime="10" MaxTime="10" FireMask2 = "000000000000 000000000000 000000010000 000000000000 000000000000 000000000000"/>
+            </Strategies>
+        </GameObjectState>
+
+        <GameObjectState Name="Exploding2">
+            <EventHandlers>
+		<EventHandler>
+                    <EventNames>
+                        <EventName Name="AnimStart"/>
+                    </EventNames>
+                    <Strategies>                                    
+                        <StrategyChangeGlobalCounter PropertyName="Score" StepPropertyName="ExplodeScore"/>
+		    </Strategies>
+		</EventHandler>
+                <EventHandler>
+                    <EventNames>
+                        <EventName Name="AnimFinished"/>
+                    </EventNames>
+                    <Strategies>                    
+                        <StrategyChangeState StateName="Death2"/>
+                    </Strategies>
+                 </EventHandler>
+           </EventHandlers>
+           <Strategies>
+                <StrategyGlobalCounter PropertyName="TankCountEnemy" Step="-1"/>                
+                <StrategyMask Mask = "111111111111 111111111111 111111111111 111110000011 111110000011 111110000011"/>
+                <StrategyGlobalEvent EventName="TankExplodeEnemy"/>
+            </Strategies>
+           <GameObjectStateView
+		AnimationName="data/objects/fabrica_6x12_death2.anim"
+		AnimationName="data/objects/scores/score.anim"
+		Loop="false"/>
+        </GameObjectState>
+
+        <GameObjectState Name="Death2" TemplateName="data/objects/tank_collision.state">
+            <GameObjectStateView AnimationName="data/objects/fabrica_6x12.anim"/>
+            <Strategies>
+                <StrategyGlobalCounter PropertyName="TankCountEnemy" Step="-1"/>
+                <StrategyMask Mask = "111111111111 111111111111 111111111111 111110000011 111110000011 111110000011"/>              
+            </Strategies>
+        </GameObjectState>
+    </GameObjectStates>
+
+</GameObject>

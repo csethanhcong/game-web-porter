@@ -1,0 +1,45 @@
+<GameObjectState>
+    <EventHandlers>
+        <EventHandler>
+            <EventNames>
+                <EventName Name="CollisionPlayerBulletDefault"/>
+            </EventNames>
+            <Strategies>
+                <StrategyChangeGlobalCounter PropertyName="Score" StepPropertyName="HitScore"/>
+                <StrategyChangeCounter PropertyName="HitPoints" StepPropertyName="Damage"/>
+            </Strategies>
+        </EventHandler>
+
+        <EventHandler>
+            <EventNames>
+                <EventName Name="CollisionPlayerBulletDoubleDefault"/>
+            </EventNames>
+            <Strategies>
+                <StrategyChangeGlobalCounter PropertyName="Score" StepPropertyName="HitScore"/>
+                <StrategyChangeCounter PropertyName="HitPoints" StepPropertyName="DamageDouble"/>
+            </Strategies>
+        </EventHandler>
+
+        <EventHandler>
+            <EventNames>
+                <EventName Name="CollisionPlayerBulletRocketDefault"/>
+            </EventNames>
+            <Strategies>
+                <StrategyChangeGlobalCounter PropertyName="Score" StepPropertyName="HitScore"/>
+                <StrategyChangeCounter PropertyName="HitPoints" StepPropertyName="DamageRocket"/>
+            </Strategies>
+        </EventHandler>
+
+
+         <EventHandler>
+            <EventNames>
+                <EventName Name="CollisionPlayerLand"/>
+                <EventName Name="CollisionTankLand"/>
+            </EventNames>
+            <Strategies>
+                <StrategyChangeState StateName="Explode"/>
+            </Strategies>
+         </EventHandler>
+
+    </EventHandlers>
+</GameObjectState>

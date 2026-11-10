@@ -1,0 +1,24 @@
+# QA sweep #2 (qa-visual, 2026-11-06) - kiểm FIX-R1/FIX-R2
+Môi trường: vite dev 127.0.0.1:5173 (đã tắt sau khi xong), Chrome thật của user, 1 tab riêng (đã đóng), viewport 1728x850 dpr2 (canvas 1133x850). Ảnh/script: `/private/tmp/claude-501/-Users-congpham-Desktop-game-game-web-porter/f98a0da5-ef20-4be4-9b57-4da7d9922d48/scratchpad/qa2/` (lib.py = đo pixel). Ảnh chụp ngoài = CDP capture_screenshot (compositor), KHÔNG gọi __dbg.render()/screenshot() trước khi chụp. "Load lạnh" = Page.navigate sang URL rồi Page.reload(ignoreCache=true) trong CÙNG tab; chụp ngay khi __ready===true (đã kiểm cờ chống đọc nhầm trang cũ). Pixel: 8 điểm chuẩn hoá canvas (0.2,0.3)(0.5,0.3)(0.8,0.3)(0.2,0.7)(0.5,0.7)(0.8,0.7)(0.5,0.92)(0.04,0.04).
+
+| # | mục | kết quả | bằng chứng / ảnh | nguyên nhân nghi ngờ |
+|---|---|---|---|---|
+| 1a | FIX-R1 Farm lạnh x3 | PASS | `cold_Farm_{0,1,2}.png`: 0/8 điểm (0,0,0), 3 lần pixel giống hệt: (96,117,73)(245,247,254)(141,179,94)(237,254,178)(85,93,86)(66,74,67)(157,119,82)(179,69,34). ready sau 1.1-1.8s. __err=[], R.stats().pending=0. | - |
+| 1b | FIX-R1 Ambush lạnh x3 | PASS | `cold_Ambush_*.png`: 0/8 đen, 3 lần giống hệt ((255,255,255)(182,175,194)(125,147,98)(127,161,91)(158,139,144)(173,156,145)(171,166,139)(179,69,34)); ready ~0.86s; pending 0; __err []. Sweep #1 thiếu 6/8 điểm ở lần đầu -> nay hết. | - |
+| 1c | FIX-R1 HQProtection lạnh x3 | PASS | `cold_HQProtection_*.png`, `ready_Farm.png` (thực ra là HQProtection, reload giữ URL): 0/8 (0,0,0); điểm (0.2,0.7)=(9,8,10) là vật thể tối thật (không phải nền trống, ổn định 3 lần). ready ~0.75s; pending 0; __err []. warnings=1 (rail_2x4 footprint, đã biết). | - |
+| 1d | pixel trước/sau __dbg.render() | PASS | `ready_*.png` vs `after_render_*.png`: 8 điểm giống hệt (không cần render lại). | - |
+| 1e | __dbg.render() vẫn chạy; __dbg.screenshot() ~ ảnh ngoài | PASS | screenshot() trả PNG 2266x1700; so với crop ảnh ngoài (resize) mean abs diff RGB = (3.5,2.5,2.9) trên 255 = chỉ khác nội suy resize/dpr. render() không lỗi, __err [] | - |
+| 1f | thứ tự pending / chẩn đoán | KHÔNG-ÁP-DỤNG | không còn thiếu hình nên không cần chẩn đoán. Lưu ý: không chứng minh được nguyên nhân gốc của lỗi cũ (FORMATS Fixes cũng nói chưa chứng minh); chỉ chứng minh bản sửa (whenIdle + prepare/initTexture + rAF invalidate) khắc phục được 9/9 lần load lạnh. Sample nhỏ, race có thể hiếm hơn trên máy chậm. | - |
+| 2a | FIX-R2 ?scene=wall_1x3 | PASS | `scene_wall.png`: thanh gỗ có texture + shading, nền đen (clear color, không phải lỗi). 6 draws, camInfo=null (raw view), lights=2 (ambient+dir mặc định), __err []. | debug-only, đúng theo FORMATS |
+| 2b | setCamera / resetCamera | PASS | `scene_wall_cam.png` (position [6,8,6]) và `scene_wall_top.png` (từ trên) đổi góc nhìn rõ; `scene_wall_reset.png` pixel 8 điểm == ban đầu. | - |
+| 2c | scene raw cây (tree_01_2x2.scene) | PASS (quan sát) | `scene_tree.png`: thân + 4 tầng tán, alpha cắt sạch (không viền đen/khối vuông), bóng mờ dưới gốc. 3 draws. Tán dạng đĩa phẳng (đúng dữ liệu, không có ảnh gốc => không CONFIRMED). | - |
+| 2d | scene raw terrain_03_90 | PASS | `scene_terrain03_90.png`: có hình (terrain + nền _day), 21 draws, có camera riêng (cam=true), 0 pixel đen. __err []. | - |
+| 3a | ?level=Farm&wire=1 | PASS | `farm_wire.png`: wire=true; 4/8 điểm đen = nền giữa các đường lưới (bình thường); điểm khác có màu. | - |
+| 3b | &light=0 | PASS | `farm_light0.png`: 0/8 đen; chỉ (0.8,0.3) đổi (141,179,94)->(144,182,99). G-R01 vẫn gần như bão hoà (CHECK-R4 giữ). | - |
+| 3c | &objects=0 | PASS | `farm_noobj.png`: 0/8 đen; chỉ điểm có object (0.2,0.7) đổi sang (120,122,75). | - |
+| 3d | resize không đen | PASS | 800x600, 1200x500, 500x900 (setDeviceMetricsOverride) rồi clear: 0/8 đen mọi cỡ, pending 0, __err []; sau clear pixel trở về giống hệt `farm_cold`. `farm_resize_*.png` | - |
+| 4 | hướng xe (G-R08), chỉ quan sát | KHÔNG-SO-ĐƯỢC (không có ảnh gốc) | `orient_sheet.png` (lưới 3x3 crop top-down 600px; thứ tự: Ambush gruzovik dir1, Ambush jeep dir3, Farm gruzovik dir0 / Farm jeep dir3, HQ gruzovik dir1, HQ gruzovik dir1 / HQ vagon dir1); ảnh lẻ `orient_*.png`. Quan sát: gruzovik dir0 cabin (đỏ) ở DƯỚI màn hình, dir1 cabin ở TRÁI (xoay 90 độ, nhất quán giữa Ambush/HQ). jeep dir3 (cả Farm, Ambush): đầu xe (logo tròn) ở PHẢI, bánh lái nằm phía trái logo. Chưa có tank trong level tĩnh. | Giữ nguyên nghi vấn mục 4b sweep #1: dir0 = "lên" CONFIRMED (0x495100) nhưng cabin gruzovik hiện ở dưới; cần decompile 0x493d30 hoặc ảnh gốc. |
+
+## Kết luận
+FIX-R1: PASS (9/9 load lạnh 3 level, không đen, pending 0). FIX-R2: PASS. Hồi quy: PASS. Không FAIL mới. Việc mở còn lại: CHECK-R3 (hướng xe), CHECK-R4 (bão hoà lit==unlit), INFO rail_2x4 footprint.
+Ghi chú QA: dùng Chrome thật của user (nhiều tab khác, chỉ đụng tab 127.0.0.1:5173, đã đóng). Hạn chế: không có CDP Log nên không bắt console.error của three từ lúc load; mẫu 3 lần/level.

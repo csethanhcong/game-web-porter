@@ -1,0 +1,56 @@
+node	level	LevelName	terrain	music	T2	T2T	T3	T3T	T4	T4T	T5	T5T	T6	T6T	extra(Duel/CatchMe/Firepower)	P2flag	ProbFast	ProbArmor	ProbShtabArmor	ProbTimeStop	ProbAirStrike	ProbUpgrade	Radar	nObjects	file_extra_props
+1	Farm	THE FARM	terrain_03_90		4	3	0	0	0	0	0	0	0	0		0	-	-	0	-	-	-	-	80	
+4	HQProtection	SNOWY ATTACK	terrain_01_snow		3	6	0	0	1	2	0	0	0	0		0	-	-	-	-	-	-	-	68	
+7	FrontLine	FRONT LINE	terrain_08	data/music/energy	4	6	0	0	2	2	0	0	0	0		0	-	-	-	-	-	-	-	49	
+10	Station	THE STATION	terrain_07_90	data/music/energy	3	5	2	2	0	0	0	0	0	0		0	-	-	0	-	-	-	-	76	
+13	NightAttack	NIGHT ATTACK	terrain_01_270_snow	data/music/energy	3	6	2	4	0	0	0	0	0	0		0	-	-	-	-	-	-	-	77	
+16	FastAndFearless	FAST AND FEARLESS	terrain_10	data/music/energy	4	4	2	2	0	0	0	0	0	0		0	-	-	0.0	-	-	-	-	106	
+18	TopSecret	TOP SECRET	terrain_10_270		4	4	2	2	1	0	0	0	0	0		0	-	-	0	-	-	-	-	93	
+20	Ambush	THE AMBUSH	terrain_10		4	2	4	0	0	0	0	0	0	0		0	-	-	0	-	-	-	-	63	
+23	KingOfTheHill	KING OF THE HILL	terrain_03	data/music/energy	2	4	0		1	3	0	0	0	0		0	-	-	0	-	-	-	-	76	
+25	CounterAttack	COUNTER ATTACK	terrain_07	data/music/energy	0	0	5	5	0	0	0	0	0	0		0	-	-	0	-	-	-	-	60	
+28	ColonelsMistake	THE COLONEL S MISTAKE	terrain_00	data/music/energy	2	6	0	0	1	4	0	0	0	0		0	-	-	0	-	-	-	-	63	
+30	Taiga	OPERATION TAIGA	terrain_01_90_snow		3	6	0	0	1	2	0	0	0	0		0	-	-	-	-	-	-	-	70	
+33	TheFactory	THE FACTORY	terrain_05_90		2	2	3	2	0	0	0	0	0	0		0	-	-	-	-	-	-	-	52	
+35	Anvil	ANVIL	terrain_04	data/music/energy	0	0	4	2	4	2	0	0	0	0		0	-	-	-	-	-	-	-	85	
+38	Duel	THE DUEL	terrain_10	data/music/energy	0	0	0	0	0	0	0	0	0	0	GenerateTank5Duel=1,GenerateTank5DuelTotal=0	0	-	-	0	-	-	-	-	50	
+41	The1stWave	THE 1ST WAVE	terrain_02_snow	data/music/energy	0	0	5	0	0	0	0	0	0	0		0	-	-	-	-	-	-	-	80	
+43	The2ndWave	THE 2ND WAVE	terrain_02_snow	data/music/energy	0	0	0	0	5	0	0	0	0	0		0	-	-	-	-	-	-	-	80	
+45	The3dWave	THE 3RD WAVE	terrain_02_snow	data/music/energy	0	0	5	0	5	0	0	0	0	0		0	-	-	-	-	-	-	-	80	
+47	The4thWave	THE 4TH WAVE	terrain_02_snow	data/music/energy	5	0	5	0	5	0	0	0	0	0		0	-	-	-	-	-	-	-	80	
+49	The5thWave	THE 5TH WAVE	terrain_02_snow	data/music/energy	0	0	5	0	5	0	3	0	0	0		0	-	-	-	-	-	-	-	80	
+52	SneakyAttack	SNEAKY ATTACK	terrain_02	data/music/energy	3	0	2	3	0	0	1	0	0	0		0	-	-	0	-	-	-	-	62	
+55	MineField	THE MINEFIELD	terrain_05		7	5	0	0	0	0	0	0	0	0		0	-	-	0	-	-	-	-	72	
+58	Prototype	PROTOTYPE	terrain_11	data/music/energy	4	4	0	0	2	2	0	0	1	0		0	-	-	0	-	-	-	-	51	
+61	Assault	ASSAULT	terrain_09_180	data/music/energy	0	0	0	0	6	0	2	2	0	0		0	-	-	0	-	-	-	-	117	
+63	FactoriesFactor	FACTORIES FACTOR	terrain_04_270	data/music/energy	5	0	0	0	0	0	1	0	0	0		0	-	-	0	-	-	-	-	87	
+66	Interception	INTERCEPTION	terrain_06_90		3	2	2	2	0	0	0	0	0	0		0	-	-	0	-	-	-	-	61	
+68	TimeWarp	TIME WARP	terrain_07_270		0	0	0	0	0	0	15	0	0	0		0	0.0	0.0	0.0	1.0	0.0	0.0	-	42	
+70	ArmoredFist	ARMORED FIST	terrain_08		0	0	3	3	2	2	1	1	0	0		0	-	-	-	-	-	-	-	77	
+72	Bastion	THE BASTION	terrain_05_snow		5	15	0	0	0	0	0	0	1	2		0	-	-	0	-	-	-	-	111	
+75	CatchMeIfYouCan	CATCH ME	terrain_10	data/music/energy	0	0	0	0	0	0	0	0	0	0	GenerateTank2CatchMe=3,GenerateTank2CatchMeTotal=0,GenerateTank5Duel=0,GenerateTank5DuelTotal=0	0	-	-	0	-	-	-	-	19	
+78	Pacmania	PACMANIA GAME	terrain_03		0	0	0	0	0	0	0	0	0	0	GenerateTank2CatchMe=4,GenerateTank2CatchMeTotal=0	0	-	-	0	-	-	-	-	124	
+80	RoadToFactory	THE ROAD TO THE FACTORY	terrain_04		0	0	0	0	0	0	3	3	0	0		0	-	-	0	-	-	-	-	93	
+82	Convoy	ESCORT	terrain_00_270_snow		8	16	0	0	0	0	0	0	0	0		0	-	-	0	-	-	-	-	75	
+84	DeepDefence	DEEP DEFENCE	terrain_01_180	data/music/energy	0	0	2	3	3	4	0	0	1	2		0	-	-	-	-	-	-	-	95	
+86	OperationBlizzard	OPERATION BLIZZARD	terrain_01_snow	data/music/energy	1	3	0	0	1	3	0	0	0	0		0	-	-	0	-	-	-	-	58	
+89	OldRoadIncedent	OLD ROAD INCIDENT	terrain_09		0	0	0	0	0	0	3	0	0	0		0	-	-	0	-	-	-	1	34	
+91	Block	BLOCK EM	terrain_08	data/music/energy	2	2	1	2	2	2	1	2	0	0		0	-	-	0	-	-	-	-	97	
+93	TwoHQ	TWO HQ	terrain_11	data/music/energy	0	0	2	6	0	0	1	1	1	0		0	-	-	-	-	-	-	1	74	
+95	BraveVillagers	BRAVE VILLAGERS	terrain_00_90		1	5	0	0	0	0	1	2	1	2		0	-	-	0.0	-	-	-	1	99	
+97	InsectsNest	THE HORNET S NEST	terrain_05_180_snow	data/music/energy	4	0	4	0	0	0	0	0	0	0		0	-	-	-	-	-	-	-	130	
+100	PipeLine	PIPELINE	terrain_09		4	4	0	0	4	4	0	0	0	0		0	-	-	0	-	-	-	-	113	
+102	Encirclemant	ENCIRCLEMENT	terrain_03		4	0	4	0	4	0	0	0	0	0		0	-	-	-	-	-	-	-	71	
+105	SecretObject	THE SECRET OBJECT	terrain_00	data/music/energy	0	0	3	5	2	0	0	0	0	0		0	-	-	0	-	-	-	-	100	
+107	Parade	THE PARADE	terrain_11	data/music/energy	1	3	1	3	1	3	1	3	1	3		0	-	-	0	-	-	-	1	127	
+109	FireWall	FIRE WALL	terrain_09		0	0	0	0	0	0	0	0	7	0		0	0.0	0.3	0.3	0.0	0.5	0.2	-	57	
+112	UrbanAttack	URBAN ATTACK	terrain_03_270		4	8	0	0	2	6	0	0	0	0		0	-	-	-	-	-	-	-	90	
+114	Siege	UNDER SIEGE	terrain_10		3	3	1	0	1	0	2	1	1	0		0	-	-	0	-	-	-	-	91	
+116	StabToTheBack	STAB IN THE BACK	terrain_08_180		0	0	2	4	0	0	0	0	1	3		0	-	-	0	-	-	-	1	69	
+118	WaysideCafe	THE WAYSIDE CAFE	terrain_06	data/music/energy	3	4	0	0	2	4	1	1	0	0		0	-	-	0	-	-	-	-	109	
+120	DangerousRoad	ORDEAL BY FIRE	terrain_06		2	6	1	2	1	2	1	0	0	0		0	-	-	0	-	-	-	-	120	
+123	CloseNeighbourhood	CLOSE NEIGHBOURHOOD	terrain_01		2	0	0	0	2	0	1	0	0	0		0	-	-	-	-	-	-	-	91	
+125	DragonsLair	THE DRAGON S LAIR	terrain_07_270		0	0	0	0	0	0	0	0	6	0		0	-	-	0	-	-	-	-	126	
+127	AirStrikeEffect	AIR STRIKE EFFICIENCY	terrain_11		4	2	4	2	3	0	1	1	0	0		0	0.0	0.0	0.0	0.0	1.0	0.0	-	65	
+129	AlpineRoad	ALPINE ROAD	terrain_02_90_snow	data/music/energy	4	4	0	0	0	0	1	2	0	0		0	-	-	-	-	-	-	1	120	
+131	TheLastBattle	THE LAST BATTLE	terrain_11_180	data/music/energy	5	5	1	3	1	3	2	4	1	5	GenerateTank2CatchMe=1,GenerateTank2CatchMeTotal=3,GenerateTank5Duel=1,GenerateTank5DuelTotal=0	0	-	-	0.0	-	-	-	10	112	

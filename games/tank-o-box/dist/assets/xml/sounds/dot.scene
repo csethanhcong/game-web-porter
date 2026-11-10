@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Scene>
+    <SoundSource Name="snd" Sound="data/sounds/dot" ChannelType="3D"
+	MinDistance="3" Loop="true"/>
+</Scene>

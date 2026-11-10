@@ -1,0 +1,32 @@
+<GameObjectState>
+    <EventHandlers>
+        <EventHandler>
+            <EventNames>
+                <EventName Name="CollisionPlayerBulletDefault"/>
+                <EventName Name="CollisionEnemyBulletDefault"/>
+            </EventNames>
+            <Strategies>
+                <StrategyChangeCounter PropertyName="HitPoints" StepPropertyName="Damage"/>                     
+            </Strategies>
+         </EventHandler>
+        <EventHandler>
+            <EventNames>
+                <EventName Name="CollisionPlayerBulletDoubleDefault"/>
+                <EventName Name="CollisionEnemyBulletDoubleDefault"/>
+            </EventNames>
+            <Strategies>
+                <StrategyChangeCounter PropertyName="HitPoints" StepPropertyName="DamageDouble"/>                       
+            </Strategies>
+         </EventHandler>
+        <EventHandler>
+            <EventNames>
+                <EventName Name="CollisionPlayerBulletRocketDefault"/>
+                <EventName Name="CollisionEnemyBulletRocketDefault"/>
+            </EventNames>
+            <Strategies>
+                <StrategyChangeCounter PropertyName="HitPoints" StepPropertyName="DamageRocket"/>                       
+            </Strategies>
+         </EventHandler>
+
+    </EventHandlers>
+</GameObjectState>

@@ -1,0 +1,202 @@
+<GameObject Type="Player" TemplateName="data/objects/tank_player2_upgrade.object">
+
+    <Properties>
+        <Property Name="BonusArmor" Value="0"/>
+        <Property Name="BonusFast" Value="0"/>
+    </Properties>   
+
+    <GameObjectView ModelName="data/objects/Tank_01_3x3_R.scene"/>
+    
+    <Strategies>
+        <StrategyGlobalCounter PropertyName="TankCountPlayer"/>
+    </Strategies>
+
+    <GameObjectStates>
+        <GameObjectState Name="Default">
+            <Strategies>
+                <StrategyMask Mask = "000 000 000"/>
+                <StrategyChangeStateByGlobalCounter StateName="HiddenUpgrade0" PropertyName="BonusUpgrade2" MinValue="0" MaxValue="1"/>
+                <StrategyChangeStateByGlobalCounter StateName="HiddenUpgrade1" PropertyName="BonusUpgrade2" MinValue="1" MaxValue="2"/>
+                <StrategyChangeStateByGlobalCounter StateName="HiddenUpgrade2" PropertyName="BonusUpgrade2" MinValue="2" MaxValue="99999"/>
+            </Strategies>
+        </GameObjectState>
+
+        <GameObjectState Name="Landing">
+
+            <GameObjectStateView AnimationName="data/objects/tank_landing.anim" Loop="false"/>
+            <EventHandlers>
+
+                <EventHandler>
+                    <EventNames>
+                        <EventName Name="AnimFinished"/>
+                    </EventNames>
+                    <Strategies>
+                        <StrategyChangeState StateName="Land"/>
+                    </Strategies>
+                 </EventHandler>
+
+            </EventHandlers>
+            <Strategies>
+                <StrategyMask Mask = "000 000 000"/>
+            </Strategies>
+        </GameObjectState>
+
+        <GameObjectState Name="Land">
+            <EventHandlers>  
+
+            </EventHandlers>
+            <Strategies>
+                <StrategyMask Mask = "111 111 111"/>
+                <StrategySetProperty PropertyName="BonusArmor" ProcValue="5"/>                
+                <StrategyChangeStateByGlobalCounter StateName="NoUpgrade" PropertyName="BonusUpgrade2" MinValue="0" MaxValue="1"/>
+                <StrategyChangeStateByGlobalCounter StateName="Upgrade1" PropertyName="BonusUpgrade2" MinValue="1" MaxValue="2"/>
+                <StrategyChangeStateByGlobalCounter StateName="Upgrade2" PropertyName="BonusUpgrade2" MinValue="2" MaxValue="99999"/>
+            </Strategies>
+        </GameObjectState>
+
+        <GameObjectState Name="NoUpgrade" TemplateName="data/objects/tank_player2_collision_trial.state">
+            <Strategies>
+                <StrategyFireByKey InputDevicePropertyName="Player2InputDevice" BulletCounterPropertyName="BulletPlayer2Count" MaxBulletCount="50" Period="0.9" FireMask = "010 000 000" TemplateName="data/objects/bullet_player2.object"/>
+                <StrategyBonus TimePropertyName="BonusFast" ValuePropertyName="Speed" NoBonusValue="6.5" BonusValue="10" AnimationPath="data/objects/bonusfast_"/>
+                <StrategyBonus TimePropertyName="BonusArmor" ValuePropertyName="Damage" NoBonusValue="-1" BonusValue="0" AnimationPath="data/objects/bonusarmor_"/>
+                <StrategyBonus TimePropertyName="BonusArmor" ValuePropertyName="DamageDouble" NoBonusValue="-2" BonusValue="0"/>
+                <StrategyBonus TimePropertyName="BonusArmor" ValuePropertyName="DamageRocket" NoBonusValue="-3" BonusValue="0"/>
+             </Strategies>
+        </GameObjectState>
+    
+        <GameObjectState Name="preUpgrade1">
+            <EventHandlers>
+                <EventHandler>
+                    <EventNames>
+                        <EventName Name="AnimFinished"/>
+                    </EventNames>
+                    <Strategies> 
+                        <StrategySetGlobalProperty PropertyName="HitPoints2" ProcValue="2"/>
+                        <StrategySetGlobalProperty PropertyName="HitPointsMax2" ProcValue="2"/>
+                        <StrategyChangeState StateName="Upgrade1"/>
+                    </Strategies>
+                 </EventHandler>
+            </EventHandlers>
+
+            <GameObjectStateView AnimationName="data/objects/PreUpgrade1.anim" Loop="false"/>
+            
+            <Strategies>
+                <StrategyMask Mask="111 111 111"/>
+            </Strategies>
+        </GameObjectState>
+
+        <GameObjectState Name="Upgrade1" TemplateName="data/objects/tank_player2_collision_trial.state">
+            <Strategies>
+                <StrategyFireByKey InputDevicePropertyName="Player2InputDevice" BulletCounterPropertyName="BulletPlayer2Count" MaxBulletCount="2" Period="0.5" FireMask = "010 000 000" TemplateName="data/objects/bullet_player2_red.object"/>
+                <StrategyBonus TimePropertyName="BonusFast" ValuePropertyName="Speed" NoBonusValue="6.5" BonusValue="10" AnimationPath="data/objects/bonusfast_"/>
+                <StrategyBonus TimePropertyName="BonusArmor" ValuePropertyName="Damage" NoBonusValue="-1" BonusValue="0" AnimationPath="data/objects/bonusarmor_"/>
+                <StrategyBonus TimePropertyName="BonusArmor" ValuePropertyName="DamageDouble" NoBonusValue="-2" BonusValue="0"/>
+                <StrategyBonus TimePropertyName="BonusArmor" ValuePropertyName="DamageRocket" NoBonusValue="-3" BonusValue="0"/>
+            </Strategies>
+        </GameObjectState>
+
+        <GameObjectState Name="preUpgrade2">
+            <EventHandlers>
+                <EventHandler>
+                    <EventNames>
+                        <EventName Name="AnimFinished"/>
+                    </EventNames>
+                    <Strategies>                    
+                        <StrategySetGlobalProperty PropertyName="HitPoints2" ProcValue="3"/>
+                        <StrategySetGlobalProperty PropertyName="HitPointsMax2" ProcValue="3"/>
+                        <StrategyChangeState StateName="Upgrade2"/>
+                    </Strategies>
+                 </EventHandler>
+            </EventHandlers>
+            <GameObjectStateView AnimationName="data/objects/PreUpgrade2.anim" Loop="false"/>
+            
+            <Strategies>
+                <StrategyMask Mask="111 111 111"/>
+            </Strategies>
+        </GameObjectState>      
+
+
+        <GameObjectState Name="Upgrade2" TemplateName="data/objects/tank_player2_collision_trial.state">
+            <Strategies>
+                <StrategyFireByKey InputDevicePropertyName="Player2InputDevice" BulletCounterPropertyName="BulletPlayer2Count" MaxBulletCount="2" Period="0.5" FireMask = "010 000 000" TemplateName="data/objects/bullet_player2_double.object"/>
+                <StrategyBonus TimePropertyName="BonusFast" ValuePropertyName="Speed" NoBonusValue="6.5" BonusValue="10" AnimationPath="data/objects/bonusfast_"/>
+                <StrategyBonus TimePropertyName="BonusArmor" ValuePropertyName="Damage" NoBonusValue="-1" BonusValue="0" AnimationPath="data/objects/bonusarmor_"/>
+                <StrategyBonus TimePropertyName="BonusArmor" ValuePropertyName="DamageDouble" NoBonusValue="-2" BonusValue="0"/>
+                <StrategyBonus TimePropertyName="BonusArmor" ValuePropertyName="DamageRocket" NoBonusValue="-3" BonusValue="0"/>
+            </Strategies>
+        </GameObjectState>
+
+        <GameObjectState Name="preUpgrade3">
+            <EventHandlers>
+                <EventHandler>
+                    <EventNames>
+                        <EventName Name="AnimFinished"/>
+                    </EventNames>
+                    <Strategies>                    
+                        <StrategySetGlobalProperty PropertyName="HitPoints2" ProcValue="3"/>
+                        <StrategySetGlobalProperty PropertyName="HitPointsMax2" ProcValue="3"/>
+                        <StrategyChangeState StateName="Upgrade3"/>
+                    </Strategies>
+                 </EventHandler>
+           </EventHandlers>
+
+            <GameObjectStateView AnimationName="data/objects/PreUpgrade3.anim" Loop="false"/>
+            
+            <Strategies>
+                <StrategyMask Mask="111 111 111"/>
+            </Strategies>
+        </GameObjectState>      
+
+        <GameObjectState Name="Upgrade3" TemplateName="data/objects/tank_player2_collision_trial.state">
+            <Strategies>
+                <StrategyFireByKey InputDevicePropertyName="Player2InputDevice" BulletCounterPropertyName="BulletPlayer2Count" MaxBulletCount="1" Period="0.9" FireMask = "010 000 000" TemplateName="data/objects/bullet_player2_double_blue.object"/>
+                <StrategyFireByKey InputDevicePropertyName="Player2InputDevice" BulletCounterPropertyName="BulletRocketPlayer2Count" MaxBulletCount="2" Period="2" FireMask = "101 000 000" TemplateName="data/objects/bullet_player2_rocket.object"/>
+                <StrategyBonus TimePropertyName="BonusFast" ValuePropertyName="Speed" NoBonusValue="6" BonusValue="9" AnimationPath="data/objects/bonusfast_"/>
+                <StrategyBonus TimePropertyName="BonusArmor" ValuePropertyName="Damage" NoBonusValue="-1" BonusValue="0" AnimationPath="data/objects/bonusarmor_"/>
+                <StrategyBonus TimePropertyName="BonusArmor" ValuePropertyName="DamageDouble" NoBonusValue="-2" BonusValue="0"/>
+                <StrategyBonus TimePropertyName="BonusArmor" ValuePropertyName="DamageRocket" NoBonusValue="-3" BonusValue="0"/>
+            </Strategies>
+        </GameObjectState>
+    
+        <GameObjectState Name="Explode">
+            <GameObjectStateView 
+                AnimationName="data/objects/explode_ring.anim" 
+                AnimationName="data/objects/tank_explode.anim"             
+                AnimationName="data/objects/explode_flash_red.anim" 
+                AnimationName="data/objects/explode_flash_yellow.anim" 
+                AnimationName="data/objects/explode_sphere.anim" 
+                AnimationName="data/objects/explode_particles_6.anim" 
+                AnimationName="data/objects/explode_particles_3.anim" 
+                AnimationName="data/objects/tank_01_ashes.anim" 
+                AnimationName="data/objects/explode_smoke_big.anim" 
+                Loop="false"/>
+            <EventHandlers>
+                <EventHandler>
+                    <EventNames>
+                        <EventName Name="AnimFinished"/>
+                    </EventNames>
+                    <Strategies>                    
+                        <StrategyTransmitGlobalCounter SourcePropertyName="Lives" DestinationPropertyName="GenerateTankPlayer2" Amount="1"/>                        
+                        <StrategySetGlobalProperty PropertyName="BonusUpgrade2" ProcValue="0"/>                        
+                        <StrategyChangeState StateName="Dead"/>
+                    </Strategies>
+                 </EventHandler>
+            </EventHandlers>
+            <Strategies>
+                <StrategyMask Mask="111 111 111"/>
+                <StrategyGlobalCounter PropertyName="TankCountPlayer" Step="-1"/>
+                <StrategyGlobalEvent EventName="TankExplodePlayer"/>
+            </Strategies>
+
+        </GameObjectState>
+
+
+     <GameObjectState Name="Dead">
+        <Strategies>
+        <StrategyGlobalCounter PropertyName="TankCountPlayer"/>
+        </Strategies>
+     </GameObjectState>
+
+    </GameObjectStates>
+</GameObject>
+

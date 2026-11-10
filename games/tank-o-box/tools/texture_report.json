@@ -1,0 +1,2105 @@
+{
+ "textures": [
+  {
+   "key": "data/fonts/bc",
+   "src": "fonts/bc.gif",
+   "alpha": "fonts/bc_a.gif",
+   "out": "data/fonts/bc.png",
+   "w": 512,
+   "h": 512,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/fonts/hiscore_small",
+   "src": "fonts/hiscore_small.gif",
+   "alpha": "fonts/hiscore_small_a.gif",
+   "out": "data/fonts/hiscore_small.png",
+   "w": 512,
+   "h": 256,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/fonts/white_border",
+   "src": "fonts/white_border.gif",
+   "alpha": "fonts/white_border_a.gif",
+   "out": "data/fonts/white_border.png",
+   "w": 256,
+   "h": 256,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/interface/textures/box_top_2",
+   "src": "interface/textures/box_top_2.jpg",
+   "alpha": null,
+   "out": "data/interface/textures/box_top_2.jpg",
+   "w": 512,
+   "h": 512,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/interface/textures/cursor_shot",
+   "src": "interface/textures/cursor_shot.gif",
+   "alpha": "interface/textures/cursor_shot_a.gif",
+   "out": "data/interface/textures/cursor_shot.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/interface/textures/day_map_0",
+   "src": "interface/textures/day_map_0.jpg",
+   "alpha": null,
+   "out": "data/interface/textures/day_map_0.jpg",
+   "w": 512,
+   "h": 512,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/interface/textures/day_map_1",
+   "src": "interface/textures/day_map_1.jpg",
+   "alpha": null,
+   "out": "data/interface/textures/day_map_1.jpg",
+   "w": 512,
+   "h": 512,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/interface/textures/day_map_2",
+   "src": "interface/textures/day_map_2.jpg",
+   "alpha": null,
+   "out": "data/interface/textures/day_map_2.jpg",
+   "w": 512,
+   "h": 512,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/interface/textures/day_map_3",
+   "src": "interface/textures/day_map_3.jpg",
+   "alpha": null,
+   "out": "data/interface/textures/day_map_3.jpg",
+   "w": 512,
+   "h": 512,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/interface/textures/day_map_4",
+   "src": "interface/textures/day_map_4.jpg",
+   "alpha": null,
+   "out": "data/interface/textures/day_map_4.jpg",
+   "w": 512,
+   "h": 512,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/interface/textures/keys_player",
+   "src": "interface/textures/keys_player.jpg",
+   "alpha": null,
+   "out": "data/interface/textures/keys_player.jpg",
+   "w": 256,
+   "h": 256,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/interface/textures/map_0",
+   "src": "interface/textures/map_0.jpg",
+   "alpha": null,
+   "out": "data/interface/textures/map_0.jpg",
+   "w": 512,
+   "h": 512,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/interface/textures/map_1",
+   "src": "interface/textures/map_1.jpg",
+   "alpha": null,
+   "out": "data/interface/textures/map_1.jpg",
+   "w": 512,
+   "h": 512,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/interface/textures/map_2",
+   "src": "interface/textures/map_2.jpg",
+   "alpha": null,
+   "out": "data/interface/textures/map_2.jpg",
+   "w": 512,
+   "h": 512,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/interface/textures/map_3",
+   "src": "interface/textures/map_3.jpg",
+   "alpha": null,
+   "out": "data/interface/textures/map_3.jpg",
+   "w": 512,
+   "h": 512,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/interface/textures/map_4",
+   "src": "interface/textures/map_4.jpg",
+   "alpha": null,
+   "out": "data/interface/textures/map_4.jpg",
+   "w": 512,
+   "h": 512,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/levels/terrains/terrain_00",
+   "src": "levels/Terrains/terrain_00.jpg",
+   "alpha": null,
+   "out": "data/levels/Terrains/terrain_00.jpg",
+   "w": 1024,
+   "h": 1024,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/levels/terrains/terrain_01",
+   "src": "levels/Terrains/terrain_01.jpg",
+   "alpha": null,
+   "out": "data/levels/Terrains/terrain_01.jpg",
+   "w": 1024,
+   "h": 1024,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/levels/terrains/terrain_02",
+   "src": "levels/Terrains/terrain_02.jpg",
+   "alpha": null,
+   "out": "data/levels/Terrains/terrain_02.jpg",
+   "w": 1024,
+   "h": 1024,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/levels/terrains/terrain_03",
+   "src": "levels/Terrains/terrain_03.jpg",
+   "alpha": null,
+   "out": "data/levels/Terrains/terrain_03.jpg",
+   "w": 1024,
+   "h": 1024,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/levels/terrains/terrain_04",
+   "src": "levels/Terrains/terrain_04.jpg",
+   "alpha": null,
+   "out": "data/levels/Terrains/terrain_04.jpg",
+   "w": 1024,
+   "h": 1024,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/levels/terrains/terrain_05",
+   "src": "levels/Terrains/terrain_05.jpg",
+   "alpha": null,
+   "out": "data/levels/Terrains/terrain_05.jpg",
+   "w": 1024,
+   "h": 1024,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/levels/terrains/terrain_06",
+   "src": "levels/Terrains/terrain_06.jpg",
+   "alpha": null,
+   "out": "data/levels/Terrains/terrain_06.jpg",
+   "w": 1024,
+   "h": 1024,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/levels/terrains/terrain_07",
+   "src": "levels/Terrains/terrain_07.jpg",
+   "alpha": null,
+   "out": "data/levels/Terrains/terrain_07.jpg",
+   "w": 1024,
+   "h": 1024,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/levels/terrains/terrain_08",
+   "src": "levels/Terrains/terrain_08.jpg",
+   "alpha": null,
+   "out": "data/levels/Terrains/terrain_08.jpg",
+   "w": 1024,
+   "h": 1024,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/levels/terrains/terrain_09",
+   "src": "levels/Terrains/terrain_09.jpg",
+   "alpha": null,
+   "out": "data/levels/Terrains/terrain_09.jpg",
+   "w": 1024,
+   "h": 1024,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/levels/terrains/terrain_10",
+   "src": "levels/Terrains/terrain_10.jpg",
+   "alpha": null,
+   "out": "data/levels/Terrains/terrain_10.jpg",
+   "w": 1024,
+   "h": 1024,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/levels/terrains/terrain_11",
+   "src": "levels/Terrains/terrain_11.jpg",
+   "alpha": null,
+   "out": "data/levels/Terrains/terrain_11.jpg",
+   "w": 1024,
+   "h": 1024,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/levels/textures/enemy_0",
+   "src": "levels/textures/enemy_0.gif",
+   "alpha": "levels/textures/enemy_0_a.gif",
+   "out": "data/levels/textures/enemy_0.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/levels/textures/enemy_1",
+   "src": "levels/textures/enemy_1.gif",
+   "alpha": "levels/textures/enemy_1_a.gif",
+   "out": "data/levels/textures/enemy_1.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/levels/textures/enemy_2",
+   "src": "levels/textures/enemy_2.gif",
+   "alpha": "levels/textures/enemy_2_a.gif",
+   "out": "data/levels/textures/enemy_2.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/levels/textures/enemy_3",
+   "src": "levels/textures/enemy_3.gif",
+   "alpha": "levels/textures/enemy_3_a.gif",
+   "out": "data/levels/textures/enemy_3.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/levels/textures/enemy_4",
+   "src": "levels/textures/enemy_4.gif",
+   "alpha": "levels/textures/enemy_4_a.gif",
+   "out": "data/levels/textures/enemy_4.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/levels/textures/indikator_bg",
+   "src": "levels/textures/indikator_bg.gif",
+   "alpha": "levels/textures/indikator_bg_a.gif",
+   "out": "data/levels/textures/indikator_bg.png",
+   "w": 256,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/levels/textures/indikator_green",
+   "src": "levels/textures/indikator_green.gif",
+   "alpha": "levels/textures/indikator_green_a.gif",
+   "out": "data/levels/textures/indikator_green.png",
+   "w": 128,
+   "h": 16,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/levels/textures/indikator_red",
+   "src": "levels/textures/indikator_red.gif",
+   "alpha": "levels/textures/indikator_red_a.gif",
+   "out": "data/levels/textures/indikator_red.png",
+   "w": 128,
+   "h": 16,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/levels/textures/upgrade_green",
+   "src": "levels/textures/upgrade_green.gif",
+   "alpha": "levels/textures/upgrade_green_a.gif",
+   "out": "data/levels/textures/upgrade_green.png",
+   "w": 32,
+   "h": 16,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/levels/textures/upgrade_red",
+   "src": "levels/textures/upgrade_red.gif",
+   "alpha": "levels/textures/upgrade_red_a.gif",
+   "out": "data/levels/textures/upgrade_red.png",
+   "w": 32,
+   "h": 16,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/ammo_shadow_0",
+   "src": "objects/textures/ammo_shadow_0.gif",
+   "alpha": "objects/textures/ammo_shadow_0_a.gif",
+   "out": "data/objects/textures/ammo_shadow_0.png",
+   "w": 16,
+   "h": 16,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/ammo_shadow_180",
+   "src": "objects/textures/ammo_shadow_180.gif",
+   "alpha": "objects/textures/ammo_shadow_180_a.gif",
+   "out": "data/objects/textures/ammo_shadow_180.png",
+   "w": 16,
+   "h": 16,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/ammo_shadow_270",
+   "src": "objects/textures/ammo_shadow_270.gif",
+   "alpha": "objects/textures/ammo_shadow_270_a.gif",
+   "out": "data/objects/textures/ammo_shadow_270.png",
+   "w": 16,
+   "h": 16,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/ammo_shadow_90",
+   "src": "objects/textures/ammo_shadow_90.gif",
+   "alpha": "objects/textures/ammo_shadow_90_a.gif",
+   "out": "data/objects/textures/ammo_shadow_90.png",
+   "w": 16,
+   "h": 16,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/barak",
+   "src": "objects/textures/barak.jpg",
+   "alpha": null,
+   "out": "data/objects/textures/barak.jpg",
+   "w": 128,
+   "h": 128,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/objects/textures/barak_shadow_0",
+   "src": "objects/textures/barak_shadow_0.gif",
+   "alpha": "objects/textures/barak_shadow_0_a.gif",
+   "out": "data/objects/textures/barak_shadow_0.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/barak_shadow_180",
+   "src": "objects/textures/barak_shadow_180.gif",
+   "alpha": "objects/textures/barak_shadow_180_a.gif",
+   "out": "data/objects/textures/barak_shadow_180.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/barak_shadow_270",
+   "src": "objects/textures/barak_shadow_270.gif",
+   "alpha": "objects/textures/barak_shadow_270_a.gif",
+   "out": "data/objects/textures/barak_shadow_270.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/barak_shadow_90",
+   "src": "objects/textures/barak_shadow_90.gif",
+   "alpha": "objects/textures/barak_shadow_90_a.gif",
+   "out": "data/objects/textures/barak_shadow_90.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/bmp1/exp_00",
+   "src": "objects/textures/bmp1/exp_00.gif",
+   "alpha": "objects/textures/bmp1/exp_00_a.gif",
+   "out": "data/objects/textures/bmp1/exp_00.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/bmp1/exp_01",
+   "src": "objects/textures/bmp1/exp_01.gif",
+   "alpha": "objects/textures/bmp1/exp_01_a.gif",
+   "out": "data/objects/textures/bmp1/exp_01.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/bmp1/exp_02",
+   "src": "objects/textures/bmp1/exp_02.gif",
+   "alpha": "objects/textures/bmp1/exp_02_a.gif",
+   "out": "data/objects/textures/bmp1/exp_02.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/bmp1/exp_03",
+   "src": "objects/textures/bmp1/exp_03.gif",
+   "alpha": "objects/textures/bmp1/exp_03_a.gif",
+   "out": "data/objects/textures/bmp1/exp_03.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/bmp1/exp_04",
+   "src": "objects/textures/bmp1/exp_04.gif",
+   "alpha": "objects/textures/bmp1/exp_04_a.gif",
+   "out": "data/objects/textures/bmp1/exp_04.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/bmp1/exp_05",
+   "src": "objects/textures/bmp1/exp_05.gif",
+   "alpha": "objects/textures/bmp1/exp_05_a.gif",
+   "out": "data/objects/textures/bmp1/exp_05.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/bmp1/exp_06",
+   "src": "objects/textures/bmp1/exp_06.gif",
+   "alpha": "objects/textures/bmp1/exp_06_a.gif",
+   "out": "data/objects/textures/bmp1/exp_06.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/bmp1/exp_07",
+   "src": "objects/textures/bmp1/exp_07.gif",
+   "alpha": "objects/textures/bmp1/exp_07_a.gif",
+   "out": "data/objects/textures/bmp1/exp_07.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/bmp1/exp_08",
+   "src": "objects/textures/bmp1/exp_08.gif",
+   "alpha": "objects/textures/bmp1/exp_08_a.gif",
+   "out": "data/objects/textures/bmp1/exp_08.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/bmp1/exp_09",
+   "src": "objects/textures/bmp1/exp_09.gif",
+   "alpha": "objects/textures/bmp1/exp_09_a.gif",
+   "out": "data/objects/textures/bmp1/exp_09.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/bmp1/exp_10",
+   "src": "objects/textures/bmp1/exp_10.gif",
+   "alpha": "objects/textures/bmp1/exp_10_a.gif",
+   "out": "data/objects/textures/bmp1/exp_10.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/bmp1/exp_11",
+   "src": "objects/textures/bmp1/exp_11.gif",
+   "alpha": "objects/textures/bmp1/exp_11_a.gif",
+   "out": "data/objects/textures/bmp1/exp_11.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/bmp1/exp_12",
+   "src": "objects/textures/bmp1/exp_12.gif",
+   "alpha": "objects/textures/bmp1/exp_12_a.gif",
+   "out": "data/objects/textures/bmp1/exp_12.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/bmp1/exp_13",
+   "src": "objects/textures/bmp1/exp_13.gif",
+   "alpha": "objects/textures/bmp1/exp_13_a.gif",
+   "out": "data/objects/textures/bmp1/exp_13.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/bmp1/exp_14",
+   "src": "objects/textures/bmp1/exp_14.gif",
+   "alpha": "objects/textures/bmp1/exp_14_a.gif",
+   "out": "data/objects/textures/bmp1/exp_14.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/bmp1/exp_15",
+   "src": "objects/textures/bmp1/exp_15.gif",
+   "alpha": "objects/textures/bmp1/exp_15_a.gif",
+   "out": "data/objects/textures/bmp1/exp_15.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/bmp2/exp_00",
+   "src": "objects/textures/bmp2/exp_00.gif",
+   "alpha": "objects/textures/bmp2/exp_00_a.gif",
+   "out": "data/objects/textures/bmp2/exp_00.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/bmp2/exp_01",
+   "src": "objects/textures/bmp2/exp_01.gif",
+   "alpha": "objects/textures/bmp2/exp_01_a.gif",
+   "out": "data/objects/textures/bmp2/exp_01.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/bmp2/exp_02",
+   "src": "objects/textures/bmp2/exp_02.gif",
+   "alpha": "objects/textures/bmp2/exp_02_a.gif",
+   "out": "data/objects/textures/bmp2/exp_02.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/bmp2/exp_03",
+   "src": "objects/textures/bmp2/exp_03.gif",
+   "alpha": "objects/textures/bmp2/exp_03_a.gif",
+   "out": "data/objects/textures/bmp2/exp_03.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/bmp2/exp_04",
+   "src": "objects/textures/bmp2/exp_04.gif",
+   "alpha": "objects/textures/bmp2/exp_04_a.gif",
+   "out": "data/objects/textures/bmp2/exp_04.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/bmp2/exp_05",
+   "src": "objects/textures/bmp2/exp_05.gif",
+   "alpha": "objects/textures/bmp2/exp_05_a.gif",
+   "out": "data/objects/textures/bmp2/exp_05.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/bmp2/exp_06",
+   "src": "objects/textures/bmp2/exp_06.gif",
+   "alpha": "objects/textures/bmp2/exp_06_a.gif",
+   "out": "data/objects/textures/bmp2/exp_06.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/bmp2/exp_07",
+   "src": "objects/textures/bmp2/exp_07.gif",
+   "alpha": "objects/textures/bmp2/exp_07_a.gif",
+   "out": "data/objects/textures/bmp2/exp_07.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/bmp2/exp_08",
+   "src": "objects/textures/bmp2/exp_08.gif",
+   "alpha": "objects/textures/bmp2/exp_08_a.gif",
+   "out": "data/objects/textures/bmp2/exp_08.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/bmp2/exp_09",
+   "src": "objects/textures/bmp2/exp_09.gif",
+   "alpha": "objects/textures/bmp2/exp_09_a.gif",
+   "out": "data/objects/textures/bmp2/exp_09.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/bmp2/exp_10",
+   "src": "objects/textures/bmp2/exp_10.gif",
+   "alpha": "objects/textures/bmp2/exp_10_a.gif",
+   "out": "data/objects/textures/bmp2/exp_10.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/bmp2/exp_11",
+   "src": "objects/textures/bmp2/exp_11.gif",
+   "alpha": "objects/textures/bmp2/exp_11_a.gif",
+   "out": "data/objects/textures/bmp2/exp_11.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/bmp2/exp_12",
+   "src": "objects/textures/bmp2/exp_12.gif",
+   "alpha": "objects/textures/bmp2/exp_12_a.gif",
+   "out": "data/objects/textures/bmp2/exp_12.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/bmp2/exp_13",
+   "src": "objects/textures/bmp2/exp_13.gif",
+   "alpha": "objects/textures/bmp2/exp_13_a.gif",
+   "out": "data/objects/textures/bmp2/exp_13.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/bmp2/exp_14",
+   "src": "objects/textures/bmp2/exp_14.gif",
+   "alpha": "objects/textures/bmp2/exp_14_a.gif",
+   "out": "data/objects/textures/bmp2/exp_14.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/bmp2/exp_15",
+   "src": "objects/textures/bmp2/exp_15.gif",
+   "alpha": "objects/textures/bmp2/exp_15_a.gif",
+   "out": "data/objects/textures/bmp2/exp_15.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/bochka_1x1_shadow_0",
+   "src": "objects/textures/bochka_1x1_shadow_0.gif",
+   "alpha": "objects/textures/bochka_1x1_shadow_0_a.gif",
+   "out": "data/objects/textures/bochka_1x1_shadow_0.png",
+   "w": 32,
+   "h": 32,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/bochka_1x1_shadow_180",
+   "src": "objects/textures/bochka_1x1_shadow_180.gif",
+   "alpha": "objects/textures/bochka_1x1_shadow_180_a.gif",
+   "out": "data/objects/textures/bochka_1x1_shadow_180.png",
+   "w": 32,
+   "h": 32,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/bochka_1x1_shadow_270",
+   "src": "objects/textures/bochka_1x1_shadow_270.gif",
+   "alpha": "objects/textures/bochka_1x1_shadow_270_a.gif",
+   "out": "data/objects/textures/bochka_1x1_shadow_270.png",
+   "w": 32,
+   "h": 32,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/bochka_1x1_shadow_90",
+   "src": "objects/textures/bochka_1x1_shadow_90.gif",
+   "alpha": "objects/textures/bochka_1x1_shadow_90_a.gif",
+   "out": "data/objects/textures/bochka_1x1_shadow_90.png",
+   "w": 32,
+   "h": 32,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/bochka_3x2_shadow_0",
+   "src": "objects/textures/bochka_3x2_shadow_0.gif",
+   "alpha": "objects/textures/bochka_3x2_shadow_0_a.gif",
+   "out": "data/objects/textures/bochka_3x2_shadow_0.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/bochka_3x2_shadow_180",
+   "src": "objects/textures/bochka_3x2_shadow_180.gif",
+   "alpha": "objects/textures/bochka_3x2_shadow_180_a.gif",
+   "out": "data/objects/textures/bochka_3x2_shadow_180.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/bochka_3x2_shadow_270",
+   "src": "objects/textures/bochka_3x2_shadow_270.gif",
+   "alpha": "objects/textures/bochka_3x2_shadow_270_a.gif",
+   "out": "data/objects/textures/bochka_3x2_shadow_270.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/bochka_3x2_shadow_90",
+   "src": "objects/textures/bochka_3x2_shadow_90.gif",
+   "alpha": "objects/textures/bochka_3x2_shadow_90_a.gif",
+   "out": "data/objects/textures/bochka_3x2_shadow_90.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/bocka1_l",
+   "src": "objects/textures/bocka1_l.jpg",
+   "alpha": null,
+   "out": "data/objects/textures/bocka1_l.jpg",
+   "w": 128,
+   "h": 128,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/objects/textures/bonus_blowup",
+   "src": "objects/textures/bonus_blowup.gif",
+   "alpha": "objects/textures/bonus_blowup_a.gif",
+   "out": "data/objects/textures/bonus_blowup.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/bonus_glow",
+   "src": "objects/textures/bonus_glow.gif",
+   "alpha": "objects/textures/bonus_glow_a.gif",
+   "out": "data/objects/textures/bonus_glow.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/bonus_shield_shtab",
+   "src": "objects/textures/bonus_shield_shtab.gif",
+   "alpha": "objects/textures/bonus_shield_shtab_a.gif",
+   "out": "data/objects/textures/bonus_shield_shtab.png",
+   "w": 32,
+   "h": 32,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/bonus_speedup",
+   "src": "objects/textures/bonus_speedup.gif",
+   "alpha": "objects/textures/bonus_speedup_a.gif",
+   "out": "data/objects/textures/bonus_speedup.png",
+   "w": 32,
+   "h": 32,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/bonus_tankshield",
+   "src": "objects/textures/bonus_tankshield.gif",
+   "alpha": "objects/textures/bonus_tankshield_a.gif",
+   "out": "data/objects/textures/bonus_tankshield.png",
+   "w": 32,
+   "h": 32,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/bonus_timestop",
+   "src": "objects/textures/bonus_timestop.gif",
+   "alpha": "objects/textures/bonus_timestop_a.gif",
+   "out": "data/objects/textures/bonus_timestop.png",
+   "w": 32,
+   "h": 32,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/bonus_upgrade",
+   "src": "objects/textures/bonus_upgrade.gif",
+   "alpha": "objects/textures/bonus_upgrade_a.gif",
+   "out": "data/objects/textures/bonus_upgrade.png",
+   "w": 32,
+   "h": 32,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/bullet",
+   "src": "objects/textures/bullet.gif",
+   "alpha": "objects/textures/bullet_a.gif",
+   "out": "data/objects/textures/bullet.png",
+   "w": 64,
+   "h": 32,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/bullet_blue",
+   "src": "objects/textures/bullet_blue.gif",
+   "alpha": "objects/textures/bullet_blue_a.gif",
+   "out": "data/objects/textures/bullet_blue.png",
+   "w": 64,
+   "h": 32,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/bullet_green",
+   "src": "objects/textures/bullet_green.gif",
+   "alpha": "objects/textures/bullet_green_a.gif",
+   "out": "data/objects/textures/bullet_green.png",
+   "w": 64,
+   "h": 32,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/bullet_red",
+   "src": "objects/textures/bullet_red.gif",
+   "alpha": "objects/textures/bullet_red_a.gif",
+   "out": "data/objects/textures/bullet_red.png",
+   "w": 64,
+   "h": 32,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/dot_l",
+   "src": "objects/textures/dot_l.jpg",
+   "alpha": null,
+   "out": "data/objects/textures/dot_l.jpg",
+   "w": 128,
+   "h": 128,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/objects/textures/dot_shadow_0",
+   "src": "objects/textures/dot_shadow_0.gif",
+   "alpha": "objects/textures/dot_shadow_0_a.gif",
+   "out": "data/objects/textures/dot_shadow_0.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/dot_shadow_180",
+   "src": "objects/textures/dot_shadow_180.gif",
+   "alpha": "objects/textures/dot_shadow_180_a.gif",
+   "out": "data/objects/textures/dot_shadow_180.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/dot_shadow_270",
+   "src": "objects/textures/dot_shadow_270.gif",
+   "alpha": "objects/textures/dot_shadow_270_a.gif",
+   "out": "data/objects/textures/dot_shadow_270.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/dot_shadow_90",
+   "src": "objects/textures/dot_shadow_90.gif",
+   "alpha": "objects/textures/dot_shadow_90_a.gif",
+   "out": "data/objects/textures/dot_shadow_90.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/egg",
+   "src": "objects/textures/egg.jpg",
+   "alpha": null,
+   "out": "data/objects/textures/egg.jpg",
+   "w": 16,
+   "h": 4,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/objects/textures/fabrica",
+   "src": "objects/textures/fabrica.jpg",
+   "alpha": null,
+   "out": "data/objects/textures/fabrica.jpg",
+   "w": 256,
+   "h": 256,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/objects/textures/fabrica_shadow",
+   "src": "objects/textures/fabrica_shadow.gif",
+   "alpha": "objects/textures/fabrica_shadow_a.gif",
+   "out": "data/objects/textures/fabrica_shadow.png",
+   "w": 128,
+   "h": 128,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/gruzovik",
+   "src": "objects/textures/gruzovik.jpg",
+   "alpha": "objects/textures/gruzovik_a.gif",
+   "out": "data/objects/textures/gruzovik.png",
+   "w": 128,
+   "h": 128,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/gruzovik_shadow_0",
+   "src": "objects/textures/gruzovik_shadow_0.gif",
+   "alpha": "objects/textures/gruzovik_shadow_0_a.gif",
+   "out": "data/objects/textures/gruzovik_shadow_0.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/gruzovik_shadow_180",
+   "src": "objects/textures/gruzovik_shadow_180.gif",
+   "alpha": "objects/textures/gruzovik_shadow_180_a.gif",
+   "out": "data/objects/textures/gruzovik_shadow_180.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/gruzovik_shadow_270",
+   "src": "objects/textures/gruzovik_shadow_270.gif",
+   "alpha": "objects/textures/gruzovik_shadow_270_a.gif",
+   "out": "data/objects/textures/gruzovik_shadow_270.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/gruzovik_shadow_90",
+   "src": "objects/textures/gruzovik_shadow_90.gif",
+   "alpha": "objects/textures/gruzovik_shadow_90_a.gif",
+   "out": "data/objects/textures/gruzovik_shadow_90.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/house1",
+   "src": "objects/textures/house1.jpg",
+   "alpha": null,
+   "out": "data/objects/textures/house1.jpg",
+   "w": 128,
+   "h": 128,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/objects/textures/house_1x1",
+   "src": "objects/textures/house_1x1.jpg",
+   "alpha": null,
+   "out": "data/objects/textures/house_1x1.jpg",
+   "w": 128,
+   "h": 128,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/objects/textures/house_1x1_shadow_0",
+   "src": "objects/textures/house_1x1_shadow_0.gif",
+   "alpha": "objects/textures/house_1x1_shadow_0_a.gif",
+   "out": "data/objects/textures/house_1x1_shadow_0.png",
+   "w": 32,
+   "h": 32,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/house_1x1_shadow_180",
+   "src": "objects/textures/house_1x1_shadow_180.gif",
+   "alpha": "objects/textures/house_1x1_shadow_180_a.gif",
+   "out": "data/objects/textures/house_1x1_shadow_180.png",
+   "w": 32,
+   "h": 32,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/house_1x1_shadow_270",
+   "src": "objects/textures/house_1x1_shadow_270.gif",
+   "alpha": "objects/textures/house_1x1_shadow_270_a.gif",
+   "out": "data/objects/textures/house_1x1_shadow_270.png",
+   "w": 32,
+   "h": 32,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/house_1x1_shadow_90",
+   "src": "objects/textures/house_1x1_shadow_90.gif",
+   "alpha": "objects/textures/house_1x1_shadow_90_a.gif",
+   "out": "data/objects/textures/house_1x1_shadow_90.png",
+   "w": 32,
+   "h": 32,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/house_2x2",
+   "src": "objects/textures/house_2x2.jpg",
+   "alpha": "objects/textures/house_2x2_a.gif",
+   "out": "data/objects/textures/house_2x2.png",
+   "w": 128,
+   "h": 128,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/house_3x5_shadow_0",
+   "src": "objects/textures/house_3x5_shadow_0.gif",
+   "alpha": "objects/textures/house_3x5_shadow_0_a.gif",
+   "out": "data/objects/textures/house_3x5_shadow_0.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/house_3x5_shadow_180",
+   "src": "objects/textures/house_3x5_shadow_180.gif",
+   "alpha": "objects/textures/house_3x5_shadow_180_a.gif",
+   "out": "data/objects/textures/house_3x5_shadow_180.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/house_3x5_shadow_270",
+   "src": "objects/textures/house_3x5_shadow_270.gif",
+   "alpha": "objects/textures/house_3x5_shadow_270_a.gif",
+   "out": "data/objects/textures/house_3x5_shadow_270.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/house_3x5_shadow_90",
+   "src": "objects/textures/house_3x5_shadow_90.gif",
+   "alpha": "objects/textures/house_3x5_shadow_90_a.gif",
+   "out": "data/objects/textures/house_3x5_shadow_90.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/house_4x4_shadow_0",
+   "src": "objects/textures/house_4x4_shadow_0.gif",
+   "alpha": "objects/textures/house_4x4_shadow_0_a.gif",
+   "out": "data/objects/textures/house_4x4_shadow_0.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/house_4x4_shadow_180",
+   "src": "objects/textures/house_4x4_shadow_180.gif",
+   "alpha": "objects/textures/house_4x4_shadow_180_a.gif",
+   "out": "data/objects/textures/house_4x4_shadow_180.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/house_4x4_shadow_270",
+   "src": "objects/textures/house_4x4_shadow_270.gif",
+   "alpha": "objects/textures/house_4x4_shadow_270_a.gif",
+   "out": "data/objects/textures/house_4x4_shadow_270.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/house_4x4_shadow_90",
+   "src": "objects/textures/house_4x4_shadow_90.gif",
+   "alpha": "objects/textures/house_4x4_shadow_90_a.gif",
+   "out": "data/objects/textures/house_4x4_shadow_90.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/jeep",
+   "src": "objects/textures/jeep.jpg",
+   "alpha": "objects/textures/jeep_a.gif",
+   "out": "data/objects/textures/jeep.png",
+   "w": 128,
+   "h": 128,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/jeep_shadow_0",
+   "src": "objects/textures/jeep_shadow_0.gif",
+   "alpha": "objects/textures/jeep_shadow_0_a.gif",
+   "out": "data/objects/textures/jeep_shadow_0.png",
+   "w": 32,
+   "h": 32,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/jeep_shadow_180",
+   "src": "objects/textures/jeep_shadow_180.gif",
+   "alpha": "objects/textures/jeep_shadow_180_a.gif",
+   "out": "data/objects/textures/jeep_shadow_180.png",
+   "w": 32,
+   "h": 32,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/jeep_shadow_270",
+   "src": "objects/textures/jeep_shadow_270.gif",
+   "alpha": "objects/textures/jeep_shadow_270_a.gif",
+   "out": "data/objects/textures/jeep_shadow_270.png",
+   "w": 32,
+   "h": 32,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/jeep_shadow_90",
+   "src": "objects/textures/jeep_shadow_90.gif",
+   "alpha": "objects/textures/jeep_shadow_90_a.gif",
+   "out": "data/objects/textures/jeep_shadow_90.png",
+   "w": 32,
+   "h": 32,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/koluchka",
+   "src": "objects/textures/koluchka.jpg",
+   "alpha": "objects/textures/koluchka_a.gif",
+   "out": "data/objects/textures/koluchka.png",
+   "w": 256,
+   "h": 32,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/lokomotiv",
+   "src": "objects/textures/lokomotiv.jpg",
+   "alpha": "objects/textures/lokomotiv_a.gif",
+   "out": "data/objects/textures/lokomotiv.png",
+   "w": 128,
+   "h": 128,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/lokomotiv_shadow_0",
+   "src": "objects/textures/lokomotiv_shadow_0.gif",
+   "alpha": "objects/textures/lokomotiv_shadow_0_a.gif",
+   "out": "data/objects/textures/lokomotiv_shadow_0.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/lokomotiv_shadow_180",
+   "src": "objects/textures/lokomotiv_shadow_180.gif",
+   "alpha": "objects/textures/lokomotiv_shadow_180_a.gif",
+   "out": "data/objects/textures/lokomotiv_shadow_180.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/lokomotiv_shadow_270",
+   "src": "objects/textures/lokomotiv_shadow_270.gif",
+   "alpha": "objects/textures/lokomotiv_shadow_270_a.gif",
+   "out": "data/objects/textures/lokomotiv_shadow_270.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/lokomotiv_shadow_90",
+   "src": "objects/textures/lokomotiv_shadow_90.gif",
+   "alpha": "objects/textures/lokomotiv_shadow_90_a.gif",
+   "out": "data/objects/textures/lokomotiv_shadow_90.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/mine",
+   "src": "objects/textures/mine.jpg",
+   "alpha": null,
+   "out": "data/objects/textures/mine.jpg",
+   "w": 32,
+   "h": 32,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/objects/textures/parashute",
+   "src": "objects/textures/parashute.jpg",
+   "alpha": null,
+   "out": "data/objects/textures/parashute.jpg",
+   "w": 128,
+   "h": 64,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/objects/textures/penek",
+   "src": "objects/textures/penek.jpg",
+   "alpha": null,
+   "out": "data/objects/textures/penek.jpg",
+   "w": 32,
+   "h": 32,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/objects/textures/radar",
+   "src": "objects/textures/radar.jpg",
+   "alpha": "objects/textures/radar_a.gif",
+   "out": "data/objects/textures/radar.png",
+   "w": 128,
+   "h": 128,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/radar_shadow_0",
+   "src": "objects/textures/radar_shadow_0.gif",
+   "alpha": "objects/textures/radar_shadow_0_a.gif",
+   "out": "data/objects/textures/radar_shadow_0.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/radar_shadow_180",
+   "src": "objects/textures/radar_shadow_180.gif",
+   "alpha": "objects/textures/radar_shadow_180_a.gif",
+   "out": "data/objects/textures/radar_shadow_180.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/radar_shadow_270",
+   "src": "objects/textures/radar_shadow_270.gif",
+   "alpha": "objects/textures/radar_shadow_270_a.gif",
+   "out": "data/objects/textures/radar_shadow_270.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/radar_shadow_90",
+   "src": "objects/textures/radar_shadow_90.gif",
+   "alpha": "objects/textures/radar_shadow_90_a.gif",
+   "out": "data/objects/textures/radar_shadow_90.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/rail",
+   "src": "objects/textures/rail.jpg",
+   "alpha": "objects/textures/rail_a.gif",
+   "out": "data/objects/textures/rail.png",
+   "w": 128,
+   "h": 32,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/ring",
+   "src": "objects/textures/ring.gif",
+   "alpha": "objects/textures/ring_a.gif",
+   "out": "data/objects/textures/ring.png",
+   "w": 128,
+   "h": 128,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/ring1",
+   "src": "objects/textures/ring1.gif",
+   "alpha": "objects/textures/ring1_a.gif",
+   "out": "data/objects/textures/ring1.png",
+   "w": 128,
+   "h": 128,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/ring2",
+   "src": "objects/textures/ring2.gif",
+   "alpha": "objects/textures/ring2_a.gif",
+   "out": "data/objects/textures/ring2.png",
+   "w": 128,
+   "h": 128,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/ring3",
+   "src": "objects/textures/ring3.gif",
+   "alpha": "objects/textures/ring3_a.gif",
+   "out": "data/objects/textures/ring3.png",
+   "w": 128,
+   "h": 128,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/ring4",
+   "src": "objects/textures/ring4.gif",
+   "alpha": "objects/textures/ring4_a.gif",
+   "out": "data/objects/textures/ring4.png",
+   "w": 128,
+   "h": 128,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/rocket",
+   "src": "objects/textures/rocket.gif",
+   "alpha": null,
+   "out": "data/objects/textures/rocket.png",
+   "w": 16,
+   "h": 32,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/objects/textures/shield_tank",
+   "src": "objects/textures/shield_tank.jpg",
+   "alpha": "objects/textures/shield_tank_a.gif",
+   "out": "data/objects/textures/shield_tank.png",
+   "w": 128,
+   "h": 128,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/shtab",
+   "src": "objects/textures/shtab.jpg",
+   "alpha": "objects/textures/shtab_a.gif",
+   "out": "data/objects/textures/shtab.png",
+   "w": 256,
+   "h": 256,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/shtab_shadow_0",
+   "src": "objects/textures/shtab_shadow_0.gif",
+   "alpha": "objects/textures/shtab_shadow_0_a.gif",
+   "out": "data/objects/textures/shtab_shadow_0.png",
+   "w": 128,
+   "h": 128,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/shtab_shadow_180",
+   "src": "objects/textures/shtab_shadow_180.gif",
+   "alpha": "objects/textures/shtab_shadow_180_a.gif",
+   "out": "data/objects/textures/shtab_shadow_180.png",
+   "w": 128,
+   "h": 128,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/shtab_shadow_270",
+   "src": "objects/textures/shtab_shadow_270.gif",
+   "alpha": "objects/textures/shtab_shadow_270_a.gif",
+   "out": "data/objects/textures/shtab_shadow_270.png",
+   "w": 128,
+   "h": 128,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/shtab_shadow_90",
+   "src": "objects/textures/shtab_shadow_90.gif",
+   "alpha": "objects/textures/shtab_shadow_90_a.gif",
+   "out": "data/objects/textures/shtab_shadow_90.png",
+   "w": 128,
+   "h": 128,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/tank_00_0",
+   "src": "objects/textures/tank_00_0.jpg",
+   "alpha": null,
+   "out": "data/objects/textures/tank_00_0.jpg",
+   "w": 128,
+   "h": 128,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/objects/textures/tank_00_0_r",
+   "src": "objects/textures/tank_00_0_R.jpg",
+   "alpha": null,
+   "out": "data/objects/textures/tank_00_0_R.jpg",
+   "w": 128,
+   "h": 128,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/objects/textures/tank_00_1",
+   "src": "objects/textures/tank_00_1.jpg",
+   "alpha": null,
+   "out": "data/objects/textures/tank_00_1.jpg",
+   "w": 128,
+   "h": 128,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/objects/textures/tank_00_1_r",
+   "src": "objects/textures/tank_00_1_R.jpg",
+   "alpha": null,
+   "out": "data/objects/textures/tank_00_1_R.jpg",
+   "w": 128,
+   "h": 128,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/objects/textures/tank_00_2",
+   "src": "objects/textures/tank_00_2.jpg",
+   "alpha": null,
+   "out": "data/objects/textures/tank_00_2.jpg",
+   "w": 128,
+   "h": 128,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/objects/textures/tank_00_2_r",
+   "src": "objects/textures/tank_00_2_R.jpg",
+   "alpha": null,
+   "out": "data/objects/textures/tank_00_2_R.jpg",
+   "w": 128,
+   "h": 128,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/objects/textures/tank_00_g",
+   "src": "objects/textures/tank_00_g.jpg",
+   "alpha": null,
+   "out": "data/objects/textures/tank_00_g.jpg",
+   "w": 128,
+   "h": 128,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/objects/textures/tank_00_r",
+   "src": "objects/textures/tank_00_r.jpg",
+   "alpha": null,
+   "out": "data/objects/textures/tank_00_r.jpg",
+   "w": 128,
+   "h": 128,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/objects/textures/tank_01_00_shadow",
+   "src": "objects/textures/tank_01_00_shadow.gif",
+   "alpha": "objects/textures/tank_01_00_shadow_a.gif",
+   "out": "data/objects/textures/tank_01_00_shadow.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/tank_01_01_shadow",
+   "src": "objects/textures/tank_01_01_shadow.gif",
+   "alpha": "objects/textures/tank_01_01_shadow_a.gif",
+   "out": "data/objects/textures/tank_01_01_shadow.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/tank_01_02_shadow",
+   "src": "objects/textures/tank_01_02_shadow.gif",
+   "alpha": "objects/textures/tank_01_02_shadow_a.gif",
+   "out": "data/objects/textures/tank_01_02_shadow.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/tank_01_03_shadow",
+   "src": "objects/textures/tank_01_03_shadow.gif",
+   "alpha": "objects/textures/tank_01_03_shadow_a.gif",
+   "out": "data/objects/textures/tank_01_03_shadow.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/tank_02_gr",
+   "src": "objects/textures/tank_02_gr.jpg",
+   "alpha": null,
+   "out": "data/objects/textures/tank_02_gr.jpg",
+   "w": 128,
+   "h": 128,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/objects/textures/tank_02_shadow",
+   "src": "objects/textures/tank_02_shadow.gif",
+   "alpha": "objects/textures/tank_02_shadow_a.gif",
+   "out": "data/objects/textures/tank_02_shadow.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/tank_03",
+   "src": "objects/textures/tank_03.jpg",
+   "alpha": "objects/textures/tank_03_a.gif",
+   "out": "data/objects/textures/tank_03.png",
+   "w": 128,
+   "h": 128,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/tank_03_shadow",
+   "src": "objects/textures/tank_03_shadow.gif",
+   "alpha": "objects/textures/tank_03_shadow_a.gif",
+   "out": "data/objects/textures/tank_03_shadow.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/tank_04",
+   "src": "objects/textures/tank_04.jpg",
+   "alpha": null,
+   "out": "data/objects/textures/tank_04.jpg",
+   "w": 128,
+   "h": 128,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/objects/textures/tank_04_shadow",
+   "src": "objects/textures/tank_04_shadow.gif",
+   "alpha": "objects/textures/tank_04_shadow_a.gif",
+   "out": "data/objects/textures/tank_04_shadow.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/tank_05",
+   "src": "objects/textures/tank_05.jpg",
+   "alpha": null,
+   "out": "data/objects/textures/tank_05.jpg",
+   "w": 128,
+   "h": 128,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/objects/textures/tank_05_shadow",
+   "src": "objects/textures/tank_05_shadow.gif",
+   "alpha": "objects/textures/tank_05_shadow_a.gif",
+   "out": "data/objects/textures/tank_05_shadow.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/tank_06",
+   "src": "objects/textures/tank_06.jpg",
+   "alpha": "objects/textures/tank_06_a.gif",
+   "out": "data/objects/textures/tank_06.png",
+   "w": 128,
+   "h": 128,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/tank_06_shadow",
+   "src": "objects/textures/tank_06_shadow.gif",
+   "alpha": "objects/textures/tank_06_shadow_a.gif",
+   "out": "data/objects/textures/tank_06_shadow.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/tank_catch_me_03",
+   "src": "objects/textures/tank_catch_me_03.jpg",
+   "alpha": null,
+   "out": "data/objects/textures/tank_catch_me_03.jpg",
+   "w": 128,
+   "h": 128,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/objects/textures/tank_duel_05",
+   "src": "objects/textures/tank_duel_05.jpg",
+   "alpha": null,
+   "out": "data/objects/textures/tank_duel_05.jpg",
+   "w": 128,
+   "h": 128,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/objects/textures/tree_00_new",
+   "src": "objects/textures/tree_00_new.jpg",
+   "alpha": "objects/textures/tree_00_new_a.gif",
+   "out": "data/objects/textures/tree_00_new.png",
+   "w": 256,
+   "h": 256,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/tree_00_shadow",
+   "src": "objects/textures/tree_00_shadow.gif",
+   "alpha": "objects/textures/tree_00_shadow_a.gif",
+   "out": "data/objects/textures/tree_00_shadow.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/tree_01_new",
+   "src": "objects/textures/tree_01_new.jpg",
+   "alpha": "objects/textures/tree_01_new_a.gif",
+   "out": "data/objects/textures/tree_01_new.png",
+   "w": 256,
+   "h": 256,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/tree_01_shadow",
+   "src": "objects/textures/tree_01_shadow.gif",
+   "alpha": "objects/textures/tree_01_shadow_a.gif",
+   "out": "data/objects/textures/tree_01_shadow.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/tree_02_new",
+   "src": "objects/textures/tree_02_new.jpg",
+   "alpha": "objects/textures/tree_02_new_a.gif",
+   "out": "data/objects/textures/tree_02_new.png",
+   "w": 256,
+   "h": 256,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/tree_02_shadow",
+   "src": "objects/textures/tree_02_shadow.gif",
+   "alpha": "objects/textures/tree_02_shadow_a.gif",
+   "out": "data/objects/textures/tree_02_shadow.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/tube",
+   "src": "objects/textures/tube.gif",
+   "alpha": null,
+   "out": "data/objects/textures/tube.png",
+   "w": 64,
+   "h": 32,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/objects/textures/upgrade",
+   "src": "objects/textures/upgrade.gif",
+   "alpha": null,
+   "out": "data/objects/textures/upgrade.png",
+   "w": 128,
+   "h": 32,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/objects/textures/vagon_01_shadow_0",
+   "src": "objects/textures/vagon_01_shadow_0.gif",
+   "alpha": "objects/textures/vagon_01_shadow_0_a.gif",
+   "out": "data/objects/textures/vagon_01_shadow_0.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/vagon_01_shadow_180",
+   "src": "objects/textures/vagon_01_shadow_180.gif",
+   "alpha": "objects/textures/vagon_01_shadow_180_a.gif",
+   "out": "data/objects/textures/vagon_01_shadow_180.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/vagon_01_shadow_270",
+   "src": "objects/textures/vagon_01_shadow_270.gif",
+   "alpha": "objects/textures/vagon_01_shadow_270_a.gif",
+   "out": "data/objects/textures/vagon_01_shadow_270.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/vagon_01_shadow_90",
+   "src": "objects/textures/vagon_01_shadow_90.gif",
+   "alpha": "objects/textures/vagon_01_shadow_90_a.gif",
+   "out": "data/objects/textures/vagon_01_shadow_90.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/vagon_02_shadow_0",
+   "src": "objects/textures/vagon_02_shadow_0.gif",
+   "alpha": "objects/textures/vagon_02_shadow_0_a.gif",
+   "out": "data/objects/textures/vagon_02_shadow_0.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/vagon_02_shadow_180",
+   "src": "objects/textures/vagon_02_shadow_180.gif",
+   "alpha": "objects/textures/vagon_02_shadow_180_a.gif",
+   "out": "data/objects/textures/vagon_02_shadow_180.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/vagon_02_shadow_270",
+   "src": "objects/textures/vagon_02_shadow_270.gif",
+   "alpha": "objects/textures/vagon_02_shadow_270_a.gif",
+   "out": "data/objects/textures/vagon_02_shadow_270.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/vagon_02_shadow_90",
+   "src": "objects/textures/vagon_02_shadow_90.gif",
+   "alpha": "objects/textures/vagon_02_shadow_90_a.gif",
+   "out": "data/objects/textures/vagon_02_shadow_90.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/vagon_1",
+   "src": "objects/textures/vagon_1.jpg",
+   "alpha": "objects/textures/vagon_1_a.gif",
+   "out": "data/objects/textures/vagon_1.png",
+   "w": 128,
+   "h": 128,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/vagon_2",
+   "src": "objects/textures/vagon_2.jpg",
+   "alpha": "objects/textures/vagon_2_a.gif",
+   "out": "data/objects/textures/vagon_2.png",
+   "w": 128,
+   "h": 128,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/vyshka",
+   "src": "objects/textures/vyshka.jpg",
+   "alpha": "objects/textures/vyshka_a.gif",
+   "out": "data/objects/textures/vyshka.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/vyshka_shadow_0",
+   "src": "objects/textures/vyshka_shadow_0.gif",
+   "alpha": "objects/textures/vyshka_shadow_0_a.gif",
+   "out": "data/objects/textures/vyshka_shadow_0.png",
+   "w": 128,
+   "h": 128,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/vyshka_shadow_180",
+   "src": "objects/textures/vyshka_shadow_180.gif",
+   "alpha": "objects/textures/vyshka_shadow_180_a.gif",
+   "out": "data/objects/textures/vyshka_shadow_180.png",
+   "w": 128,
+   "h": 128,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/vyshka_shadow_270",
+   "src": "objects/textures/vyshka_shadow_270.gif",
+   "alpha": "objects/textures/vyshka_shadow_270_a.gif",
+   "out": "data/objects/textures/vyshka_shadow_270.png",
+   "w": 128,
+   "h": 128,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/vyshka_shadow_90",
+   "src": "objects/textures/vyshka_shadow_90.gif",
+   "alpha": "objects/textures/vyshka_shadow_90_a.gif",
+   "out": "data/objects/textures/vyshka_shadow_90.png",
+   "w": 128,
+   "h": 128,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/wall_l",
+   "src": "objects/textures/wall_l.jpg",
+   "alpha": null,
+   "out": "data/objects/textures/wall_l.jpg",
+   "w": 32,
+   "h": 32,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/objects/textures/wall_shadow_0",
+   "src": "objects/textures/wall_shadow_0.gif",
+   "alpha": "objects/textures/wall_shadow_0_a.gif",
+   "out": "data/objects/textures/wall_shadow_0.png",
+   "w": 32,
+   "h": 32,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/wall_shadow_180",
+   "src": "objects/textures/wall_shadow_180.gif",
+   "alpha": "objects/textures/wall_shadow_180_a.gif",
+   "out": "data/objects/textures/wall_shadow_180.png",
+   "w": 32,
+   "h": 32,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/wall_shadow_270",
+   "src": "objects/textures/wall_shadow_270.gif",
+   "alpha": "objects/textures/wall_shadow_270_a.gif",
+   "out": "data/objects/textures/wall_shadow_270.png",
+   "w": 32,
+   "h": 32,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/wall_shadow_90",
+   "src": "objects/textures/wall_shadow_90.gif",
+   "alpha": "objects/textures/wall_shadow_90_a.gif",
+   "out": "data/objects/textures/wall_shadow_90.png",
+   "w": 32,
+   "h": 32,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/wall_st_1x3",
+   "src": "objects/textures/wall_st_1x3.jpg",
+   "alpha": null,
+   "out": "data/objects/textures/wall_st_1x3.jpg",
+   "w": 64,
+   "h": 32,
+   "alpha_gray": null
+  },
+  {
+   "key": "data/objects/textures/wall_st_shadow_0",
+   "src": "objects/textures/wall_st_shadow_0.gif",
+   "alpha": "objects/textures/wall_st_shadow_0_a.gif",
+   "out": "data/objects/textures/wall_st_shadow_0.png",
+   "w": 32,
+   "h": 32,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/wall_st_shadow_180",
+   "src": "objects/textures/wall_st_shadow_180.gif",
+   "alpha": "objects/textures/wall_st_shadow_180_a.gif",
+   "out": "data/objects/textures/wall_st_shadow_180.png",
+   "w": 32,
+   "h": 32,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/wall_st_shadow_270",
+   "src": "objects/textures/wall_st_shadow_270.gif",
+   "alpha": "objects/textures/wall_st_shadow_270_a.gif",
+   "out": "data/objects/textures/wall_st_shadow_270.png",
+   "w": 32,
+   "h": 32,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/objects/textures/wall_st_shadow_90",
+   "src": "objects/textures/wall_st_shadow_90.gif",
+   "alpha": "objects/textures/wall_st_shadow_90_a.gif",
+   "out": "data/objects/textures/wall_st_shadow_90.png",
+   "w": 32,
+   "h": 32,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/textures/1200",
+   "src": "textures/1200.gif",
+   "alpha": "textures/1200_a.gif",
+   "out": "data/textures/1200.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/textures/200",
+   "src": "textures/200.gif",
+   "alpha": "textures/200_a.gif",
+   "out": "data/textures/200.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/textures/2000",
+   "src": "textures/2000.gif",
+   "alpha": "textures/2000_a.gif",
+   "out": "data/textures/2000.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/textures/2200",
+   "src": "textures/2200.gif",
+   "alpha": "textures/2200_a.gif",
+   "out": "data/textures/2200.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/textures/2500",
+   "src": "textures/2500.gif",
+   "alpha": "textures/2500_a.gif",
+   "out": "data/textures/2500.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/textures/400",
+   "src": "textures/400.gif",
+   "alpha": "textures/400_a.gif",
+   "out": "data/textures/400.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/textures/5000",
+   "src": "textures/5000.gif",
+   "alpha": "textures/5000_a.gif",
+   "out": "data/textures/5000.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/textures/700",
+   "src": "textures/700.gif",
+   "alpha": "textures/700_a.gif",
+   "out": "data/textures/700.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/textures/fire",
+   "src": "textures/fire.gif",
+   "alpha": "textures/fire_a.gif",
+   "out": "data/textures/fire.png",
+   "w": 32,
+   "h": 32,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/textures/loading",
+   "src": "textures/loading.gif",
+   "alpha": "textures/loading_a.gif",
+   "out": "data/textures/loading.png",
+   "w": 512,
+   "h": 2,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/textures/particle",
+   "src": "textures/particle.gif",
+   "alpha": "textures/particle_a.gif",
+   "out": "data/textures/particle.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/textures/shot_hole",
+   "src": "textures/shot_hole.gif",
+   "alpha": "textures/shot_hole_a.gif",
+   "out": "data/textures/shot_hole.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/textures/smoke",
+   "src": "textures/smoke.gif",
+   "alpha": "textures/smoke_a.gif",
+   "out": "data/textures/smoke.png",
+   "w": 64,
+   "h": 64,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/textures/snow",
+   "src": "textures/snow.gif",
+   "alpha": "textures/snow_a.gif",
+   "out": "data/textures/snow.png",
+   "w": 32,
+   "h": 32,
+   "alpha_gray": "NOT-GRAY"
+  },
+  {
+   "key": "data/textures/tail",
+   "src": "textures/tail.gif",
+   "alpha": "textures/tail_a.gif",
+   "out": "data/textures/tail.png",
+   "w": 32,
+   "h": 32,
+   "alpha_gray": "NOT-GRAY"
+  }
+ ],
+ "errors": [],
+ "jpg_with_alpha": [
+  "objects/textures/gruzovik.jpg",
+  "objects/textures/house_2x2.jpg",
+  "objects/textures/jeep.jpg",
+  "objects/textures/koluchka.jpg",
+  "objects/textures/lokomotiv.jpg",
+  "objects/textures/radar.jpg",
+  "objects/textures/rail.jpg",
+  "objects/textures/shield_tank.jpg",
+  "objects/textures/shtab.jpg",
+  "objects/textures/tank_03.jpg",
+  "objects/textures/tank_06.jpg",
+  "objects/textures/tree_00_new.jpg",
+  "objects/textures/tree_01_new.jpg",
+  "objects/textures/tree_02_new.jpg",
+  "objects/textures/vagon_1.jpg",
+  "objects/textures/vagon_2.jpg",
+  "objects/textures/vyshka.jpg"
+ ],
+ "orphan_alpha": [],
+ "shadowed": []
+}

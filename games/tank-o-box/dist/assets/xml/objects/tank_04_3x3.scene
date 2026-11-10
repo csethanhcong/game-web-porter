@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Scene>
+    <Node Name="snd_engine" Children="data/sounds/tank4_engine.scene"/>
+    <Node Name="snd_landing" Children="data/sounds/tank_landing.scene"/>
+    <Node Name="snd_bonus" Children="data/sounds/bonus.scene"/>
+    <Node Name="snd_bonus_take" Children="data/sounds/bonus_take.scene"/>
+    <Node Name="snd_explode" Children="data/sounds/tank_explode.scene"/>
+
+    <Node Name="airstrikeanim" Children="data/objects/airstrikeanim.scene"/>
+    <Node Name="airstrike" Children="data/objects/airstrike.scene" Visibility="false"/>
+    <Node Name="shieldshtab" Children="data/objects/shieldshtab.scene" Visibility="false"/>
+    <Node Name="shieldtank" Children="data/objects/shieldtank.scene" Visibility="false"/>
+    <Node Name="speedup" Children="data/objects/speedup.scene" Visibility="false"/>
+    <Node Name="timestop" Children="data/objects/timestop.scene" Visibility="false"/>
+    <Node Name="upgrade" Children="data/objects/upgrade.scene" Visibility="false"/>
+
+    <Node Name="explode_flash_red" Children="data/objects/explode_flash_red.scene"/>
+    <Node Name="explode_particles_6" Children="data/objects/explode_particles_6.scene"/>
+
+    <Node Name="explode_smoke_big" Children="data/objects/explode_smoke_big.scene"/>
+
+    <Node Name="parashute_group1"/>
+    <Node Name="parashute_pSphere1" Position="0 3.16438 0" Scale="1.67842 1.67842 1.67842">
+        <Node Name="parashute_transform2"/>
+    </Node>
+    <Node Name="parashute_pSphere2" Position="0 3.16438 0" Scale="1.67842 1.67842 1.67842">
+        <Node Name="parashute_transform1"/>
+    </Node>
+    <Node Name="ring" Children="data/objects/ring2.scene"/>
+
+    <Node Name="locator1">
+    <Node Name="score" Children="data/objects/700.scene"/>
+	<Node Name="shadow_0"  Children="data/objects/tank_04_shadow.scene"/>
+    <Node Name="trek" Children="data/objects/trek.scene"/>
+
+        <ModelFixed Name="pCube1" Source="data/objects/models/tank_04_3x3_pCube1-tank_04_3x3_locator1.model" >
+            <#Shaders#>
+                <Shader Name="phong1" TrianglesCount="130">
+                    <Material SpecularPower="40" Diffuse="1 1 1" Specular="0.04132 0.04132 0.04132"/>
+                    <Diffuse Image="data/objects/textures/tank_04"/>
+                </Shader>
+            </#Shaders#>
+        </ModelFixed>
+    </Node>
+    <ModelFixed Name="parashute_polySurface1" Visibility="false" Scale="1.13895 1.13895 1.13895" Source="data/objects/models/parashute_polySurface1.model" >
+        <#Shaders#>
+            <Shader Name="parashute_phong1" TrianglesCount="130">
+                <Material SpecularPower="40" Diffuse="1 1 1" Specular="0.1157 0.1157 0.1157"/>
+                <Diffuse Image="data/objects/textures/parashute"/>
+            </Shader>
+        </#Shaders#>
+    </ModelFixed>    
+</Scene>

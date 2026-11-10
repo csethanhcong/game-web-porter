@@ -1,0 +1,8 @@
+<InterfaceScreenMenu ModelName="data/Levels/Briefing_tank_05.scene" 
+        Cursor="data/interface/cursor"
+        AnimationName="data/Interface/_night.anim" 
+        Music="data/music/menu">
+    <Controls>
+        <ControlButton KeyboardAlias="GCMenuSelect" Name="data/Interface/EmissiveButton_" NodeName="btnNext" Link="Next"/>
+     </Controls>
+</InterfaceScreenMenu>

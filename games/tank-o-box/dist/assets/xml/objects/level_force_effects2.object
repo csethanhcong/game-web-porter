@@ -1,0 +1,137 @@
+<GameObject Type="Camera">
+    <GameObjectStates>
+
+        <GameObjectState Name="Default">        
+            <EventHandlers>
+                <EventHandler>
+                    <EventNames>
+                        <EventName Name="PlayerHit2"/>
+                    </EventNames>
+                    <Strategies>
+                        <StrategyChangeState StateName="PlayerHit"/>
+                    </Strategies>
+                 </EventHandler>
+
+                <EventHandler>
+                    <EventNames>
+                        <EventName Name="TankExplodeEnemy"/>
+                    </EventNames>
+                    <Strategies>
+                        <StrategyChangeState StateName="TankExplodeEnemy"/>
+                    </Strategies>
+                 </EventHandler>
+
+                <EventHandler>
+                    <EventNames>
+                        <EventName Name="PlayerUpgrade2"/>
+                    </EventNames>
+                    <Strategies>
+                        <StrategyChangeState StateName="PlayerUpgrade"/>
+                    </Strategies>
+                 </EventHandler>
+                 
+                <EventHandler>
+                    <EventNames>
+                        <EventName Name="BonusAirStrike"/>
+                    </EventNames>
+                    <Strategies>
+                        <StrategyChangeState StateName="AirStrike"/>
+                    </Strategies>
+                 </EventHandler>
+                 
+                 <EventHandler>
+                    <EventNames>
+                        <EventName Name="ExplodeHQ"/>
+                    </EventNames>
+                    <Strategies>
+                        <StrategyChangeState StateName="ExplodeHQ"/>
+                    </Strategies>
+                 </EventHandler>
+
+            </EventHandlers>
+        </GameObjectState>
+        
+        <GameObjectState Name="PlayerHit">  
+            <EventHandlers>
+                <EventHandler>
+                    <EventNames>
+                        <EventName Name="EffectFinished"/>
+                    </EventNames>
+                    <Strategies>
+                        <StrategyChangeState StateName="Default"/>
+                    </Strategies>
+                 </EventHandler>
+            </EventHandlers>
+            <Strategies>
+                <StrategyForceEffect InputDevicePropertyName="Player2InputDevice" EffectName="data/ForceEffects/PlayerHit"/>
+            </Strategies>
+        </GameObjectState>
+
+        <GameObjectState Name="TankExplodeEnemy">  
+            <EventHandlers>
+                <EventHandler>
+                    <EventNames>
+                        <EventName Name="EffectFinished"/>
+                    </EventNames>
+                    <Strategies>
+                        <StrategyChangeState StateName="Default"/>
+                    </Strategies>
+                 </EventHandler>
+            </EventHandlers>
+            <Strategies>
+                <StrategyForceEffect InputDevicePropertyName="Player2InputDevice" EffectName="data/ForceEffects/EnemyHit"/>
+            </Strategies>
+        </GameObjectState>
+
+        <GameObjectState Name="PlayerUpgrade">  
+            <EventHandlers>
+                <EventHandler>
+                    <EventNames>
+                        <EventName Name="EffectFinished"/>
+                    </EventNames>
+                    <Strategies>
+                        <StrategyChangeState StateName="Default"/>
+                    </Strategies>
+                 </EventHandler>
+            </EventHandlers>
+            <Strategies>
+                <StrategyForceEffect InputDevicePropertyName="Player2InputDevice" EffectName="data/ForceEffects/PlayerUpgrade"/>
+            </Strategies>
+        </GameObjectState>
+
+
+        <GameObjectState Name="AirStrike">  
+            <EventHandlers>
+                <EventHandler>
+                    <EventNames>
+                        <EventName Name="EffectFinished"/>
+                    </EventNames>
+                    <Strategies>
+                        <StrategyChangeState StateName="Default"/>
+                    </Strategies>
+                 </EventHandler>
+            </EventHandlers>
+            <Strategies>
+                <StrategyForceEffect InputDevicePropertyName="Player2InputDevice" EffectName="data/ForceEffects/AirStrike"/>
+            </Strategies>
+        </GameObjectState>
+
+        <GameObjectState Name="ExplodeHQ">  
+            <EventHandlers>
+                <EventHandler>
+                    <EventNames>
+                        <EventName Name="EffectFinished"/>
+                    </EventNames>
+                    <Strategies>
+                        <StrategyChangeState StateName="Default"/>
+                    </Strategies>
+                 </EventHandler>
+            </EventHandlers>
+            <Strategies>
+                <StrategyForceEffect InputDevicePropertyName="Player2InputDevice" EffectName="data/ForceEffects/ExplodeHQ"/>
+            </Strategies>
+        </GameObjectState>
+
+
+    </GameObjectStates>
+</GameObject>
