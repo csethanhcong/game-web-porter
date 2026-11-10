@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Scene>
+	<ModelFixed Name="tree_shadow" Position="0 -5.8 0" Scale="1.4 1.4 1.4" Source="data/objects/models/tree_shadow.model">
+        <#Shaders#>
+            <Shader Name="phong1" TrianglesCount="2">
+                <Material SpecularPower="40" Transparency="0.5" Diffuse="1 1 1" Specular="0 0 0"/>
+                <Diffuse Image="data/objects/textures/tree_01_shadow"/>
+            </Shader>
+        </#Shaders#>
+	</ModelFixed>
+</Scene>

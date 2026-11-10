@@ -1,0 +1,9 @@
+<InterfaceScreenLevelSquare       
+    InterfaceModelName="data/Levels/InterfaceLevel.scene" 
+    InterfaceAnimationName="data/Levels/InterfaceLevel.anim"
+    TemplateName="data/levels/common.level"
+    >
+<Controls>  
+    <ControlLabel PropertyName="Lives" NodeName="txtLives"/>
+</Controls>  
+</InterfaceScreenLevelSquare>

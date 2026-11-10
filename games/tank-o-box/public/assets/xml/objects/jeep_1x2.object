@@ -1,0 +1,72 @@
+<GameObject Type="Object">
+    <GameObjectView ModelName="data/objects/jeep_1x2.scene"/>
+
+    <Properties>
+        <Property Name="HitPoints" Value="2"/>
+        <Property Name="Damage" Value="-1"/>
+        <Property Name="DamageDouble" Value="-2"/>
+        <Property Name="DamageRocket" Value="-3"/>
+    </Properties>
+
+    <GameObjectStates>
+        <GameObjectState Name="Default" TemplateName="data/objects/object_collision.state" TemplateName="data/objects/object_collision_with_tank.state">
+            <GameObjectStateView AnimationName="data/objects/jeep_1x2.anim"/>
+            <Strategies>
+                <StrategyChangeStateByCounter StateName="Exploding1" PropertyName="HitPoints" MinValue="-9999" MaxValue="2"/>
+                <StrategyMask Mask = "1 1"/>
+			<StrategyShadow MainNode="live" ShadowName="shadow"/>
+            </Strategies>
+        </GameObjectState>
+
+        <GameObjectState Name="Exploding1">
+            <EventHandlers>
+                <EventHandler>
+                    <EventNames>
+                        <EventName Name="AnimFinished"/>
+                    </EventNames>
+                    <Strategies>                    
+                        <StrategyChangeState StateName="Death1"/>
+                    </Strategies>
+                 </EventHandler>
+           </EventHandlers>
+           <Strategies>
+                <StrategyMask Mask = "1 1"/>
+            </Strategies>
+           <GameObjectStateView AnimationName="data/objects/vagon_death1.anim" Loop="false"/>
+        </GameObjectState>
+
+        <GameObjectState Name="Death1" TemplateName="data/objects/object_collision.state" TemplateName="data/objects/object_collision_with_tank.state">
+            <GameObjectStateView AnimationName="data/objects/jeep_1x2.anim"/>
+            <Strategies>
+                <StrategyChangeStateByCounter StateName="Exploding2" PropertyName="HitPoints" MinValue="-9999" MaxValue="1"/>
+                <StrategyMask Mask = "1 1"/>
+            </Strategies>
+        </GameObjectState>
+
+        <GameObjectState Name="Exploding2">
+            <EventHandlers>
+                <EventHandler>
+                    <EventNames>
+                        <EventName Name="AnimFinished"/>
+                    </EventNames>
+                    <Strategies>                    
+                        <StrategyChangeState StateName="Death2"/>
+                    </Strategies>
+                 </EventHandler>
+           </EventHandlers>
+           <Strategies>
+                <StrategyMask Mask = "0 0"/>
+            </Strategies>
+           <GameObjectStateView AnimationName="data/objects/vagon_death2.anim" Loop="false"/>
+        </GameObjectState>
+
+        <GameObjectState Name="Death2" TemplateName="data/objects/object_collision.state">
+            <GameObjectStateView AnimationName="data/objects/jeep_1x2.anim"/>
+            <Strategies>
+                <StrategyMask Mask = "0 0"/>
+            </Strategies>
+        </GameObjectState>
+
+    </GameObjectStates>
+
+</GameObject>

@@ -1,0 +1,191 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Scene>
+    <CameraPerspective Name="Camera" Scale="-1 1 -1" Fov="0.660595" Aspect="0.75" NearPlane="0.5" FarPlane="200" ViewportLeft="-1" ViewportRight="1" ViewportTop="1" ViewportBottom="-1"/>
+    <ModelFixed Name="indikator2_0_pPlane1" Position="0 -2.37858 -7.7483" Source="data/levels/models/indikator2_0_0_pPlane1.model">
+        <#Shaders#>
+            <Shader Name="indikator2_0_phong1" TrianglesCount="2">
+                <Material Transparency="0.001" Emissive="1 1 1"/>
+                <Emissive Image="data/levels/textures/indikator_bg"/>
+            </Shader>
+        </#Shaders#>
+    </ModelFixed>
+    
+    <ModelMorph Scale="1 2 1" Rotation="0 0 3.14" Visibility="false" Name="indikator2_0_pPlane4" Position="0.888 -2.3735 -7.662" Source="data/levels/models/indikator2_0_0_pPlane4.model" Source2="data/levels/models/indikator2_0_1_pPlane4.model">
+        <#Shaders#>
+            <Shader Name="indikator2_0_phong2" TrianglesCount="2">
+                <Material Transparency="0.001" Emissive="1 1 1"/>
+                <Emissive Image="data/levels/textures/indikator_green"/>
+            </Shader>
+        </#Shaders#>
+    </ModelMorph>
+    
+    <ModelMorph Scale="1 2 1" Name="indikator2_0_pPlane6" Visibility="false" Position="-0.888 -2.3735 -7.662" Source="data/levels/models/indikator2_0_0_pPlane4.model" Source2="data/levels/models/indikator2_0_1_pPlane4.model">
+        <#Shaders#>
+            <Shader Name="indikator2_0_phong3" TrianglesCount="2">
+                <Material Transparency="0.001" Emissive="1 1 1"/>
+                <Emissive Image="data/levels/textures/indikator_red"/>
+            </Shader>
+        </#Shaders#>
+    </ModelMorph>
+    
+    <ModelFixed Name="pPlane2" Position="0.955562 2.33446 -7.39044" Source="data/levels/models/Interface_pPlane2.model">
+        <#Shaders#>
+            <Shader Name="phong1" TrianglesCount="2">
+                <Material Transparency="0.001" Emissive="1 1 1"/>
+                <Emissive Image="data/levels/textures/enemy_0"/>
+            </Shader>
+        </#Shaders#>
+    </ModelFixed>
+    <ModelFixed Name="pPlane3" Position="0.455562 2.33446 -7.39044" Source="data/levels/models/Interface_pPlane3.model">
+        <#Shaders#>
+            <Shader Name="phong2" TrianglesCount="2">
+                <Material Transparency="0.001" Emissive="1 1 1"/>
+                <Emissive Image="data/levels/textures/enemy_1"/>
+            </Shader>
+        </#Shaders#>
+    </ModelFixed>
+    <ModelFixed Name="pPlane4" Position="-0.0444377 2.33446 -7.39044" Source="data/levels/models/Interface_pPlane4.model">
+        <#Shaders#>
+            <Shader Name="phong3" TrianglesCount="2">
+                <Material Transparency="0.001" Emissive="1 1 1"/>
+                <Emissive Image="data/levels/textures/enemy_2"/>
+            </Shader>
+        </#Shaders#>
+    </ModelFixed>
+    <ModelFixed Name="pPlane5" Position="-0.544438 2.33446 -7.39044" Source="data/levels/models/Interface_pPlane5.model">
+        <#Shaders#>
+            <Shader Name="phong4" TrianglesCount="2">
+                <Material Transparency="0.001" Emissive="1 1 1"/>
+                <Emissive Image="data/levels/textures/enemy_3"/>
+            </Shader>
+        </#Shaders#>
+    </ModelFixed>
+    <ModelFixed Name="pPlane6" Position="-1.04444 2.33446 -7.39044" Source="data/levels/models/Interface_pPlane6.model">
+        <#Shaders#>
+            <Shader Name="phong5" TrianglesCount="2">
+                <Material Transparency="0.001" Emissive="1 1 1"/>
+                <Emissive Image="data/levels/textures/enemy_4"/>
+            </Shader>
+        </#Shaders#>
+    </ModelFixed>
+    
+     <Text Name="txtScore" Scale="0.6 0.6 0.6" Position="3.35483 2.76351 -7.32632" Alignment="LEFT" Font="data/fonts/white_border.font" Text="0">
+     <#Shader#>
+            <Material Transparency="0.001" Emissive="1 1 1"/>
+            <Emissive Image="data/fonts/white_border"/>
+        </#Shader#>
+    </Text>
+    <Node Name="txtEnemyCount0"/>
+    <Text Name="txtEnemyCount1" Scale="0.1 0.1 0.1" Position="0.518093 2.10026 -6.76345" Font="data/fonts/white_border.font" Alignment="CENTER" Text="0">
+     <#Shader#>
+            <Material Emissive="1 1 1" Transparency="0.001"/>
+            <Emissive Image="data/fonts/white_border"/>
+        </#Shader#>
+    </Text>
+    <Text Name="txtEnemyCount2" Scale="0.1 0.1 0.1" Position="0.068093 2.10026 -6.76345" Font="data/fonts/white_border.font" Alignment="CENTER" Text="0">
+     <#Shader#>
+            <Material Emissive="1 1 1" Transparency="0.001"/>
+            <Emissive Image="data/fonts/white_border"/>
+        </#Shader#>
+    </Text>
+    <Text Name="txtEnemyCount3" Scale="0.1 0.1 0.1" Position="-0.381907 2.10026 -6.76345" Font="data/fonts/white_border.font" Alignment="CENTER" Text="0">
+     <#Shader#>
+            <Material Emissive="1 1 1" Transparency="0.001"/>
+            <Emissive Image="data/fonts/white_border"/>
+        </#Shader#>
+    </Text>
+    <Node Name="txtEnemyCount4"/>
+    <Text Name="txtLives" Scale="0.3 0.3 0.3" Position="0.02 -2.04197 -7.30038" Font="data/fonts/white_border.font" Alignment="CENTER" Text="">
+     <#Shader#>
+            <Material Emissive="1 1 1" Transparency="0.001"/>
+            <Emissive Image="data/fonts/white_border"/>
+        </#Shader#>
+    </Text>
+    
+    <Node Name="player1upgrade" Visibility="false">
+    <ModelFixed Name="Upgrade3" Scale="1.8 0.9 1" Position="0.36729 -1.51173 -4.61692" Source="data/levels/models/Interface_player1Upgrade3.model">
+        <#Shaders#>
+            <Shader Name="phong7" TrianglesCount="2">
+                <Material Transparency="0.001" Emissive="1 1 1"/>
+                <Emissive Image="data/levels/textures/upgrade_green"/>
+            </Shader>
+        </#Shaders#>
+    </ModelFixed>
+    <ModelFixed Name="Upgrade2" Scale="1.8 0.9 1" Position="0.28729 -1.51173 -4.61692" Source="data/levels/models/Interface_player1Upgrade3.model">
+        <#Shaders#>
+            <Shader Name="phong7" TrianglesCount="2">
+                <Material Transparency="0.001" Emissive="1 1 1"/>
+                <Emissive Image="data/levels/textures/upgrade_green"/>
+            </Shader>
+        </#Shaders#>
+    </ModelFixed>
+    <ModelFixed Name="Upgrade1" Scale="1.8 0.9 1" Position="0.20729 -1.51173 -4.61692" Source="data/levels/models/Interface_player1Upgrade3.model">
+        <#Shaders#>
+            <Shader Name="phong7" TrianglesCount="2">
+                <Material Transparency="0.001" Emissive="1 1 1"/>
+                <Emissive Image="data/levels/textures/upgrade_green"/>
+            </Shader>
+        </#Shaders#>
+    </ModelFixed>
+    <ModelFixed Name="Upgrade0" Scale="1.8 0.9 1" Position="0.12729 -1.51173 -4.61692" Source="data/levels/models/Interface_player1Upgrade3.model">
+        <#Shaders#>
+            <Shader Name="phong7" TrianglesCount="2">
+                <Material Transparency="0.001" Emissive="1 1 1"/>
+                <Emissive Image="data/levels/textures/upgrade_green"/>
+            </Shader>
+        </#Shaders#>
+    </ModelFixed>
+    </Node>
+    
+    <Node Name="player2upgrade" Visibility="false">
+        <ModelFixed Name="Upgrade3" Scale="1.8 0.9 1" Position="-0.36729 -1.51173 -4.61692" Source="data/levels/models/Interface_player2Upgrade3.model">
+            <#Shaders#>
+                <Shader Name="pasted__phong8" TrianglesCount="2">
+                    <Material Transparency="0.001" Emissive="1 1 1"/>
+                    <Emissive Image="data/levels/textures/upgrade_red"/>
+                </Shader>
+            </#Shaders#>
+        </ModelFixed>
+        <ModelFixed Name="Upgrade2" Scale="1.8 0.9 1" Position="-0.28729 -1.51173 -4.61692" Source="data/levels/models/Interface_player2Upgrade3.model">
+            <#Shaders#>
+                <Shader Name="pasted__phong8" TrianglesCount="2">
+                    <Material Transparency="0.001" Emissive="1 1 1"/>
+                    <Emissive Image="data/levels/textures/upgrade_red"/>
+                </Shader>
+            </#Shaders#>
+        </ModelFixed>
+        <ModelFixed Name="Upgrade1" Scale="1.8 0.9 1" Position="-0.20729 -1.51173 -4.61692" Source="data/levels/models/Interface_player2Upgrade3.model">
+            <#Shaders#>
+                <Shader Name="pasted__phong8" TrianglesCount="2">
+                    <Material Transparency="0.001" Emissive="1 1 1"/>
+                    <Emissive Image="data/levels/textures/upgrade_red"/>
+                </Shader>
+            </#Shaders#>
+        </ModelFixed>
+        <ModelFixed Name="Upgrade0" Scale="1.8 0.9 1" Position="-0.12729 -1.51173 -4.61692" Source="data/levels/models/Interface_player2Upgrade3.model">
+            <#Shaders#>
+                <Shader Name="pasted__phong8" TrianglesCount="2">
+                    <Material Transparency="0.001" Emissive="1 1 1"/>
+                    <Emissive Image="data/levels/textures/upgrade_red"/>
+                </Shader>
+            </#Shaders#>
+        </ModelFixed>
+    </Node>
+    
+    <Text Name="LevelName" Scale="0.4 0.4 0.4" Alignment="CENTER" Font="data/fonts/bc.font" Text="" Position="0 1 -7.30038">
+        <#Shader#>
+            <Material Transparency="0.001" Emissive="0.7 0.7 0.7"/>
+            <Emissive Image="data/fonts/bc"/>
+        </#Shader#>
+    </Text>
+
+    <Text Name="MissionStatus" Scale="0.4 0.4 0.4" Alignment="CENTER" Font="data/fonts/bc.font" Text="" Position="0 1 -7.30038">
+        <#Shader#>
+            <Material Transparency="0.001" Emissive="0.7 0.7 0.7"/>
+            <Emissive Image="data/fonts/bc"/>
+        </#Shader#>
+    </Text>
+
+</Scene>

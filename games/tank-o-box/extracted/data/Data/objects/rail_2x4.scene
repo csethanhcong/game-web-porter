@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Scene>
+	<Node Name="locator1">
+		<ModelFixed Name="pPlane1" Source="data/objects/models/rail_2x4_pPlane1-rail_2x4_locator1.model">
+			<#Shaders#>
+				<Shader Name="phong1" TrianglesCount="2">
+					<Material SpecularPower="40" Diffuse="1 1 1" Specular="0.1157 0.1157 0.1157"/>
+					<Diffuse Image="data/objects/textures/rail"/>
+				</Shader>
+			</#Shaders#>
+		</ModelFixed>
+	</Node>
+</Scene>

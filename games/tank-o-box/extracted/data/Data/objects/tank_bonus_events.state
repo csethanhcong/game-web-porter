@@ -1,0 +1,22 @@
+<GameObjectState>
+    <EventHandlers>
+         <EventHandler>
+            <EventNames>
+                <EventName Name="BonusTimeStop"/>
+            </EventNames>
+            <Strategies>
+                <StrategyChangeState StateName="Frozen"/>
+            </Strategies>
+         </EventHandler>
+
+         <EventHandler>
+            <EventNames>
+                <EventName Name="BonusAirStrike"/>
+            </EventNames>
+            <Strategies>
+                <StrategyChangeState StateName="AirStrike"/>
+            </Strategies>
+         </EventHandler>
+
+    </EventHandlers>
+</GameObjectState>

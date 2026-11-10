@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Scene>
+    <Node Name="Particles" Visibility="false" Children="data/blasts/radar.scene"/>
+
+    <Node Name="snd_live" Children="data/sounds/radar_work.scene"/>
+    <Node Name="snd_death0" Children="data/sounds/radar_work.scene"/>
+    <Node Name="snd_death1" Children="data/sounds/radar_work.scene"/>
+    <Node Name="snd_explode" Children="data/sounds/object_explode.scene"/>
+
+	<Node Name="locator1">
+	<Node Name="score" Children="data/objects/700.scene"/>
+	</Node>
+
+    <Node Name="live">
+        <ModelFixed Name="polySurface3" Source="data/objects/models/radar_3x3_polySurface3-radar_3x3_live.model" >
+            <#Shaders#>
+                <Shader Name="Default1" TrianglesCount="22">
+                    <Material SpecularPower="40" Diffuse="1 1 1" Specular="0.5 0.5 0.5"/>
+                    <Diffuse Image="data/objects/textures/radar"/>
+                </Shader>
+            </#Shaders#>
+        </ModelFixed>
+        <ModelFixed Name="polySurface2" Position="-0.397289 2.16186 0.858657" Source="data/objects/models/radar_3x3_polySurface2-radar_3x3_live.model" >
+            <#Shaders#>
+                <Shader Name="Default1" TrianglesCount="14">
+                    <Material SpecularPower="40" Diffuse="1 1 1" Specular="0.5 0.5 0.5"/>
+                    <Diffuse Image="data/objects/textures/radar"/>
+                </Shader>
+            </#Shaders#>
+        </ModelFixed>
+	<Node Name="shadow_0" Visibility="false"  Children="data/objects/radar_shadow_0.scene"/>
+	<Node Name="shadow_90" Visibility="false"  Children="data/objects/radar_shadow_90.scene"/>
+	<Node Name="shadow_180" Visibility="false"  Children="data/objects/radar_shadow_180.scene"/>
+	<Node Name="shadow_270" Visibility="false"  Children="data/objects/radar_shadow_270.scene"/>
+    </Node>
+    <Node Name="death0" Visibility="false">
+        <ModelFixed Name="polySurface3" Source="data/objects/models/radar_3x3_polySurface3-radar_3x3_death0.model" >
+            <#Shaders#>
+                <Shader Name="Default1" TrianglesCount="22">
+                    <Material SpecularPower="40" Diffuse="1 1 1" Specular="0.5 0.5 0.5"/>
+                    <Diffuse Image="data/objects/textures/radar"/>
+                </Shader>
+            </#Shaders#>
+        </ModelFixed>
+        <ModelFixed Name="polySurface2" Position="-0.183617 1.56649 0.761203" Source="data/objects/models/radar_3x3_polySurface2-radar_3x3_death0.model" >
+            <#Shaders#>
+                <Shader Name="Default1" TrianglesCount="14">
+                    <Material SpecularPower="40" Diffuse="1 1 1" Specular="0.5 0.5 0.5"/>
+                    <Diffuse Image="data/objects/textures/radar"/>
+                </Shader>
+            </#Shaders#>
+        </ModelFixed>
+	<Node Name="shadow_0" Visibility="false"  Children="data/objects/radar_shadow_0.scene"/>
+	<Node Name="shadow_90" Visibility="false"  Children="data/objects/radar_shadow_90.scene"/>
+	<Node Name="shadow_180" Visibility="false"  Children="data/objects/radar_shadow_180.scene"/>
+	<Node Name="shadow_270" Visibility="false"  Children="data/objects/radar_shadow_270.scene"/>
+    </Node>
+    <Node Name="death1" Visibility="false">
+        <ModelFixed Name="polySurface4" Source="data/objects/models/radar_3x3_polySurface4-radar_3x3_death1.model" >
+            <#Shaders#>
+                <Shader Name="Default1" TrianglesCount="14">
+                    <Material SpecularPower="40" Diffuse="1 1 1" Specular="0.5 0.5 0.5"/>
+                    <Diffuse Image="data/objects/textures/radar"/>
+                </Shader>
+            </#Shaders#>
+        </ModelFixed>
+        <ModelFixed Name="polySurface5" Source="data/objects/models/radar_3x3_polySurface5-radar_3x3_death1.model" >
+            <#Shaders#>
+                <Shader Name="Default1" TrianglesCount="22">
+                    <Material SpecularPower="40" Diffuse="1 1 1" Specular="0.5 0.5 0.5"/>
+                    <Diffuse Image="data/objects/textures/radar"/>
+                </Shader>
+            </#Shaders#>
+        </ModelFixed>
+	<Node Name="shadow_0" Visibility="false"  Children="data/objects/radar_shadow_0.scene"/>
+	<Node Name="shadow_90" Visibility="false"  Children="data/objects/radar_shadow_90.scene"/>
+	<Node Name="shadow_180" Visibility="false"  Children="data/objects/radar_shadow_180.scene"/>
+	<Node Name="shadow_270" Visibility="false"  Children="data/objects/radar_shadow_270.scene"/>
+    </Node>
+    <Node Name="death2" Visibility="false">
+        <ModelFixed Name="polySurface6" Source="data/objects/models/radar_3x3_polySurface6-radar_3x3_death2.model" >
+            <#Shaders#>
+                <Shader Name="Default1" TrianglesCount="12">
+                    <Material SpecularPower="40" Diffuse="0.4 0.4 0.4" Specular="0.5 0.5 0.5"/>
+                    <Diffuse Image="data/objects/textures/radar"/>
+                </Shader>
+            </#Shaders#>
+        </ModelFixed>
+        <ModelFixed Name="polySurface7" Source="data/objects/models/radar_3x3_polySurface7-radar_3x3_death2.model" >
+            <#Shaders#>
+                <Shader Name="Default1" TrianglesCount="22">
+                    <Material SpecularPower="40" Diffuse="0.4 0.4 0.4" Specular="0.5 0.5 0.5"/>
+                    <Diffuse Image="data/objects/textures/radar"/>
+                </Shader>
+            </#Shaders#>
+        </ModelFixed>
+    </Node>
+</Scene>

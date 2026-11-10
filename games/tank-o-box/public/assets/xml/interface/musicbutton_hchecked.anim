@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Animation>
+    <math::Vector[float,3]>
+        <PrimitiveAnimation Target="#Shader#" Param="Emissive">
+            <Envelope PreBehave="CONSTANT" PostBehave="CONSTANT">
+                <Keys>
+                    <Key Time="0" Linear="0 0 0" Value="1 1 1"/>
+                </Keys>
+            </Envelope>
+        </PrimitiveAnimation>
+    </math::Vector[float,3]>
+	<WString>
+		<PrimitiveAnimation Target="#AnyNode#" Param="Text">
+			<Envelope PreBehave="CONSTANT" PostBehave="CONSTANT">
+				<Keys>
+					<Key Time="0" Value="MUSIC: ON"/>
+				</Keys>
+			</Envelope>
+		</PrimitiveAnimation>
+	</WString>
+</Animation>

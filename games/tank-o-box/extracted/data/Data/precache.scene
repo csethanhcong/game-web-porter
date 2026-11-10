@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Scene>
+    <Node Name="Hole" Children="data/Hole.scene"/>
+    <Node Name="Loading" Children="data/Loading.scene"/>
+    <Node Name="Cursor" Children="data/interface/cursor.scene"/>
+
+    <Node Name="MainMenu" Children="data/interface/MainMenu.scene"/>
+    <Node Name="hiscore" Children="data/interface/Hiscore.scene"/>
+
+    <Node Name="radar_3x3" Children="data/objects/radar_3x3.scene"/>
+    <Node Name="shtab_6x6" Children="data/objects/shtab_6x6.scene"/>
+
+
+    <Node Name="tank_01_3x3" Children="data/objects/tank_01_3x3.scene"/>
+    <Node Name="tank_01_3x3" Children="data/objects/tank_01_3x3_R.scene"/>
+    <Node Name="tank_02_fast_3x3" Children="data/objects/tank_02_fast_3x3.scene"/>
+    <Node Name="tank_05_duel_3x3" Children="data/objects/tank_05_duel_3x3.scene"/>
+    <Node Name="tank_02_3x3" Children="data/objects/tank_02_3x3.scene"/>
+    <Node Name="tank_03_3x3" Children="data/objects/tank_03_3x3.scene"/>
+    <Node Name="tank_04_3x3" Children="data/objects/tank_04_3x3.scene"/>
+    <Node Name="tank_05_3x3" Children="data/objects/tank_05_3x3.scene"/>
+    <Node Name="tank_06_3x3" Children="data/objects/tank_06_3x3.scene"/>
+    <Node Name="tree_00_2x2" Children="data/objects/tree_00_2x2.scene"/>
+    <Node Name="tree_01_2x2" Children="data/objects/tree_01_2x2.scene"/>
+    <Node Name="tree_02_2x2" Children="data/objects/tree_02_2x2.scene"/>
+    <Node Name="bullet" Children="data/objects/bullet.scene"/>
+    <Node Name="rocket" Children="data/objects/rocket.scene"/>
+    <Node Name="bullet_red" Children="data/objects/bullet_red.scene"/>
+    <Node Name="bullet_green" Children="data/objects/bullet_green.scene"/>
+    <Node Name="bullet_blue" Children="data/objects/bullet_blue.scene"/>
+    <Node Name="bullet_double_blue" Children="data/objects/bullet_double_blue.scene"/>
+
+    <Node Name="timestop" Children="data/objects/timestop.scene"/>
+    <Node Name="upgrade" Children="data/objects/upgrade.scene"/>
+    <Node Name="airstrike" Children="data/objects/airstrike.scene"/>
+    <Node Name="speedup" Children="data/objects/speedup.scene"/>
+    <Node Name="shieldtank" Children="data/objects/shieldtank.scene"/>
+    <Node Name="shieldshtab" Children="data/objects/shieldshtab.scene"/>
+
+    <Node Name="gc_keyboardlayout_1" Children="data/interface/gc_keyboardlayout_1.scene"/>
+    <Node Name="gc_keyboardlayout_2" Children="data/interface/gc_keyboardlayout_2.scene"/>
+    <Node Name="joystick_0" Children="data/interface/joystick_0.scene"/>
+
+    <Node Name="bmp_explode2_precache" Children="data/objects/bmp_explode2_precache.scene"/>
+    <Node Name="bmp_explode1_precache" Children="data/objects/bmp_explode1_precache.scene"/>
+
+    <SoundSource Name="Snd" Sound="data/sounds/click" ChannelType="2D" Loop="false"/>
+
+<SoundSource Name="Snd" Sound="Samples/crash_splshc.wav" ChannelType="2D" Loop="false"/>
+<SoundSource Name="Snd" Sound="Samples/distguit_paul2d~1.wav" ChannelType="2D" Loop="false"/>
+<SoundSource Name="Snd" Sound="Samples/fuzz_paulmc~1.wav" ChannelType="2D" Loop="false"/>
+<SoundSource Name="Snd" Sound="Samples/halo pad_synvox c5" ChannelType="2D" Loop="false"/>
+<SoundSource Name="Snd" Sound="Samples/halo pad_synvox gb3" ChannelType="2D" Loop="false"/>
+<SoundSource Name="Snd" Sound="Samples/hhat_808chh.wav" ChannelType="2D" Loop="false"/>
+<SoundSource Name="Snd" Sound="Samples/kick el_15elec~1.wav" ChannelType="2D" Loop="false"/>
+<SoundSource Name="Snd" Sound="Samples/kick_21mond~1.wav" ChannelType="2D" Loop="false"/>
+<SoundSource Name="Snd" Sound="Samples/ohat_808ohh.wav" ChannelType="2D" Loop="false"/>
+<SoundSource Name="Snd" Sound="Samples/orchestra hit_orchhit c5" ChannelType="2D" Loop="false"/>
+<SoundSource Name="Snd" Sound="Samples/revcrash_56reve~1.wav" ChannelType="2D" Loop="false"/>
+<SoundSource Name="Snd" Sound="Samples/ride_ridec~1.wav" ChannelType="2D" Loop="false"/>
+<SoundSource Name="Snd" Sound="Samples/saw_s.wav" ChannelType="2D" Loop="false"/>
+<SoundSource Name="Snd" Sound="Samples/snare_37loos~1.wav" ChannelType="2D" Loop="false"/>
+<SoundSource Name="Snd" Sound="Samples/snare_68tr90~1.wav" ChannelType="2D" Loop="false"/>
+<SoundSource Name="Snd" Sound="Samples/space voice_spectrum eb5" ChannelType="2D" Loop="false"/>
+<SoundSource Name="Snd" Sound="Samples/synth bass 1_sawbasswave c1" ChannelType="2D" Loop="false"/>
+<SoundSource Name="Snd" Sound="Samples/synth bass 1_sawbasswave c3" ChannelType="2D" Loop="false"/>
+<SoundSource Name="Snd" Sound="Samples/tuba_tubac4~1.wav" ChannelType="2D" Loop="false"/>
+<SoundSource Name="Snd" Sound="Samples/trumpet_" ChannelType="2D" Loop="false"/>
+
+</Scene>

@@ -1,0 +1,10 @@
+<InterfaceScreenMenuScore 
+        ModelName="data/levels/Trial.scene" 
+        Cursor="data/interface/cursor" 
+        AnimationName="data/Interface/_night.anim" 
+        Music="data/music/menu">
+    <Controls>
+        <ControlButton NodeName="btnNext" KeyboardAlias="GCMenuSelect" Name="data/Interface/EmissiveButton_" Link="Exit" OptionName="ReturnCode" OptionValue="3"/>
+        <ControlButton NodeName="btnMenu" KeyboardAlias="GCMenuBack" Name="data/Interface/EmissiveButton_" Link="data/Interface/MainMenu.screen"/>
+    </Controls>
+</InterfaceScreenMenuScore>

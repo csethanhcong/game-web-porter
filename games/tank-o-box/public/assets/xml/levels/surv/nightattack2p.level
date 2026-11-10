@@ -1,0 +1,14 @@
+<InterfaceScreenLevelSquare   
+    AnimationName="data/Levels/level1.anim" 
+    Music="data/music/positive"
+    TemplateName="data/Levels/surv/NightAttack.level"
+    TemplateName="data/Levels/2_player.level">
+<Properties>    
+    <Property Name="GenerateTank2Total" Value="30" />
+    <Property Name="GenerateTank3Total" Value="30" />
+    <Property Name="GenerateTank4Total" Value="30" />
+    <Property Name="GenerateTank5Total" Value="30" />
+    <Property Name="GenerateTank6Total" Value="30" />
+    <Property Name="GenerateTankPlayer2" Value="1" />
+</Properties>
+</InterfaceScreenLevelSquare>

@@ -1,0 +1,26 @@
+<InterfaceScreenMenu 
+    ModelName="data/Interface/Controls.scene" 
+    AnimationName="data/Interface/_night.anim" 
+    Cursor="data/interface/cursor"
+    Music="data/music/menu">
+    <Controls>
+        <ControlInputSelector
+            Name="data/Interface/EmissiveButton_" 
+            NodeName="btnInput1"
+            SelectorModelNode="deviceModel1"
+            HardwareModelPath="data/interface/"
+            DefaultHardwareName="GC_KeyboardLayout_1"
+            HardwarePropertyName="Player1InputDevice"
+        />
+        <ControlInputSelector
+            Name="data/Interface/EmissiveButton_" 
+            NodeName="btnInput2"
+            SelectorModelNode="deviceModel2"
+            HardwareModelPath="data/interface/"
+            DefaultHardwareName="GC_KeyboardLayout_2"
+            HardwarePropertyName="Player2InputDevice"
+        />
+        <ControlMusicMute Name="data/Interface/MusicButton_" NodeName="btnMusic"/>
+        <ControlButton KeyboardAlias="GCMenuBack" Name="data/Interface/EmissiveButton_" NodeName="btnNext" Link="Return"/>
+    </Controls>
+</InterfaceScreenMenu>

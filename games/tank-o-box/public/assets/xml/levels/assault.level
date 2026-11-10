@@ -1,0 +1,374 @@
+<InterfaceScreenLevelSquare ModelName="data/Levels/terrains/terrain_09_180.scene" TemplateName="data/levels/1_player.level"
+    Music="data/music/energy">
+  <Properties>
+    <Property Name="LevelName" Value="ASSAULT" />
+    <Property Name="GenerateTank2" Value="0" />
+    <Property Name="GenerateTank2Total" Value="0" />
+    <Property Name="GenerateTank3" Value="0" />
+    <Property Name="GenerateTank3Total" Value="0" />
+    <Property Name="GenerateTank4" Value="6" />
+    <Property Name="GenerateTank4Total" Value="0" />
+    <Property Name="GenerateTank5" Value="2" />
+    <Property Name="GenerateTank5Total" Value="2" />
+    <Property Name="GenerateTank6" Value="0" />
+    <Property Name="GenerateTank6Total" Value="0" />
+    <Property Name="GenerateTankPlayer" Value="1" />
+    <Property Name="GenerateTankPlayer2" Value="0" />
+    
+    <Property Name="ProbBonusShtabArmor" Value="0"/>
+    
+  </Properties>
+  <Level CornerNode="Corner" VectorX="-1 0 0" VectorY="0 0 1" Height="45" Width="45">
+    <Object TemplateName="data/objects/generator_enemy.object">
+      <Position X="2" Y="4" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/generator_enemy.object">
+      <Position X="11" Y="6" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/generator_enemy.object">
+      <Position X="18" Y="8" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/generator_enemy.object">
+      <Position X="27" Y="6" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/generator_enemy.object">
+      <Position X="34" Y="10" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/generator_enemy.object">
+      <Position X="40" Y="8" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/egg_1x1.object">
+      <Position X="1" Y="4" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/egg_1x1.object">
+      <Position X="2" Y="3" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/egg_1x1.object">
+      <Position X="4" Y="7" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/egg_1x1.object">
+      <Position X="10" Y="6" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/egg_1x1.object">
+      <Position X="11" Y="5" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/egg_1x1.object">
+      <Position X="17" Y="10" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/egg_1x1.object">
+      <Position X="20" Y="7" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/egg_1x1.object">
+      <Position X="21" Y="8" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/egg_1x1.object">
+      <Position X="27" Y="5" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/egg_1x1.object">
+      <Position X="26" Y="6" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/egg_1x1.object">
+      <Position X="30" Y="8" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/egg_1x1.object">
+      <Position X="34" Y="9" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/egg_1x1.object">
+      <Position X="33" Y="10" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/egg_1x1.object">
+      <Position X="39" Y="10" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/egg_1x1.object">
+      <Position X="40" Y="11" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/egg_1x1.object">
+      <Position X="42" Y="7" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/egg_1x1.object">
+      <Position X="43" Y="8" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/egg_1x1.object">
+      <Position X="37" Y="12" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/wall_st_1x3.object">
+      <Position X="16" Y="11" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/wall_st_1x3.object">
+      <Position X="20" Y="11" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/wall_st_1x3.object">
+      <Position X="0" Y="7" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/wall_st_1x3.object">
+      <Position X="5" Y="6" Direction="1 4" />
+    </Object>
+    <Object TemplateName="data/objects/wall_st_1x3.object">
+      <Position X="13" Y="9" Direction="2 4" />
+    </Object>
+    <Object TemplateName="data/objects/wall_st_1x3.object">
+      <Position X="14" Y="4" Direction="3 4" />
+    </Object>
+    <Object TemplateName="data/objects/wall_st_1x3.object">
+      <Position X="29" Y="9" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/tree_02_2x2.object">
+      <Position X="7" Y="19" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/tree_02_2x2.object">
+      <Position X="12" Y="22" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/tree_02_2x2.object">
+      <Position X="30" Y="23" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/tree_02_2x2.object">
+      <Position X="6" Y="35" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/tree_02_2x2.object">
+      <Position X="9" Y="35" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/tree_02_2x2.object">
+      <Position X="12" Y="36" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/tree_02_2x2.object">
+      <Position X="16" Y="36" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/tree_02_2x2.object">
+      <Position X="14" Y="37" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/tree_02_2x2.object">
+      <Position X="9" Y="38" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/tree_02_2x2.object">
+      <Position X="6" Y="38" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/tree_02_2x2.object">
+      <Position X="3" Y="37" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/tree_02_2x2.object">
+      <Position X="1" Y="35" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/tree_02_2x2.object">
+      <Position X="1" Y="38" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/tree_02_2x2.object">
+      <Position X="11" Y="39" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/tree_02_2x2.object">
+      <Position X="14" Y="40" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/tree_02_2x2.object">
+      <Position X="29" Y="36" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/tree_02_2x2.object">
+      <Position X="34" Y="36" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/tree_02_2x2.object">
+      <Position X="40" Y="35" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/tree_02_2x2.object">
+      <Position X="43" Y="37" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/tree_02_2x2.object">
+      <Position X="42" Y="40" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/tree_02_2x2.object">
+      <Position X="39" Y="39" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/tree_02_2x2.object">
+      <Position X="36" Y="39" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/tree_02_2x2.object">
+      <Position X="32" Y="41" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/tree_02_2x2.object">
+      <Position X="29" Y="39" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/tree_02_2x2.object">
+      <Position X="33" Y="39" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/tree_02_2x2.object">
+      <Position X="36" Y="41" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/tree_02_2x2.object">
+      <Position X="40" Y="42" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/tree_02_2x2.object">
+      <Position X="38" Y="36" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/tree_01_2x2.object">
+      <Position X="2" Y="40" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/tree_01_2x2.object">
+      <Position X="5" Y="41" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/tree_01_2x2.object">
+      <Position X="4" Y="35" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/tree_01_2x2.object">
+      <Position X="8" Y="40" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/tree_01_2x2.object">
+      <Position X="11" Y="41" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/tree_01_2x2.object">
+      <Position X="15" Y="42" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/tree_01_2x2.object">
+      <Position X="16" Y="39" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/tree_01_2x2.object">
+      <Position X="29" Y="41" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/tree_01_2x2.object">
+      <Position X="31" Y="38" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/tree_01_2x2.object">
+      <Position X="38" Y="42" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/tree_01_2x2.object">
+      <Position X="43" Y="42" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/tree_01_2x2.object">
+      <Position X="34" Y="42" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/tree_01_2x2.object">
+      <Position X="41" Y="37" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/tree_01_2x2.object">
+      <Position X="32" Y="36" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/generator_player.object">
+      <Position X="20" Y="39" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/generator_player.object">
+      <Position X="25" Y="39" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/kolyuchka_1x3.object">
+      <Position X="4" Y="10" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/kolyuchka_1x3.object">
+      <Position X="13" Y="14" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/kolyuchka_1x3.object">
+      <Position X="16" Y="14" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/kolyuchka_1x3.object">
+      <Position X="25" Y="14" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/kolyuchka_1x3.object">
+      <Position X="30" Y="14" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/kolyuchka_1x3.object">
+      <Position X="9" Y="14" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/kolyuchka_1x3.object">
+      <Position X="6" Y="14" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/kolyuchka_1x3.object">
+      <Position X="0" Y="14" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/kolyuchka_1x3.object">
+      <Position X="6" Y="18" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/kolyuchka_1x3.object">
+      <Position X="9" Y="18" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/kolyuchka_1x3.object">
+      <Position X="13" Y="18" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/kolyuchka_1x3.object">
+      <Position X="17" Y="18" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/kolyuchka_1x3.object">
+      <Position X="22" Y="18" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/kolyuchka_1x3.object">
+      <Position X="25" Y="18" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/kolyuchka_1x3.object">
+      <Position X="29" Y="18" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/wall_st_1x3.object">
+      <Position X="36" Y="13" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/kolyuchka_1x3.object">
+      <Position X="36" Y="18" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/kolyuchka_1x3.object">
+      <Position X="42" Y="18" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/generator_enemy.object">
+      <Position X="6" Y="1" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/generator_enemy.object">
+      <Position X="22" Y="1" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/radar_3x3.object">
+      <Position X="31" Y="1" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/radar_3x3.object">
+      <Position X="35" Y="1" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/radar_3x3.object">
+      <Position X="39" Y="1" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/egg_1x1.object">
+      <Position X="4" Y="3" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/egg_1x1.object">
+      <Position X="5" Y="4" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/egg_1x1.object">
+      <Position X="10" Y="8" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/egg_1x1.object">
+      <Position X="11" Y="9" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/egg_1x1.object">
+      <Position X="18" Y="7" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/egg_1x1.object">
+      <Position X="17" Y="8" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/egg_1x1.object">
+      <Position X="26" Y="8" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/egg_1x1.object">
+      <Position X="27" Y="9" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/egg_1x1.object">
+      <Position X="29" Y="5" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/egg_1x1.object">
+      <Position X="30" Y="6" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/egg_1x1.object">
+      <Position X="36" Y="9" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/egg_1x1.object">
+      <Position X="37" Y="10" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/egg_1x1.object">
+      <Position X="33" Y="12" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/egg_1x1.object">
+      <Position X="34" Y="13" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/egg_1x1.object">
+      <Position X="40" Y="7" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/egg_1x1.object">
+      <Position X="39" Y="8" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/egg_1x1.object">
+      <Position X="42" Y="11" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/egg_1x1.object">
+      <Position X="43" Y="10" Direction="0 4" />
+    </Object>
+    <Object TemplateName="data/objects/egg_1x1.object">
+      <Position X="21" Y="10" Direction="0 4" />
+    </Object>
+  </Level>
+</InterfaceScreenLevelSquare>

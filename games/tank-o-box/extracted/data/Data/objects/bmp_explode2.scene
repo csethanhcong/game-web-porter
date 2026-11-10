@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Scene>
+    <Node Name="locator1" Visibility="false">
+        <Billboard Name="locator2" Position="0 0.45 0">
+            <ModelFixed Name="pPlane1" Position="0 0 -2" Scale="4 4 4" Source="data/objects/models/speedup_pPlane1-speedup_locator2-speedup_locator1.model">
+                <#Shaders#>
+                    <Shader Name="phong3" TrianglesCount="2">
+                        <Material Transparency="0.001" Emissive="1 1 1"/>
+                        <Emissive Image="data/objects/textures/bmp2/exp_00"/>
+                    </Shader>
+                </#Shaders#>
+            </ModelFixed>
+        </Billboard>
+    </Node>
+</Scene>

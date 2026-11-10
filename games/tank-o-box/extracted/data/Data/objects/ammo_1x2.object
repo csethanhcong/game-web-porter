@@ -1,0 +1,53 @@
+<GameObject Type="Object">
+    <GameObjectView ModelName="data/objects/ammo_1x2.scene"/>
+
+    <Properties>
+        <Property Name="HitPoints" Value="1"/>
+        <Property Name="Damage" Value="-1"/>
+        <Property Name="DamageDouble" Value="-2"/>
+        <Property Name="DamageRocket" Value="-3"/>
+    </Properties>
+
+    <GameObjectStates>
+        <GameObjectState Name="Default" TemplateName="data/objects/object_collision.state" TemplateName="data/objects/object_collision_with_tank.state">
+            <GameObjectStateView AnimationName="data/objects/ammo_1x2.anim" Loop="false"/>
+            <Strategies>
+                <StrategyChangeStateByCounter StateName="Exploding1" PropertyName="HitPoints" MinValue="-9999" MaxValue="1"/>
+                <StrategyMask Mask = "1 1"/>
+			<StrategyShadow MainNode="live" ShadowName="shadow"/>
+            </Strategies>
+        </GameObjectState>
+
+        <GameObjectState Name="Exploding1">
+            <EventHandlers>
+                <EventHandler>
+                    <EventNames>
+                        <EventName Name="AnimFinished"/>
+                    </EventNames>
+                    <Strategies>                    
+                        <StrategyChangeState StateName="Death1"/>
+                    </Strategies>
+                 </EventHandler>
+           </EventHandlers>
+           <Strategies>
+                <StrategyMask Mask = "0 0"/>
+            </Strategies>
+           <GameObjectStateView AnimationName="data/objects/death1.anim" 
+                AnimationName="data/objects/explode_flash_yellow.anim"
+                AnimationName="data/objects/explode_particles.anim"
+                AnimationName="data/objects/explode_sphere.anim" 
+                Loop="false"/>
+        </GameObjectState>
+
+        <GameObjectState Name="Death1" TemplateName="data/objects/object_collision.state">
+            <GameObjectStateView AnimationName="data/objects/ammo_1x2.anim"/>
+            <Strategies>
+                <StrategyMask Mask = "0 0"/>
+            </Strategies>
+        </GameObjectState>
+
+
+
+    </GameObjectStates>
+
+</GameObject>

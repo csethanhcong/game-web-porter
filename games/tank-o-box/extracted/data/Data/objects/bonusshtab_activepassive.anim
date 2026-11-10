@@ -1,0 +1,16 @@
+<Animation>
+    <Commands>
+        <Command Target="snd_shield|snd">
+            <Execute Name="Stop" Time="0"/>
+        </Command>
+    </Commands>
+    <double>
+        <PrimitiveAnimation Target="shield" Param="Visibility">
+            <Envelope PreBehave="CONSTANT" PostBehave="CONSTANT">
+                <Keys>
+                    <Key Time="0" Linear="0" Quadratic="0" Cubic="0" Value="0"/>
+                </Keys>
+            </Envelope>
+        </PrimitiveAnimation>
+    </double>
+</Animation>

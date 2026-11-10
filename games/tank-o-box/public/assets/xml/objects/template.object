@@ -1,0 +1,116 @@
+<GameObject Type="Object">
+    <GameObjectView ModelName="data/objects/%FILE_NAME%"/>
+
+	<Properties>
+		<Property Name="HitPoints" Value="20"/>
+		<Property Name="Damage" Value="-1"/>
+	    <Property Name="DamageDouble" Value="-2"/>
+	    <Property Name="DamageRocket" Value="-3"/>
+	</Properties>
+
+    <GameObjectStates>
+		<GameObjectState Name="Default" TemplateName="data/objects/object_collision.state">
+			<GameObjectStateView AnimationName="data/objects/%FILE_NAME_WO_EXT%.anim"/>
+			<Strategies>
+				<StrategyChangeStateByCounter StateName="Exploding1" PropertyName="HitPoints" MinValue="-9999" MaxValue="16"/>
+				<StrategyMask Mask = "%MASK%"/>
+			</Strategies>
+		</GameObjectState>
+
+		<GameObjectState Name="Exploding1">
+			<EventHandlers>
+				<EventHandler>
+	                <EventNames>
+	                    <EventName Name="AnimFinished"/>
+	                </EventNames>
+	                <Strategies>                	
+	                    <StrategyChangeState StateName="Death1"/>
+	                </Strategies>
+	             </EventHandler>
+	       </EventHandlers>
+	       <Strategies>
+				<StrategyMask Mask = "%MASK%"/>
+			</Strategies>
+	       <GameObjectStateView AnimationName="data/objects/death1.anim" Loop="false"/>
+		</GameObjectState>
+
+		<GameObjectState Name="Death1" TemplateName="data/objects/object_collision.state">
+		    <GameObjectStateView AnimationName="data/objects/%FILE_NAME_WO_EXT%.anim"/>
+		    <Strategies>
+		    	<StrategyChangeStateByCounter StateName="Exploding2" PropertyName="HitPoints" MinValue="-9999" MaxValue="11"/>
+		    	<StrategyMask Mask = "%MASK%"/>
+		    </Strategies>
+		</GameObjectState>
+
+		<GameObjectState Name="Exploding2">
+			<EventHandlers>
+				<EventHandler>
+	                <EventNames>
+	                    <EventName Name="AnimFinished"/>
+	                </EventNames>
+	                <Strategies>                	
+	                    <StrategyChangeState StateName="Death2"/>
+	                </Strategies>
+	             </EventHandler>
+	       </EventHandlers>
+	       <Strategies>
+				<StrategyMask Mask = "%MASK%"/>
+			</Strategies>
+	       <GameObjectStateView AnimationName="data/objects/death2.anim" Loop="false"/>
+		</GameObjectState>
+
+		<GameObjectState Name="Death2" TemplateName="data/objects/object_collision.state">
+			<GameObjectStateView AnimationName="data/objects/%FILE_NAME_WO_EXT%.anim"/>
+		    <Strategies>
+		    	<StrategyChangeStateByCounter StateName="Exploding3" PropertyName="HitPoints" MinValue="-9999" MaxValue="6"/>
+		    	<StrategyMask Mask = "%MASK%"/>
+		    </Strategies>
+		</GameObjectState>
+
+		<GameObjectState Name="Exploding3">
+			<EventHandlers>
+				<EventHandler>
+	                <EventNames>
+	                    <EventName Name="AnimFinished"/>
+	                </EventNames>
+	                <Strategies>                	
+	                    <StrategyChangeState StateName="Death3"/>
+	                </Strategies>
+	             </EventHandler>
+	       </EventHandlers>
+	       <Strategies>
+				<StrategyMask Mask = "%MASK%"/>
+			</Strategies>
+	       <GameObjectStateView AnimationName="data/objects/death3.anim" Loop="false"/>
+		</GameObjectState>
+
+		<GameObjectState Name="Death3" TemplateName="data/objects/object_collision.state">
+			<GameObjectStateView AnimationName="data/objects/%FILE_NAME_WO_EXT%.anim"/>
+		    <Strategies>
+		    	<StrategyChangeStateByCounter StateName="Exploding4" PropertyName="HitPoints" MinValue="-9999" MaxValue="1"/>
+		    	<StrategyMask Mask = "%MASK%"/>
+		    </Strategies>
+		</GameObjectState>
+
+		<GameObjectState Name="Exploding4">
+			<EventHandlers>
+				<EventHandler>
+	                <EventNames>
+	                    <EventName Name="AnimFinished"/>
+	                </EventNames>
+	                <Strategies>                	
+	                    <StrategyChangeState StateName="Dead"/>
+	                </Strategies>
+	             </EventHandler>
+	       </EventHandlers>
+	       <Strategies>
+				<StrategyMask Mask = "%MASK%"/>
+			</Strategies>
+	       <GameObjectStateView AnimationName="data/objects/explode_anim.anim" Loop="false"/>
+		</GameObjectState>
+
+		<GameObjectState Name="Dead"/>
+
+    </GameObjectStates>
+
+</GameObject>

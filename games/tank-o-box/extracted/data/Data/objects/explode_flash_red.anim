@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Animation>
+    <double>
+        <PrimitiveAnimation Target="explode_flash_red|point1" Param="Intensity">
+            <Envelope PreBehave="CONSTANT" PostBehave="CONSTANT">
+                <Keys>
+                <Key Time="0" Linear="-300" Quadratic="0" Cubic="0" Value="300"/>
+                <Key Time="1" Linear="0" Quadratic="0" Cubic="0" Value="0"/>
+                </Keys>
+            </Envelope>
+        </PrimitiveAnimation>
+    </double>
+</Animation>

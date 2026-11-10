@@ -1,0 +1,12 @@
+<InterfaceScreenLevelSquare
+TemplateName = "data\levels\surv\MineField.level"
+TemplateName="data/Levels/2_player.level">
+<Properties>
+<Property Name="GenerateTankPlayer2" Value="1" />
+<Property Name="GenerateTank2Total" Value="10" />
+<Property Name="GenerateTank3Total" Value="30" />
+<Property Name="GenerateTank4Total" Value="30" />
+<Property Name="GenerateTank5Total" Value="30" />
+<Property Name="GenerateTank6Total" Value="30" />
+</Properties>
+</InterfaceScreenLevelSquare>

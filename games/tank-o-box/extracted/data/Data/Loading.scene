@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Scene>
+    <Node Name="group1" Position="0 0 25.3482">
+        <Node Name="tank_01_3x3_2_locator3">
+            <ModelFixed Name="tank_01_3x3_2_polySurface7" Source="data/objects/models/tank_01_3x3_2_01_3x3_2_polySurface7-tank_01_3x3_2_01_3x3_2_locator3.model">
+                <#Shaders#>
+                    <Shader Name="tank_01_3x3_2_phong2" TrianglesCount="160">
+                        <Material SpecularPower="40" Diffuse="1 1 1"/>
+                        <Diffuse Image="data/objects/textures/tank_00_2"/>
+                    </Shader>
+                </#Shaders#>
+            </ModelFixed>
+        </Node>
+    </Node>
+    <ModelMorph Name="polySurface3_1" Source="data/models/loading_2.1_polySurface3_1.model" Source2="data/models/loading_2_polySurface3_1.model">
+        <#Shaders#>
+            <Shader Name="phong1" TrianglesCount="400">
+                <Material Transparency="0.001" SpecularPower="40" Diffuse="1 1 1"/>
+                <Diffuse Image="data/textures/loading"/>
+            </Shader>
+        </#Shaders#>
+    </ModelMorph>
+    <CameraPerspective Name="Camera" Position="15.0689 61.1694 1.44433" Rotation="-1.0472 -1.5708 7.99361e-015" Scale="-1 1 -1" Fov="0.660595" Aspect="0.75" NearPlane="0.5" FarPlane="500" ViewportLeft="-1" ViewportRight="1" ViewportTop="1" ViewportBottom="-1"/>
+    <Light Name="ambientLight1" Type="AMBIENT" Intensity="0.8" Ambient="1 1 1"/>
+    <Light Name="pointLight1" Position="-4.96158 -2.07693 5.47905" Rotation="0.307909 3.72423 0" Type="POINT" Intensity="20" Attenuation="QUADRATIC" Diffuse="1 1 1" Specular="1 1 1"/>
+    <ModelFixed Name="pPlane1" Source="data/models/loading_2_pPlane1.model">
+        <#Shaders#>
+            <Shader Name="phong2" TrianglesCount="512">
+                <Material Transparency="0.001" SpecularPower="40" Diffuse="1 1 1"/>
+                <Diffuse Image="data/textures/logo"/>
+            </Shader>
+        </#Shaders#>
+    </ModelFixed>
+</Scene>

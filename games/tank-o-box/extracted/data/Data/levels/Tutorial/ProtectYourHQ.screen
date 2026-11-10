@@ -1,0 +1,10 @@
+<InterfaceScreenMenu 
+        ModelName="data/Levels/Tutorial/ProtectYourHQ.scene" 
+        AnimationName="data/Interface/_night.anim" 
+        Cursor="data/interface/cursor"
+        Music="data/music/menu">
+    <Controls>
+        <ControlButton KeyboardAlias="GCMenuSelect" Name="data/Interface/EmissiveButton_" NodeName="btnNext" Link="Next"/>       
+        <ControlButton KeyboardAlias="GCMenuBack" Name="data/Interface/EmissiveButton_" NodeName="btnMenu" Link="data/interface/MainMenu.screen"/>
+    </Controls>
+</InterfaceScreenMenu>

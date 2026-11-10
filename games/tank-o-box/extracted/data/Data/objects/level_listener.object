@@ -1,0 +1,30 @@
+<GameObject Type="Camera">
+    <GameObjectView NodeName="SoundListener"/>
+    <GameObjectStates>
+    
+        <GameObjectState Name="Default">
+            <EventHandlers>
+                <EventHandler>
+                    <EventNames>
+                        <EventName Name="AnimFinished"/>
+                    </EventNames>
+                    <Strategies>
+                        <StrategyChangeState StateName="Follow"/>
+                    </Strategies>
+                 </EventHandler>
+            </EventHandlers>
+            <GameObjectStateView AnimationName="data/objects/listener_move.anim" Loop="false"/>
+            <Strategies>
+                <StrategyCameraFollow TargetType="Player" Stick="0 0 0" Speed="1 1 1"/>
+            </Strategies>
+        </GameObjectState>
+
+
+        <GameObjectState Name="Follow">        
+            <Strategies>
+                <StrategyCameraFollow TargetType="Player" Stick="0 0 0"/>
+              </Strategies>
+        </GameObjectState>
+
+    </GameObjectStates>
+</GameObject>

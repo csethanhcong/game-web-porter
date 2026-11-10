@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Scene>
+	<Node Name="_night" Children="data/interface/_night.scene"/>
+
+	<Text Name="header" Position="0 5.5 -13" Rotation="-1.57 0 0" Scale="4.5 4.5 4.5" Font="data/fonts/bc.font" Alignment="CENTER" Text="GAME MENU">
+		<#Shader#>
+			<Material Transparency="0.001" Emissive="0.8 0.8 0.7"/>
+			<Emissive Image="data/fonts/bc"/>
+		</#Shader#>		
+	</Text>
+
+	<Text Name="btnReturn" Position="0 5.5 -5" Rotation="-1.57 0 0" Scale="4 4 4" Font="data/fonts/bc.font" Alignment="CENTER" Text="CONTINUE">
+		<#Shader#>
+			<Material Transparency="0.001" Emissive="0.6 0.6 0.6"/>
+			<Emissive Image="data/fonts/bc"/>
+		</#Shader#>
+		<HitNode Position="0 0 -1.5" Height="0.1" Width="0.35"/>
+		<SoundSource Name="Snd" Sound="data/sounds/click" ChannelType="2D" Loop="false"/>
+	</Text>
+	<Text Name="btnOptions" Position="0 5.5 0" Rotation="-1.57 0 0" Scale="4 4 4" Font="data/fonts/bc.font" Alignment="CENTER" Text="OPTIONS">
+		<#Shader#>
+			<Material Transparency="0.001" Emissive="0.6 0.6 0.6"/>
+			<Emissive Image="data/fonts/bc"/>
+		</#Shader#>
+		<HitNode Position="0 0 -1.5" Height="0.1" Width="0.35"/>
+		<SoundSource Name="Snd" Sound="data/sounds/click" ChannelType="2D" Loop="false"/>
+	</Text>
+	<Text Name="btnMenu" Position="0 5.5 5" Rotation="-1.57 0 0" Scale="4 4 4" Font="data/fonts/bc.font" Alignment="CENTER" Text="EXIT TO MENU">
+		<#Shader#>
+			<Material Transparency="0.001" Emissive="0.6 0.6 0.6"/>
+			<Emissive Image="data/fonts/bc"/>
+		</#Shader#>
+		<HitNode Position="0 0 -1.5" Height="0.1" Width="0.35"/>
+		<SoundSource Name="Snd" Sound="data/sounds/click" ChannelType="2D" Loop="false"/>
+	</Text>
+	<Text Name="btnExit" Position="0 5.5 10" Rotation="-1.57 0 0" Scale="4 4 4" Font="data/fonts/bc.font" Alignment="CENTER" Text="EXIT TO WINDOWS">
+		<#Shader#>
+			<Material Transparency="0.001" Emissive="0.6 0.6 0.6"/>
+			<Emissive Image="data/fonts/bc"/>
+		</#Shader#>
+		<HitNode Position="0 0 -1.5" Height="0.1" Width="0.35"/>
+		<SoundSource Name="Snd" Sound="data/sounds/click" ChannelType="2D" Loop="false"/>
+	</Text>
+</Scene>

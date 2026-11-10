@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Model>
+	<Float Name="Positions" Type="Float">;w+¾žAc?=Né¿ms@æ®½?<Né¿bw?æ®½?…B@ÀnaÀ82Ó?D‹4@naÀU0:@…B@ÀXÅ—À”MU@<1§¿naÀ82Ó?D‹4@XÅ—Àœh/@‡ÄÑ?Ñ–·À»ø?ê;@Ñ–·À»ø?ê;@XÅ—À”MU@<1§¿'NºÀU0:@…B@À</Float>
+	<Float Name="Normals" Type="Float">;1x¾Ukp?Øq>1x¾Ukp?Øq>1x¾Ukp?Øq>®ô?ÒfS?rÌ6>®ô?ÒfS?rÌ6>®ô?ÒfS?rÌ6>ô3>KK?¨¥?ô3>KK?¨¥?ô3>KK?¨¥?g¿G,S?b^>g¿G,S?b^>g¿G,S?b^></Float>
+	<Float Name="UV0" Type="Float">;»+Ã>$d¸>è>$d¸>ÇÚ‡>x÷>j¦?? `-<j¦??¶j?Û_?w-Ù>j¦?? `-<nÛ_?\X>üU|? `-<üU|? `-<Û_?w-Ù>üU|?¶j?</Float>
+	<Float Name="U-Tangents" Type="Float">;-kw?tƒ>G¢x3-kw?tƒ>G¢x3-kw?tƒ>G¢x3ì.W?T¢
+¿gpd¼ì.W?S¢
+¿rd¼ì.W?S¢
+¿Õqd¼ær}?¿9¾œÙR½ær}?¿9¾œÙR½ær}?¿9¾œÙR½ƒU?@Ð?ø'¼„U??Ð?Ù'¼„U??Ð?O'¼</Float>
+	<Float Name="V-Tangents" Type="Float">;G‘6g½y¾Ex?6”6f½y¾Ex?¬ì6h½y¾Ex?zçS2m]X¾^8z?zçS2m]X¾^8z?zçS2m]X¾^8z?õ"í<VÑ¿—€L?#í<VÑ¿—€L?#í<VÑ¿—€L?mg<X$¾×§|?mg<X$¾×§|?mg<X$¾×§|?</Float>
+</Model>

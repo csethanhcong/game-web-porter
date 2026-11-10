@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Scene>
+    <SoundSource Name="snd" Sound="data/sounds/upgrade" ChannelType="2D"
+	Loop="false"/>
+</Scene>

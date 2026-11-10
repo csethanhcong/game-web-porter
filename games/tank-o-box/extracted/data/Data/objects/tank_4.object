@@ -1,0 +1,126 @@
+<GameObject Type="Tank" TemplateName="data/objects/tank_bonus_states.object">
+    <GameObjectView ModelName="data/objects/tank_04_3x3.scene"/>
+      
+    <Properties>
+        <Property Name="Speed" Value="3"/>
+        <Property Name="HitPoints" Value="3"/>
+        <Property Name="BonusArmor" Value="0"/>
+        <Property Name="BonusFast" Value="0"/> 
+        
+        <Property Name="HitScore" Value="100"/>
+        <Property Name="ExplodeScore" Value="700"/>     
+        
+        <Property Name="Damage" Value="-1"/>
+        <Property Name="DamageDouble" Value="-2"/>
+        <Property Name="DamageRocket" Value="-3"/>
+    </Properties>   
+
+    <Strategies>
+        <StrategyGlobalCounter PropertyName="TankCountEnemy"/>
+    </Strategies>
+
+    <GameObjectStates>
+        <GameObjectState Name="Default">
+            <GameObjectStateView AnimationName="data/objects/tank_landing.anim" Loop="false"/>
+            <EventHandlers>
+
+                <EventHandler>
+                    <EventNames>
+                        <EventName Name="AnimFinished"/>
+                    </EventNames>
+                    <Strategies>
+                        <StrategyChangeState StateName="Land"/>                        
+                    </Strategies>
+                 </EventHandler>
+
+            </EventHandlers>
+            <Strategies>
+                <StrategyMask Mask = "000 000 000"/>
+            </Strategies>
+        </GameObjectState>
+
+
+        <GameObjectState Name="Land">
+            <Strategies>
+                <StrategyMask Mask = "111 111 111"/>
+                <StrategyChangeState StateName="NoBonus"/>
+            </Strategies>
+        </GameObjectState>
+
+        <GameObjectState Name="NoBonus" TemplateName="data/objects/tank_collision.state" TemplateName="data/objects/tank_bonus_events.state">
+            <GameObjectStateView AnimationName="data/objects/tank_04_3x3.anim"/>
+            <Strategies>
+                <StrategyChangeStateByCounter StateName="Explode" PropertyName="HitPoints" MinValue="-9999" MaxValue="1"/>
+                <StrategyMoveRandom Mask = "111 111 111" MinTime="1" MaxTime="2"/>
+                <StrategyFireByTime MinTime="1" MaxTime="2" FireMask="010 000 000" TemplateName="data/objects/bullet_enemy_blue.object"/>
+                <StrategyChangeStateByRandomTime TimeMin="3" TimeMax="5" StateName="Bonus"/>
+            </Strategies>
+       </GameObjectState>  
+
+        <GameObjectState Name="Bonus" TemplateName="data/objects/tank_collision.state" TemplateName="data/objects/tank_bonus_events.state">
+            <GameObjectStateView AnimationName="data/objects/tank_04_3x3.anim"/>
+            <Strategies>
+                <StrategyChangeStateByCounter StateName="Explode" PropertyName="HitPoints" MinValue="-9999" MaxValue="1"/>
+                <StrategyMoveFind Mask = "111 111 111" TargetType="Shtab" MinTime="1" MaxTime="2"/>
+                <StrategyFireByTime MinTime="1" MaxTime="2" FireMask="010 000 000" TemplateName="data/objects/bullet_enemy_blue.object"/>
+                <StrategyChangeStateByRandomTime TimeMin="3" TimeMax="5" StateName="Bonus"/>
+            </Strategies>
+       </GameObjectState>  
+
+        <GameObjectState Name="Frozen" TemplateName="data/objects/tank_collision.state" TemplateName="data/objects/tank_bonus_events.state">
+            <Strategies>
+                <StrategyChangeStateByCounter StateName="Explode" PropertyName="HitPoints" MinValue="-9999" MaxValue="1"/>
+                <StrategyMask Mask = "111 111 111"/>
+                <StrategyChangeStateByRandomTime TimeMin="10" TimeMax="20" StateName="NoBonus"/>
+            </Strategies>
+       </GameObjectState>  
+
+        <GameObjectState Name="Explode">        
+            <GameObjectStateView 
+                AnimationName="data/objects/tank_explode.anim" 
+                AnimationName="data/objects/explode_smoke_big.anim" 
+                AnimationName="data/objects/explode_flash_red.anim" 
+                AnimationName="data/objects/tank_04_ashes.anim" 
+                AnimationName="data/objects/explode_particles_6.anim" Loop="false"/>
+            <EventHandlers>
+		<EventHandler>
+                    <EventNames>
+                        <EventName Name="AnimStart"/>
+                    </EventNames>
+                    <Strategies>                                    
+                        <StrategyChangeGlobalCounter PropertyName="Score" StepPropertyName="ExplodeScore"/>
+		    </Strategies>
+		</EventHandler>
+                <EventHandler>
+                    <EventNames>
+                        <EventName Name="AnimFinished"/>
+                    </EventNames>
+                    <Strategies>                                    
+                        <StrategyGlobalCounter PropertyName="TankCountEnemy" Step="-1"/>
+                        <!StrategyChangeGlobalCounter PropertyName="Score" StepPropertyName="ExplodeScore"/!>
+                        <StrategyTransmitGlobalCounter SourcePropertyName="GenerateTank4Total" DestinationPropertyName="GenerateTank4" Amount="1"/>
+                        <StrategyChangeState ProbabilityProperty="ProbBonusFast" StateName="BonusFast"/>
+                        <StrategyChangeState ProbabilityProperty="ProbBonusArmor" StateName="BonusArmor"/>
+                        <StrategyChangeState ProbabilityProperty="ProbBonusShtabArmor" StateName="BonusShtabArmor"/>
+                        <StrategyChangeState ProbabilityProperty="ProbBonusTimeStop" StateName="BonusTimeStop"/>
+                        <StrategyChangeState ProbabilityProperty="ProbBonusAirStrike" StateName="BonusAirStrike"/>
+                        <StrategyChangeState ProbabilityProperty="ProbBonusUpgrade" StateName="BonusUpgrade"/>
+                        <StrategyChangeState StateName="Dead"/>
+                    </Strategies>
+                </EventHandler>
+            </EventHandlers>
+            <Strategies>                                
+                <StrategyMask Mask = "000 000 000"/>    
+                <StrategyGlobalEvent StartEventName="TankExplodeEnemy"/>
+            </Strategies>
+        </GameObjectState>
+           
+        <GameObjectState Name="Dead">
+            <Strategies>
+                <StrategyGlobalCounter PropertyName="TankCountPlayer"/>
+                <StrategyMask Mask = "000 000 000"/>
+            </Strategies>
+        </GameObjectState>
+
+    </GameObjectStates>
+</GameObject>

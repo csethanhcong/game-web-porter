@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Scene>
+	<Node Name="fire" Children="data/objects/wall_fire.scene"/>
+
+    <Node Name="live">
+        <ModelFixed Name="polySurface1" Source="data/objects/models/kolyuchka_1x3_polySurface1-kolyuchka_1x3_live.model" >
+            <#Shaders#>
+                <Shader Name="phong1" TrianglesCount="4">
+                    <Material Transparency="0.001" SpecularPower="40" Diffuse="1 1 1" Specular="0.01652 0.01652 0.01652"/>
+                    <Diffuse Image="data/objects/textures/koluchka"/>
+                </Shader>
+            </#Shaders#>
+        </ModelFixed>
+        <ModelFixed Name="polySurface2" Source="data/objects/models/kolyuchka_1x3_polySurface2-kolyuchka_1x3_live.model" >
+            <#Shaders#>
+                <Shader Name="phong1" TrianglesCount="4">
+                    <Material Transparency="0.001" SpecularPower="40" Diffuse="1 1 1" Specular="0.01652 0.01652 0.01652"/>
+                    <Diffuse Image="data/objects/textures/koluchka"/>
+                </Shader>
+            </#Shaders#>
+        </ModelFixed>
+    </Node>
+    <Node Name="death0" Visibility="false">
+        <ModelFixed Name="polySurface3" Source="data/objects/models/kolyuchka_1x3_polySurface3-kolyuchka_1x3_death0.model" >
+            <#Shaders#>
+                <Shader Name="phong1" TrianglesCount="4">
+                    <Material Transparency="0.001" SpecularPower="40" Diffuse="1 1 1" Specular="0.01652 0.01652 0.01652"/>
+                    <Diffuse Image="data/objects/textures/koluchka"/>
+                </Shader>
+            </#Shaders#>
+        </ModelFixed>
+        <ModelFixed Name="polySurface4" Source="data/objects/models/kolyuchka_1x3_polySurface4-kolyuchka_1x3_death0.model" >
+            <#Shaders#>
+                <Shader Name="phong1" TrianglesCount="4">
+                    <Material Transparency="0.001" SpecularPower="40" Diffuse="1 1 1" Specular="0.01652 0.01652 0.01652"/>
+                    <Diffuse Image="data/objects/textures/koluchka"/>
+                </Shader>
+            </#Shaders#>
+        </ModelFixed>
+    </Node>
+</Scene>

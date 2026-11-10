@@ -1,0 +1,25 @@
+<GameObject Type="Object">
+    <GameObjectStates>
+        
+        <GameObjectState Name="Default">
+            <Strategies>
+                <StrategyChangeStateByRandomTime TimeMin="2.5" TimeMax="2.5" StateName="Generate"/>
+            </Strategies>
+        </GameObjectState>      
+        
+        <GameObjectState Name="Generate">
+            <Strategies>
+                <StrategyGenerator  DecPropertyName="GenerateTankPlayer" TemplateName="data/objects/tank_player.object" StateName="Recreation"/>
+                <StrategyGenerator  DecPropertyName="GenerateTankPlayer2" TemplateName="data/objects/tank_player2.object" StateName="Recreation"/>
+                <StrategyGenerator  DecPropertyName="GenerateTankPlayerTutorial" TemplateName="data/objects/tank_player_tutorial.object" StateName="Recreation"/>
+            </Strategies>
+        </GameObjectState>
+
+        <GameObjectState Name="Recreation">
+            <Strategies>
+                <StrategyChangeStateByRandomTime TimeMin="5" TimeMax="5" StateName="Generate"/>
+            </Strategies>
+        </GameObjectState>
+
+    </GameObjectStates>
+</GameObject>

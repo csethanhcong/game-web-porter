@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Animation>
+    <double>
+        <PrimitiveAnimation Target="locator1" Param="Visibility">
+            <Envelope PreBehave="CONSTANT" PostBehave="CONSTANT">
+                <Keys>
+                    <Key Time="0" Linear="0" Quadratic="0" Cubic="0" Value="1"/>
+                </Keys>
+            </Envelope>
+        </PrimitiveAnimation>
+    </double>
+
+
+    <double>
+        <PrimitiveAnimation Target="parashute_polySurface1" Param="Visibility">
+            <Envelope PreBehave="CONSTANT" PostBehave="CONSTANT">
+                <Keys>
+                    <Key Time="0" Linear="0" Quadratic="0" Cubic="0" Value="1"/>
+                </Keys>
+            </Envelope>
+        </PrimitiveAnimation>
+    </double>
+    <math::Vector[float,3]>
+        <PrimitiveAnimation Target="parashute_polySurface1" Param="Position">
+            <Envelope PreBehave="CONSTANT" PostBehave="CONSTANT">
+                <Keys>
+                    <Key Time="0" Linear="0 0 0" Quadratic="0 0 0" Cubic="0 0 0" Value="0 10 0"/>
+                </Keys>
+            </Envelope>
+        </PrimitiveAnimation>
+        <PrimitiveAnimation Target="locator1" Param="Position">
+            <Envelope PreBehave="CONSTANT" PostBehave="CONSTANT">
+                <Keys>
+                    <Key Time="0" Linear="0 0 0" Quadratic="0 0 0" Cubic="0 0 0" Value="0 10 0"/>
+                </Keys>
+            </Envelope>
+        </PrimitiveAnimation>
+        <PrimitiveAnimation Target="tank_01_3x3_0_locator1" Param="Position">
+            <Envelope PreBehave="CONSTANT" PostBehave="CONSTANT">
+                <Keys>
+                    <Key Time="0" Linear="0 0 0" Quadratic="0 0 0" Cubic="0 0 0" Value="0 10 0"/>
+                </Keys>
+            </Envelope>
+        </PrimitiveAnimation>
+        <PrimitiveAnimation Target="tank_01_3x3_1_locator2" Param="Position">
+            <Envelope PreBehave="CONSTANT" PostBehave="CONSTANT">
+                <Keys>
+                    <Key Time="0" Linear="0 0 0" Quadratic="0 0 0" Cubic="0 0 0" Value="0 10 0"/>
+                </Keys>
+            </Envelope>
+        </PrimitiveAnimation>
+        <PrimitiveAnimation Target="tank_01_3x3_2_locator3" Param="Position">
+            <Envelope PreBehave="CONSTANT" PostBehave="CONSTANT">
+                <Keys>
+                    <Key Time="0" Linear="0 0 0" Quadratic="0 0 0" Cubic="0 0 0" Value="0 10 0"/>
+                </Keys>
+            </Envelope>
+        </PrimitiveAnimation>
+    </math::Vector[float,3]>
+</Animation>

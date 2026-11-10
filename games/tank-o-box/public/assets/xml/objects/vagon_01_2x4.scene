@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Scene>
+    <Node Name="snd_death0" Children="data/sounds/fire.scene"/>
+    <Node Name="snd_explode" Children="data/sounds/object_explode.scene"/>
+
+    <Node Name="fire" Children="data/objects/bochka_fire.scene"/>
+
+    <Node Name="live">
+        <ModelFixed Name="polySurface1" Source="data/objects/models/vagon_01_2x4_polySurface1-vagon_01_2x4_live.model" >
+            <#Shaders#>
+                <Shader Name="Default1" TrianglesCount="28">
+                    <Material SpecularPower="40" Diffuse="1 1 1" Specular="0.5 0.5 0.5"/>
+                    <Diffuse Image="data/objects/textures/vagon_1"/>
+                </Shader>
+            </#Shaders#>
+        </ModelFixed>
+	<Node Name="shadow_0" Visibility="false"  Children="data/objects/vagon_01_shadow_0.scene"/>
+	<Node Name="shadow_90" Visibility="false"  Children="data/objects/vagon_01_shadow_90.scene"/>
+	<Node Name="shadow_180" Visibility="false"  Children="data/objects/vagon_01_shadow_180.scene"/>
+	<Node Name="shadow_270" Visibility="false"  Children="data/objects/vagon_01_shadow_270.scene"/>
+    </Node>
+    <Node Name="death0">
+        <ModelFixed Name="polySurface1" Source="data/objects/models/vagon_01_2x4_polySurface1-vagon_01_2x4_death0.model" >
+            <#Shaders#>
+                <Shader Name="Default1" TrianglesCount="28">
+                    <Material SpecularPower="40" Diffuse="0.3 0.3 0.3" Specular="0.5 0.5 0.5"/>
+                    <Diffuse Image="data/objects/textures/vagon_1"/>
+                </Shader>
+            </#Shaders#>
+        </ModelFixed>
+    </Node>
+</Scene>

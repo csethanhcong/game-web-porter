@@ -1,0 +1,6 @@
+<InterfaceScreenLevelSquare   
+    TemplateName="data/levels/common_tutorial.level">
+<Controls>  
+    <ControlPlayTime KeyName="HKEY_CURRENT_USER\Software\Nice-Games\Tank-o-box" ValueName="JoyKeyFFAA" PropertyName="PlayTime" Time="3600"/>
+</Controls>
+</InterfaceScreenLevelSquare>

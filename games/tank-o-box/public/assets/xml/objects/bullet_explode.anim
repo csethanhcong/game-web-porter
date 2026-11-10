@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Animation>
+    <Commands>
+        <Command Target="FirePS">
+            <Execute Name="Emit" Time="0"/>
+        </Command>
+        <Command Target="SmokePS">
+            <Execute Name="Emit" Time="0"/>
+        </Command>
+        <Command Target="snd_explode|snd">
+            <Execute Name="Play" Time="0"/>
+        </Command>
+    </Commands>
+    <double>
+        <PrimitiveAnimation Target="locator1" Param="Visibility">
+            <Envelope PreBehave="CONSTANT" PostBehave="CONSTANT">
+                <Keys>
+                    <Key Time="0" Linear="0" Quadratic="0" Cubic="0" Value="0"/>
+                    <Key Time="2" Linear="0" Quadratic="0" Cubic="0" Value="0"/>
+                </Keys>
+            </Envelope>
+        </PrimitiveAnimation>
+        <PrimitiveAnimation Target="point1" Param="Intensity">
+            <Envelope PreBehave="CONSTANT" PostBehave="CONSTANT">
+                <Keys>
+                    <Key Time="0" Linear="1000" Quadratic="0" Cubic="0" Value="0"/>
+                    <Key Time="0.1" Linear="-1000" Quadratic="0" Cubic="0" Value="100"/>
+                    <Key Time="0.2" Linear="0" Quadratic="0" Cubic="0" Value="0"/>
+                </Keys>
+            </Envelope>
+        </PrimitiveAnimation>
+    </double>
+</Animation>

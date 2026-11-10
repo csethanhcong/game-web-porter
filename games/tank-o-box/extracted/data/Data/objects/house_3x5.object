@@ -1,0 +1,111 @@
+<GameObject Type="Object">
+    <GameObjectView ModelName="data/objects/house_3x5.scene"/>
+
+    <Properties>
+        <Property Name="HitPoints" Value="12"/>
+        <Property Name="Damage" Value="-1"/>
+        <Property Name="DamageDouble" Value="-2"/>
+        <Property Name="DamageRocket" Value="-3"/>
+    </Properties>
+
+    <GameObjectStates>
+        <GameObjectState Name="Default" TemplateName="data/objects/object_collision.state">
+            <GameObjectStateView AnimationName="data/objects/house_3x5.anim"/>
+            <Strategies>
+                <StrategyChangeStateByCounter StateName="Exploding1" PropertyName="HitPoints" MinValue="-9999" MaxValue="8"/>
+                <StrategyMask Mask = "11111 11111 11111"/>
+			<StrategyShadow MainNode="live" ShadowName="shadow"/>
+            </Strategies>
+        </GameObjectState>
+
+        <GameObjectState Name="Exploding1">
+            <EventHandlers>
+                <EventHandler>
+                    <EventNames>
+                        <EventName Name="AnimFinished"/>
+                    </EventNames>
+                    <Strategies>                    
+                        <StrategyChangeState StateName="Death1"/>
+                    </Strategies>
+                 </EventHandler>
+           </EventHandlers>
+           <Strategies>
+                <StrategyMask Mask = "11110 11110 11110"/>
+			<StrategyShadow MainNode="death0" ShadowName="shadow"/>
+            </Strategies>
+           <GameObjectStateView AnimationName="data/objects/house_death1.anim" 
+		AnimationName="data/objects/explode_smoke_small.anim"
+                AnimationName="data/objects/explode_flash_yellow.anim"  
+                AnimationName="data/objects/explode_particles_4.anim" Loop="false"/>
+        </GameObjectState>
+
+        <GameObjectState Name="Death1" TemplateName="data/objects/object_collision.state">
+            <GameObjectStateView AnimationName="data/objects/house_3x5.anim"/>
+            <Strategies>
+                <StrategyChangeStateByCounter StateName="Exploding2" PropertyName="HitPoints" MinValue="-9999" MaxValue="4"/>
+                <StrategyMask Mask = "11110 11110 11110"/>
+			<StrategyShadow MainNode="death0" ShadowName="shadow"/>
+            </Strategies>
+        </GameObjectState>
+
+        <GameObjectState Name="Exploding2">
+            <EventHandlers>
+                <EventHandler>
+                    <EventNames>
+                        <EventName Name="AnimFinished"/>
+                    </EventNames>
+                    <Strategies>                    
+                        <StrategyChangeState StateName="Death2"/>
+                    </Strategies>
+                 </EventHandler>
+           </EventHandlers>
+           <Strategies>
+                <StrategyMask Mask = "11110 11110 11110"/>
+			<StrategyShadow MainNode="death1" ShadowName="shadow"/>
+            </Strategies>
+           <GameObjectStateView AnimationName="data/objects/house_death2.anim" 
+		AnimationName="data/objects/explode_smoke_small.anim"
+                AnimationName="data/objects/explode_flash_yellow.anim"  
+                AnimationName="data/objects/explode_particles_4.anim" Loop="false"/>
+
+        </GameObjectState>
+
+        <GameObjectState Name="Death2" TemplateName="data/objects/object_collision.state">
+            <GameObjectStateView AnimationName="data/objects/house_3x5.anim"/>
+            <Strategies>
+                <StrategyChangeStateByCounter StateName="Exploding3" PropertyName="HitPoints" MinValue="-9999" MaxValue="1"/>
+                <StrategyMask Mask = "11110 11110 11110"/>
+			<StrategyShadow MainNode="death1" ShadowName="shadow"/>
+            </Strategies>
+        </GameObjectState>
+
+        <GameObjectState Name="Exploding3">
+            <EventHandlers>
+                <EventHandler>
+                    <EventNames>
+                        <EventName Name="AnimFinished"/>
+                    </EventNames>
+                    <Strategies>                    
+                        <StrategyChangeState StateName="Death3"/>
+                    </Strategies>
+                 </EventHandler>
+           </EventHandlers>
+           <Strategies>
+                <StrategyMask Mask = "00000 00000 00000"/>
+            </Strategies>
+            <GameObjectStateView AnimationName="data/objects/house_death3.anim" 
+		AnimationName="data/objects/explode_smoke_small.anim"
+                AnimationName="data/objects/explode_flash_yellow.anim"  
+                AnimationName="data/objects/explode_particles_4.anim" Loop="false"/>
+
+        </GameObjectState>
+
+        <GameObjectState Name="Death3" TemplateName="data/objects/object_collision.state">
+            <GameObjectStateView AnimationName="data/objects/house_3x5.anim"/>
+            <Strategies>
+                <StrategyMask Mask = "00000 00000 00000"/>
+            </Strategies>
+        </GameObjectState>
+    </GameObjectStates>
+
+</GameObject>

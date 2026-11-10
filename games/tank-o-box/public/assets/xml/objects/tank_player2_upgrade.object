@@ -1,0 +1,79 @@
+<GameObject>
+    <GameObjectStates>
+    <GameObjectState Name="HiddenUpgrade0">
+        <EventHandlers>
+            <EventHandler>
+                <EventNames>
+                    <EventName Name="AnimFinished"/>
+                </EventNames>
+                <Strategies> 
+                    <StrategySetGlobalProperty PropertyName="HitPoints2" ProcValue="2"/>
+                    <StrategySetGlobalProperty PropertyName="HitPointsMax2" ProcValue="2"/>
+                    <StrategyChangeState StateName="Landing"/>
+                </Strategies>
+             </EventHandler>
+        </EventHandlers>
+        <Strategies>
+            <StrategyMask Mask = "000 000 000"/>
+        </Strategies>
+        <GameObjectStateView AnimationName="data/objects/hidden_upgrade0.anim" Loop="false"/>
+    </GameObjectState>
+
+    <GameObjectState Name="HiddenUpgrade1">
+        <EventHandlers>
+            <EventHandler>
+                <EventNames>
+                    <EventName Name="AnimFinished"/>
+                </EventNames>
+                <Strategies> 
+                    <StrategySetGlobalProperty PropertyName="HitPoints2" ProcValue="2"/>
+                    <StrategySetGlobalProperty PropertyName="HitPointsMax2" ProcValue="2"/>
+                    <StrategyChangeState StateName="Landing"/>
+                </Strategies>
+             </EventHandler>
+        </EventHandlers>
+        <Strategies>
+            <StrategyMask Mask = "000 000 000"/>
+        </Strategies>
+        <GameObjectStateView AnimationName="data/objects/hidden_upgrade1.anim" Loop="false"/>
+    </GameObjectState>
+
+    <GameObjectState Name="HiddenUpgrade2">
+        <EventHandlers>
+            <EventHandler>
+                <EventNames>
+                    <EventName Name="AnimFinished"/>
+                </EventNames>
+                <Strategies> 
+                    <StrategySetGlobalProperty PropertyName="HitPoints2" ProcValue="3"/>
+                    <StrategySetGlobalProperty PropertyName="HitPointsMax2" ProcValue="3"/>
+                    <StrategyChangeState StateName="Landing"/>
+                </Strategies>
+             </EventHandler>
+        </EventHandlers>
+        <Strategies>
+            <StrategyMask Mask = "000 000 000"/>
+        </Strategies>
+        <GameObjectStateView AnimationName="data/objects/hidden_upgrade2.anim" Loop="false"/>
+    </GameObjectState>
+
+    <GameObjectState Name="HiddenUpgrade3">
+        <EventHandlers>
+            <EventHandler>
+                <EventNames>
+                    <EventName Name="AnimFinished"/>
+                </EventNames>
+                <Strategies> 
+                    <StrategySetGlobalProperty PropertyName="HitPoints2" ProcValue="3"/>
+                    <StrategySetGlobalProperty PropertyName="HitPointsMax2" ProcValue="3"/>
+                    <StrategyChangeState StateName="Landing"/>
+                </Strategies>
+             </EventHandler>
+        </EventHandlers>
+        <Strategies>
+            <StrategyMask Mask = "000 000 000"/>
+        </Strategies>
+        <GameObjectStateView AnimationName="data/objects/hidden_upgrade3.anim" Loop="false"/>
+    </GameObjectState>
+    </GameObjectStates>
+</GameObject>

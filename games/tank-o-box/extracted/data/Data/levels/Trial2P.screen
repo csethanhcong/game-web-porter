@@ -1,0 +1,9 @@
+<InterfaceScreenMenuScore 
+        ModelName="data/Levels/Trial.scene" 
+        Cursor="data/interface/cursor" 
+        AnimationName="data/Interface/_night.anim" 
+        Music="data/music/menu">
+    <Controls>
+        <ControlButton Name="data/Interface/EmissiveButton_" NodeName="btnNext" Link="data/Interface/HiscoreCooperativeGame.screen"/>
+    </Controls>
+</InterfaceScreenMenuScore>

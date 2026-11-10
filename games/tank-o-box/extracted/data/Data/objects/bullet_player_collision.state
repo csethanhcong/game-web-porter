@@ -1,0 +1,23 @@
+<GameObjectState>
+	<EventHandlers>
+		<EventHandler>
+			<EventNames>
+			    <EventName Name="CollisionTankDefault"/>
+			    <EventName Name="CollisionObjectLive"/>
+			    <EventName Name="CollisionObjectDeath1"/>
+			    <EventName Name="CollisionObjectDeath2"/>
+			    <EventName Name="CollisionObjectDeath3"/>
+			    <EventName Name="CollisionShtabLive"/>
+			    <EventName Name="CollisionShtabDeath1"/>
+			    <EventName Name="CollisionShtabDeath2"/>
+			    <EventName Name="CollisionShtabDeath3"/>
+			    <EventName Name="CollisionEnemyBullet"/>
+			    <EventName Name="CollisionEnemyBulletDouble"/>
+			    <EventName Name="CollisionEnemyBulletRocket"/>			    
+			</EventNames>
+			<Strategies>
+				<StrategyChangeState StateName="Explode"/>
+			</Strategies>
+		</EventHandler>
+	</EventHandlers>
+</GameObjectState>

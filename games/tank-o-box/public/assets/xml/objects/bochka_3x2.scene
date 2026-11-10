@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Scene>   
+    <Node Name="explode_flash_yellow" Children="data/objects/explode_flash_yellow.scene"/>
+
+    <Node Name="snd_death0" Children="data/sounds/fire.scene"/>
+    <Node Name="snd_death1" Children="data/sounds/fire.scene"/>
+    <Node Name="snd_explode" Children="data/sounds/object_explode.scene"/>
+
+    <Node Name="fire" Children="data/objects/bochka_fire.scene"/>
+    <Node Name="live">
+        <ModelFixed Name="polySurface21" Source="data/objects/models/bochka_3x2_polySurface21-bochka_3x2_live.model" >
+            <#Shaders#>
+                <Shader Name="phong1" TrianglesCount="48">
+                    <Material SpecularPower="40" Diffuse="1 1 1" Specular="0.5 0.5 0.5"/>
+                    <Diffuse Image="data/objects/textures/bocka1_l"/>
+                </Shader>
+            </#Shaders#>
+        </ModelFixed>
+	<Node Name="shadow_0" Visibility="false"  Children="data/objects/bochka_3x2_shadow_0.scene"/>
+	<Node Name="shadow_90" Visibility="false"  Children="data/objects/bochka_3x2_shadow_90.scene"/>
+	<Node Name="shadow_180" Visibility="false"  Children="data/objects/bochka_3x2_shadow_180.scene"/>
+	<Node Name="shadow_270" Visibility="false"  Children="data/objects/bochka_3x2_shadow_270.scene"/>
+    </Node>
+    <Node Name="death0" Visibility="false">
+        <ModelFixed Name="polySurface22" Source="data/objects/models/bochka_3x2_polySurface22-bochka_3x2_death0.model" >
+            <#Shaders#>
+                <Shader Name="phong1" TrianglesCount="34">
+                    <Material SpecularPower="40" Diffuse="0.3 0.3 0.3" Specular="0.5 0.5 0.5"/>
+                    <Diffuse Image="data/objects/textures/bocka1_l"/>
+                </Shader>
+            </#Shaders#>
+        </ModelFixed>
+    </Node>
+</Scene>

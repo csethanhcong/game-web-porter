@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Animation>
+	<math::Vector[float,3]>
+		<PrimitiveAnimation Target="#Shader#" Param="Emissive">
+			<Envelope PreBehave="CONSTANT" PostBehave="CONSTANT">
+				<Keys>
+					<Key Time="0" Linear="0 0 0" Value="0.6 0.6 0.6"/>
+				</Keys>
+			</Envelope>
+		</PrimitiveAnimation>
+	</math::Vector[float,3]>
+</Animation>

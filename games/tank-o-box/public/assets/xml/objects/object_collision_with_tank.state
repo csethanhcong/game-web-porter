@@ -1,0 +1,16 @@
+<GameObjectState>
+    <EventHandlers>
+        <EventHandler>
+            <EventNames>
+                <EventName Name="CollisionPlayerNoUpgrade"/>
+                <EventName Name="CollisionPlayerUpgrade1"/>
+                <EventName Name="CollisionPlayerUpgrade2"/>
+                <EventName Name="CollisionPlayerUpgrade3"/>
+            </EventNames>
+            <Strategies>
+                <StrategyChangeCounter PropertyName="HitPoints" StepPropertyName="Damage"/>                     
+            </Strategies>
+         </EventHandler>
+
+    </EventHandlers>
+</GameObjectState>

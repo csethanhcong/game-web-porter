@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<settings>
+	<Property Name="MusicFlag" Value="1"/>
+	<Property Name="ScoreTableScore0" Value="100000"/>
+	<Property Name="ScoreTableNick0" Value="George Washington"/>
+	<Property Name="ScoreTableScore1" Value="90000"/>
+	<Property Name="ScoreTableNick1" Value="Abraham Lincoln"/>
+	<Property Name="ScoreTableScore2" Value="80000"/>
+	<Property Name="ScoreTableNick2" Value="Theodore Roosevelt"/>
+	<Property Name="ScoreTableScore3" Value="70000"/>
+	<Property Name="ScoreTableNick3" Value="Dwight D. Eisenhower"/>
+	<Property Name="ScoreTableScore4" Value="60000"/>
+	<Property Name="ScoreTableNick4" Value="John F. Kennedy"/>
+	<Property Name="ScoreTableScore5" Value="50000"/>
+	<Property Name="ScoreTableNick5" Value="Richard M. Nixon"/>
+	<Property Name="ScoreTableScore6" Value="40000"/>
+	<Property Name="ScoreTableNick6" Value="Jimmy Carter"/>
+	<Property Name="ScoreTableScore7" Value="30000"/>
+	<Property Name="ScoreTableNick7" Value="George Bush"/>
+	<Property Name="ScoreTableScore8" Value="20000"/>
+	<Property Name="ScoreTableNick8" Value="Bill Clinton"/>
+	<Property Name="ScoreTableScore9" Value="10000"/>
+	<Property Name="ScoreTableNick9" Value="George W. Bush"/>
+	<Property Name="ScoreTableScore2C0" Value="100000"/>
+	<Property Name="ScoreTableNick2C0" Value="Adams & Jefferson"/>
+	<Property Name="ScoreTableScore2C1" Value="90000"/>
+	<Property Name="ScoreTableNick2C1" Value="Madison & Monroe"/>
+	<Property Name="ScoreTableScore2C2" Value="80000"/>
+	<Property Name="ScoreTableNick2C2" Value="Adams & Jackson"/>
+	<Property Name="ScoreTableScore2C3" Value="70000"/>
+	<Property Name="ScoreTableNick2C3" Value="van Buren & Harrison"/>
+	<Property Name="ScoreTableScore2C4" Value="60000"/>
+	<Property Name="ScoreTableNick2C4" Value="Tyler & Polk"/>
+	<Property Name="ScoreTableScore2C5" Value="50000"/>
+	<Property Name="ScoreTableNick2C5" Value="Taylor & Fillmore"/>
+	<Property Name="ScoreTableScore2C6" Value="40000"/>
+	<Property Name="ScoreTableNick2C6" Value="Pierce & Buchanan"/>
+	<Property Name="ScoreTableScore2C7" Value="30000"/>
+	<Property Name="ScoreTableNick2C7" Value="Johnson & Grant"/>
+	<Property Name="ScoreTableScore2C8" Value="20000"/>
+	<Property Name="ScoreTableNick2C8" Value="Hayes & Garfield"/>
+	<Property Name="ScoreTableScore2C9" Value="10000"/>
+	<Property Name="ScoreTableNick2C9" Value="Arthur & Cleveland"/>
+	<Property Name="Player1InputDevice" Value="GC_KeyboardLayout_1"/>
+	<Property Name="Player2InputDevice" Value="GC_KeyboardLayout_2"/>
+	<Property Name="EpisodeLink" Value=""/>
+	<Property Name="GraphNodeName" Value=""/>
+	<Property Name="ScoreTotal0" Value="0"/>
+	<Property Name="BonusScore" Value="0"/>
+	<Property Name="Score" Value="0"/>
+	<Property Name="BonusUpgrade" Value="0"/>
+	<Property Name="TankCountPlayer" Value="1"/>
+	<Property Name="TankCountEnemy" Value="1"/>
+	<Property Name="BulletPlayerCount" Value="0"/>
+	<Property Name="TotalScore" Value="0"/>
+	<Property Name="GenerateTankPlayer" Value="0"/>
+	<Property Name="Lives" Value="3"/>
+	<Property Name="GenerateTank2" Value="0"/>
+	<Property Name="GenerateTank2Total" Value="0"/>
+	<Property Name="GenerateTank3" Value="0"/>
+	<Property Name="GenerateTank3Total" Value="0"/>
+	<Property Name="GenerateTank4" Value="0"/>
+	<Property Name="GenerateTank4Total" Value="0"/>
+	<Property Name="GenerateTank5" Value="0"/>
+	<Property Name="GenerateTank5Total" Value="0"/>
+	<Property Name="GenerateTank6" Value="0"/>
+	<Property Name="GenerateTank6Total" Value="0"/>
+	<Property Name="HitPoints" Value="1"/>
+	<Property Name="HitPointsMax" Value="2"/>
+	<Property Name="HitPoints2" Value="1"/>
+	<Property Name="HitPointsMax2" Value="1"/>
+	<Property Name="BonusUpgrade2" Value="0"/>
+	<Property Name="ScoreLifeCost" Value="20000"/>
+	<Property Name="LevelName" Value="ÔÅÐÌÀ"/>
+	<Property Name="ProbBonusFast" Value="0.05"/>
+	<Property Name="ProbBonusArmor" Value="0.070175439"/>
+	<Property Name="ProbBonusShtabArmor" Value="0"/>
+	<Property Name="ProbBonusTimeStop" Value="0.06122449"/>
+	<Property Name="ProbBonusAirStrike" Value="0.026086957"/>
+	<Property Name="ProbBonusUpgrade" Value="0.2"/>
+	<Property Name="BulletPlayer2Count" Value="0"/>
+	<Property Name="ScoreBonus" Value="4670"/>
+	<Property Name="GenerateTankPlayer2" Value="0"/>
+	<Property Name="ObjectRadarCount" Value="0"/>
+	<Property Name="MenuScore" Value="5525"/>
+	<Property Name="MenuScoreBonus" Value="4700"/>
+	<Property Name="MenuScoreTotal" Value="25615"/>
+	<Property Name="MenuScoreLives" Value="1"/>
+	<Property Name="EpisodeName" Value=""/>
+	<Property Name="GenerateTankPlayerTutorial" Value="0"/>
+	<Property Name="HiScoreHeader" Value="1 ÈÃÐÎÊ"/>
+	<Property Name="GenerateTank5Duel" Value="0"/>
+	<Property Name="GenerateTank5DuelTotal" Value="0"/>
+	<Property Name="ReturnCode" Value="0"/>
+	<Property Name="MissionStatus" Value=""/>
+	<Property Name="GenerateTank2CatchMe" Value="0"/>
+	<Property Name="GenerateTank2CatchMeTotal" Value="0"/>
+	<Property Name="GenerateTank3Firepower" Value="0"/>
+	<Property Name="GenerateTank3FirepowerTotal" Value="0"/>
+	<Property Name="BulletRocketPlayerCount" Value="0"/>
+	<Property Name="BulletRocketPlayer2Count" Value="0"/>
+	<Property Name="PlayTime" Value="59"/>
+	<Property Name="TopScoreCandidateMessage" Value=""/>
+</settings>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Scene>
+    <SoundSource Name="snd" Sound="data/sounds/object_explode" ChannelType="3D"
+	MinDistance="6" Loop="false"/>
+</Scene>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Scene>
+    <CameraPerspective Name="Camera" Scale="-1 1 -1" Fov="0.660595" Aspect="0.75" NearPlane="0.5" FarPlane="200" ViewportLeft="-1" ViewportRight="1" ViewportTop="1" ViewportBottom="-1"/>    
+    <Node Name="Cursor" Position="0 0 -11.1787">
+            <ModelFixed Name="pPlane1" Rotation="1.5708 0 0" Position="0 0 0" Source="data/interface/models/cursor_cursor.model">
+                <#Shaders#>
+                    <Shader Name="phong1" TrianglesCount="2">
+                        <Material Transparency="0.001" SpecularPower="40" Emissive="1 1 1" Specular="0.5 0.5 0.5"/>
+                        <Emissive Image="data/interface/textures/cursor_shot"/>
+                    </Shader>
+                </#Shaders#>
+            </ModelFixed>
+    </Node>
+</Scene>

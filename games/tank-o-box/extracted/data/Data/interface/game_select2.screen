@@ -1,0 +1,17 @@
+<InterfaceScreenMenu ModelName="data/Interface/game_select.scene" AnimationName="data/Interface/_night.anim"
+    Cursor="data/interface/cursor" 
+    Music="data/music/menu">
+    <Controls>
+        <ControlButton Name="data/Interface/EmissiveButton_" NodeName="btnNormal" Link="data/interface/game.screen"  OptionName="EpisodeLink" OptionValue="data/levels/episode2.episode"/>
+        <ControlButton Name="data/Interface/EmissiveButton_" NodeName="btnExtra" Link="data/interface/game_extra.screen" OptionName="EpisodeLink" OptionValue="data/levels/episode2_extra.episode"/>
+        <ControlButton KeyboardAlias="GCMenuBack" Name="data/Interface/EmissiveButton_" NodeName="btnMenu" Link="data/interface/mainmenu.screen"/>
+    </Controls>
+    <Properties>    
+        <Property Name="ScoreTotal0" Value="0"/>
+        <Property Name="BonusScore" Value="0"/>
+        <Property Name="Score" Value="0"/>
+        <Property Name="EpisodeLink" Value=""/>
+        <Property Name="GraphNodeName" Value=""/>
+    </Properties>
+
+</InterfaceScreenMenu>

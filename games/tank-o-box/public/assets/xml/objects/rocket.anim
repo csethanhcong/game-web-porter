@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Animation>
+     <Commands>
+        <Command Target="snd_fire|snd">
+            <Execute Name="Play" Time="0"/>
+        </Command>
+    </Commands>
+	<double>
+		<PrimitiveAnimation Target="pCylinder1|SmokeTailPS" Param="ParticlesPerSec">
+			<Envelope PreBehave="CONSTANT" PostBehave="CONSTANT">
+				<Keys>
+					<Key Time="0" Linear="0" Quadratic="0" Cubic="0" Value="50"/>
+					<Key Time="10000" Linear="0" Quadratic="0" Cubic="0" Value="50"/>
+				</Keys>
+			</Envelope>
+		</PrimitiveAnimation>
+	</double>
+    <math::Vector[float,3]/>
+</Animation>

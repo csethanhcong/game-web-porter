@@ -1,0 +1,24 @@
+<GameObjectState>
+    <EventHandlers>
+        <EventHandler>
+            <EventNames>
+                <EventName Name="CollisionTankFrozen"/>
+                <EventName Name="CollisionTankBonus"/>
+                <EventName Name="CollisionTankNoBonus"/>
+                <EventName Name="CollisionTankDefault"/>
+                <EventName Name="CollisionTankDeath1"/>
+                <EventName Name="CollisionTankDeath2"/>
+                <EventName Name="CollisionTankDeath3"/>
+                <EventName Name="CollisionTankDeath4"/>
+                <EventName Name="CollisionTankExploding1"/>
+                <EventName Name="CollisionTankExploding2"/>
+                <EventName Name="CollisionTankExploding3"/>
+                <EventName Name="CollisionTankExploding4"/>
+                <EventName Name="CollisionTankAirStrike"/>
+            </EventNames>
+            <Strategies>
+                <StrategyChangeState StateName="Explode"/>
+            </Strategies>
+        </EventHandler>
+    </EventHandlers>
+</GameObjectState>

@@ -1,0 +1,24 @@
+<InterfaceScreenMenu ModelName="data/Interface/HiscoreGame.scene" 
+    AnimationName="data/Interface/_night.anim" 
+    Cursor="data/interface/cursor"
+    Music="data/music/menu">
+    <Properties>    
+        <Property Name="HiScoreHeader" Value="2 PLAYER"/>
+    </Properties>
+
+    <Controls>
+        <ControlHiscore ScoreNodeName="score" NickNodeName="nick" EntryCount="10"           
+            TopScoreCandidateMessage="Internet Top100 Candidate"
+            ProductName="Tankobox"
+            GameMode="Tanks2C"
+            PlayerScorePropertyName="ScoreTotal"
+            ScorePropertyName="ScoreTableScore2C"
+            NickPropertyName="ScoreTableNick2C"
+            PlayerCount="1"
+            MaxLength="20"/>        
+        <ControlButton Name="data/Interface/Candidate_" NodeName="txtCandidate" PropertyEnabledName="Dumb"/>
+        <ControlLabel PropertyName="TopScoreCandidateMessage" NodeName="txtCandidate"/>
+        <ControlLabel PropertyName="HiScoreHeader" NodeName="header"/>
+        <ControlButton KeyboardAlias="GCMenuSelect" Name="data/Interface/EmissiveButton_" NodeName="btnNext" Link="data/interface/MainMenu.screen"/>
+    </Controls>
+</InterfaceScreenMenu>

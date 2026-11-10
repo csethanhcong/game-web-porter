@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Animation>
+    <double>
+        <PrimitiveAnimation Target="airstrike" Param="Visibility">
+            <Envelope PreBehave="CONSTANT" PostBehave="CONSTANT">
+                <Keys>
+                    <Key Time="0" Linear="0" Quadratic="0" Cubic="0" Value="0"/>
+                    <Key Time="2" Linear="0" Quadratic="0" Cubic="0" Value="0"/>
+                </Keys>
+            </Envelope>
+        </PrimitiveAnimation>
+        <PrimitiveAnimation Target="speedup" Param="Visibility">
+            <Envelope PreBehave="CONSTANT" PostBehave="CONSTANT">
+                <Keys>
+                    <Key Time="0" Linear="0" Quadratic="0" Cubic="0" Value="0"/>
+                </Keys>
+            </Envelope>
+        </PrimitiveAnimation>
+        <PrimitiveAnimation Target="upgrade" Param="Visibility">
+            <Envelope PreBehave="CONSTANT" PostBehave="CONSTANT">
+                <Keys>
+                    <Key Time="0" Linear="0" Quadratic="0" Cubic="0" Value="0"/>
+                </Keys>
+            </Envelope>
+        </PrimitiveAnimation>
+        <PrimitiveAnimation Target="shieldshtab" Param="Visibility">
+            <Envelope PreBehave="CONSTANT" PostBehave="CONSTANT">
+                <Keys>
+                    <Key Time="0" Linear="0" Quadratic="0" Cubic="0" Value="0"/>
+                </Keys>
+            </Envelope>
+        </PrimitiveAnimation>
+        <PrimitiveAnimation Target="shieldtank" Param="Visibility">
+            <Envelope PreBehave="CONSTANT" PostBehave="CONSTANT">
+                <Keys>
+                    <Key Time="0" Linear="0" Quadratic="0" Cubic="0" Value="0"/>
+                </Keys>
+            </Envelope>
+        </PrimitiveAnimation>
+        <PrimitiveAnimation Target="timestop" Param="Visibility">
+            <Envelope PreBehave="CONSTANT" PostBehave="CONSTANT">
+                <Keys>
+                    <Key Time="0" Linear="0" Quadratic="0" Cubic="0" Value="0"/>
+                </Keys>
+            </Envelope>
+        </PrimitiveAnimation>
+    </double>
+    <Commands>
+        <Command Target="snd_bonus_take|snd">
+            <Execute Name="Play" Time="0"/>
+        </Command>
+    </Commands>
+</Animation>

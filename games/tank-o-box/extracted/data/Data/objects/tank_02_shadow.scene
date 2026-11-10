@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Scene>
+	<ModelFixed Name="shadow_0" Position="0 -5.9 0" Source="data/objects/models/wall_st_shadow.model">
+		<#Shaders#>
+			<Shader Name="phong1" TrianglesCount="2">
+				<Material SpecularPower="40" Transparency="0.6" Diffuse="1 1 1"/>
+				<Diffuse Image="data/objects/textures/tank_02_shadow"/>
+			</Shader>
+		</#Shaders#>
+	</ModelFixed>
+</Scene>

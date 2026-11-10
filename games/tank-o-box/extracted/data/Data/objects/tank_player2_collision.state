@@ -1,0 +1,49 @@
+<GameObjectState TemplateName="data/objects/tank_player2_bonus_collision.state">
+    <EventHandlers>
+        <EventHandler>
+            <EventNames>
+                <EventName Name="CollisionEnemyBulletDefault"/>
+            </EventNames>
+            <Strategies>
+                <StrategyCheckCounter PropertyName="Damage" MaxValue="0"/>
+                <StrategyChangeGlobalCounter PropertyName="HitPoints2" StepPropertyName="Damage"/>
+                <StrategyGlobalEvent EventName="PlayerHit2"/>                
+            </Strategies>
+         </EventHandler>         
+
+        <EventHandler>
+            <EventNames>
+                <EventName Name="CollisionEnemyBulletDoubleDefault"/>
+            </EventNames>
+            <Strategies>
+                <StrategyCheckCounter PropertyName="DamageDouble" MaxValue="0"/>
+                <StrategyChangeGlobalCounter PropertyName="HitPoints2" StepPropertyName="DamageDouble"/>
+                <StrategyGlobalEvent EventName="PlayerHit2"/>                
+            </Strategies>
+         </EventHandler>         
+
+        <EventHandler>
+            <EventNames>
+                <EventName Name="CollisionEnemyBulletRocketDefault"/>
+            </EventNames>
+            <Strategies>
+                <StrategyCheckCounter PropertyName="DamageRocket" MaxValue="0"/>
+                <StrategyChangeGlobalCounter PropertyName="HitPoints2" StepPropertyName="DamageRocket"/>
+                <StrategyGlobalEvent EventName="PlayerHit2"/>                
+            </Strategies>
+         </EventHandler>         
+
+        <EventHandler>
+            <EventNames>
+                <EventName Name="CollisionMineDefault"/>
+            </EventNames>
+            <Strategies>
+                <StrategyChangeGlobalCounter PropertyName="HitPoints2" StepPropertyName="DamageRocket"/>
+                <StrategyGlobalEvent EventName="PlayerHit2"/>                
+            </Strategies>
+         </EventHandler>         
+
+
+    </EventHandlers>
+</GameObjectState>
+

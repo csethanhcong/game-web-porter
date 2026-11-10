@@ -1,0 +1,135 @@
+// ===== FUN_00499690 @ 00499690
+00499690  FLD double ptr [ESP + 0x4]
+00499694  FLDLG2
+00499696  FXCH
+00499698  FYL2X
+0049969a  FCOM double ptr [0x004fbfe0]
+004996a0  FNSTSW AX
+004996a2  TEST AH,0x5
+004996a5  JP 0x004996b1
+004996a7  FSTP ST0
+004996a9  FLD double ptr [0x004fbfe0]
+004996af  JMP 0x004996c6
+004996b1  FCOM double ptr [0x004f4660]
+004996b7  FNSTSW AX
+004996b9  TEST AH,0x41
+004996bc  JNZ 0x004996c6
+004996be  FSTP ST0
+004996c0  FLD double ptr [0x004f4660]
+004996c6  FADD double ptr [0x004f4d58]
+004996cc  FMUL double ptr [0x004f4d68]
+004996d2  FMUL double ptr [0x004fbfd8]
+004996d8  FSUB double ptr [0x004fbfd8]
+004996de  JMP 0x004a99e4
+// ===== FUN_004a99e4 @ 004a99e4
+004a99e4  PUSH EBP
+004a99e5  MOV EBP,ESP
+004a99e7  SUB ESP,0x20
+004a99ea  AND ESP,0xfffffff0
+004a99ed  FLD ST0
+004a99ef  FST float ptr [ESP + 0x18]
+004a99f3  FISTP qword ptr [ESP + 0x10]
+004a99f7  FILD qword ptr [ESP + 0x10]
+004a99fb  MOV EDX,dword ptr [ESP + 0x18]
+004a99ff  MOV EAX,dword ptr [ESP + 0x10]
+004a9a03  TEST EAX,EAX
+004a9a05  JZ 0x004a9a43
+004a9a07  FSUBP
+004a9a09  TEST EDX,EDX
+004a9a0b  JNS 0x004a9a2b
+004a9a0d  FSTP float ptr [ESP]
+004a9a10  MOV ECX,dword ptr [ESP]
+004a9a13  XOR ECX,0x80000000
+004a9a19  ADD ECX,0x7fffffff
+004a9a1f  ADC EAX,0x0
+004a9a22  MOV EDX,dword ptr [ESP + 0x14]
+004a9a26  ADC EDX,0x0
+004a9a29  JMP 0x004a9a57
+004a9a2b  FSTP float ptr [ESP]
+004a9a2e  MOV ECX,dword ptr [ESP]
+004a9a31  ADD ECX,0x7fffffff
+004a9a37  SBB EAX,0x0
+004a9a3a  MOV EDX,dword ptr [ESP + 0x14]
+004a9a3e  SBB EDX,0x0
+004a9a41  JMP 0x004a9a57
+004a9a43  MOV EDX,dword ptr [ESP + 0x14]
+004a9a47  TEST EDX,0x7fffffff
+004a9a4d  JNZ 0x004a9a07
+004a9a4f  FSTP float ptr [ESP + 0x18]
+004a9a53  FSTP float ptr [ESP + 0x18]
+004a9a57  LEAVE
+004a9a58  RET
+// ===== FUN_0044a680 @ 0044a680
+0044a680  PUSH ECX
+0044a681  PUSH ESI
+0044a682  MOV ESI,ECX
+0044a684  CALL 0x0045e7c0
+0044a689  NEG AL
+0044a68b  LEA ECX,[ESI + 0x100]
+0044a691  SBB EAX,EAX
+0044a693  NEG EAX
+0044a695  MOV dword ptr [ESP + 0x4],EAX
+0044a699  FILD dword ptr [ESP + 0x4]
+0044a69d  SUB ESP,0x8
+// ===== FUN_0044a680 @ 0044a680
+
+void __fastcall FUN_0044a680(int param_1)
+
+{
+  char cVar1;
+  int iVar2;
+  void *this;
+  double dVar3;
+  
+  cVar1 = FUN_0045e7c0(param_1);
+  dVar3 = (double)(cVar1 != '\0');
+  iVar2 = FUN_0041aba0(param_1 + 0x100);
+  this = (void *)FUN_0041aba0(iVar2);
+  FUN_00440b10(this,SUB84(dVar3,0),(int)((ulonglong)dVar3 >> 0x20));
+  return;
+}
+
+
+// ===== FUN_0044a6a0 @ 0044a6a0
+
+void __fastcall FUN_0044a6a0(int param_1)
+
+{
+  int iVar1;
+  void *this;
+  float10 in_ST0;
+  double dVar2;
+  
+  dVar2 = (double)in_ST0;
+  iVar1 = FUN_0041aba0(param_1);
+  this = (void *)FUN_0041aba0(iVar1);
+  FUN_00440b10(this,SUB84(dVar2,0),(int)((ulonglong)dVar2 >> 0x20));
+  return;
+}
+
+
+// ===== FUN_0044a6a0 @ 0044a6a0
+0044a6a0  FSTP double ptr [ESP]
+0044a6a3  CALL 0x0041aba0
+0044a6a8  MOV ECX,EAX
+0044a6aa  CALL 0x0041aba0
+0044a6af  MOV ECX,EAX
+0044a6b1  CALL 0x00440b10
+0044a6b6  POP ESI
+0044a6b7  POP ECX
+0044a6b8  RET
+// ===== FUN_00440b10 @ 00440b10
+
+void __thiscall FUN_00440b10(void *this,undefined4 param_1,undefined4 param_2)
+
+{
+  int in_stack_ffffffe4;
+  undefined1 auStack_16 [10];
+  
+  FUN_004982f0((void *)((int)this + 0x90),CONCAT44(param_2,param_1));
+  FUN_00401330(auStack_16 + -6,(undefined4 *)&DAT_0053076c);
+  FUN_00440970((void *)((int)this + 8),in_stack_ffffffe4);
+  return;
+}
+
+

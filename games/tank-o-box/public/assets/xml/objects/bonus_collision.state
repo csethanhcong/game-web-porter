@@ -1,0 +1,42 @@
+<GameObjectState>
+    <EventHandlers>
+
+            <EventHandler>
+            <EventNames>            
+                <EventName Name="CollisionPlayerNoUpgrade"/>
+                <EventName Name="CollisionPlayerUpgrade1"/>
+                <EventName Name="CollisionPlayerUpgrade2"/>
+                <EventName Name="CollisionPlayerUpgrade3"/>
+                <EventName Name="CollisionPlayerLand"/>
+            </EventNames>
+            <Strategies>
+                <StrategyChangeGlobalCounter PropertyName="Score" Step="75"/>
+                <StrategyChangeState StateName="AfterBonus"/>
+            </Strategies>
+         </EventHandler>
+
+
+            <EventHandler>
+            <EventNames>            
+                <EventName Name="CollisionTankNoBonus"/>
+                <EventName Name="CollisionTankBonus"/>
+
+                <EventName Name="CollisionTankExplode"/>
+
+                <EventName Name="CollisionTankFrozen"/>
+
+                <EventName Name="CollisionTankLand"/>
+                <EventName Name="CollisionTankAfterBonus"/>                               
+            </EventNames>
+            <Strategies>
+                <StrategyChangeState StateName="Dead"/>
+            </Strategies>
+         </EventHandler>
+
+    </EventHandlers>
+    
+    <Strategies>
+        <StrategyMask Mask = "010 010 010" EveryTime="true"/>
+    </Strategies>
+
+</GameObjectState>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Animation>
+    <math::Vector[float,3]>
+        <PrimitiveAnimation Target="Picture" Param="Rotation">
+            <Envelope PreBehave="CONSTANT" PostBehave="CONSTANT">
+                <Keys>
+                    <Key Time="0" Linear="0 0.785 0" Value="0 0 0"/>
+                    <Key Time="8" Linear="0 0 0" Quadratic="0 0 0" Cubic="0 0 0" Value="0 6.28 0"/>
+                </Keys>
+            </Envelope>
+        </PrimitiveAnimation>
+    </math::Vector[float,3]>
+</Animation>

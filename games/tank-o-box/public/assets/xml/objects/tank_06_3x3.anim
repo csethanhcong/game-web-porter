@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Animation>
+	<double/>
+	<math::Vector[float,3]>
+		<PrimitiveAnimation Target="locator1|pCylinder10" Param="Rotation">
+			<Envelope PreBehave="CONSTANT" PostBehave="CONSTANT">
+				<Keys>
+					<Key Time="0" Linear="6.28319 0 0" Quadratic="-4.68762e-007 0 0" Cubic="2.93916e-007 0 0" Value="0 0 0"/>
+					<Key Time="1" Linear="0 0 0" Quadratic="0 0 0" Cubic="0 0 0" Value="6.28319 0 0"/>
+				</Keys>
+			</Envelope>
+		</PrimitiveAnimation>
+		<PrimitiveAnimation Target="locator1|pCylinder11" Param="Rotation">
+			<Envelope PreBehave="CONSTANT" PostBehave="CONSTANT">
+				<Keys>
+					<Key Time="0" Linear="6.28319 0 0" Quadratic="-4.68762e-007 0 0" Cubic="2.93916e-007 0 0" Value="0 0 0"/>
+					<Key Time="1" Linear="0 0 0" Quadratic="0 0 0" Cubic="0 0 0" Value="6.28319 0 0"/>
+				</Keys>
+			</Envelope>
+		</PrimitiveAnimation>
+		<PrimitiveAnimation Target="locator1|pCylinder12" Param="Rotation">
+			<Envelope PreBehave="CONSTANT" PostBehave="CONSTANT">
+				<Keys>
+					<Key Time="0" Linear="6.28319 0 0" Quadratic="-4.68762e-007 0 0" Cubic="2.93916e-007 0 0" Value="0 0 0"/>
+					<Key Time="1" Linear="0 0 0" Quadratic="0 0 0" Cubic="0 0 0" Value="6.28319 0 0"/>
+				</Keys>
+			</Envelope>
+		</PrimitiveAnimation>
+	</math::Vector[float,3]>
+</Animation>

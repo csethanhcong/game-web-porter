@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Scene>
+    <Node Name="fire" Children="data/objects/wall_fire.scene"/>
+
+    <Node Name="snd_explode" Children="data/sounds/object_explode.scene"/>
+
+    <Node Name="live">
+        <ModelFixed Name="polySurface1" Position="0 0 0" Source="data/objects/models/wall_1x3_polySurface1-wall_1x3_live.model" >
+            <#Shaders#>
+                <Shader Name="phong1" TrianglesCount="12">
+                    <Material SpecularPower="40" Diffuse="1 1 1" Specular="0.5 0.5 0.5"/>
+                    <Diffuse Image="data/objects/textures/wall_l"/>
+                </Shader>
+            </#Shaders#>
+        </ModelFixed>
+	<Node Name="shadow_0" Visibility="false"  Children="data/objects/wall_shadow_0.scene"/>
+	<Node Name="shadow_90" Visibility="false"  Children="data/objects/wall_shadow_90.scene"/>
+
+	<Node Name="shadow_180" Visibility="false"  Children="data/objects/wall_shadow_180.scene"/>
+	<Node Name="shadow_270" Visibility="false"  Children="data/objects/wall_shadow_270.scene"/>
+    </Node>
+    <Node Name="death0" Visibility="false">
+        <ModelFixed Name="polySurface2" Source="data/objects/models/wall_1x3_polySurface2-wall_1x3_death0.model">
+            <#Shaders#>
+                <Shader Name="phong1" TrianglesCount="4">
+                    <Material SpecularPower="40" Diffuse="1 1 1" Specular="0.5 0.5 0.5"/>
+                    <Diffuse Image="data/objects/textures/wall_l"/>
+                </Shader>
+            </#Shaders#>
+        </ModelFixed>
+    </Node>
+</Scene>

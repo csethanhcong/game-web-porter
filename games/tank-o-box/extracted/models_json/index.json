@@ -1,0 +1,1334 @@
+[
+ {
+  "source": "blasts/models/radar_3x3_particlecone1-radar_3x3_particles.model",
+  "vertices": 12,
+  "triangles": 4,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "blasts/models/radar_3x3_particlecone2-radar_3x3_particles.model",
+  "vertices": 12,
+  "triangles": 4,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "blasts/models/radar_3x3_particleside-radar_3x3_particles.model",
+  "vertices": 12,
+  "triangles": 4,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "blasts/models/radar_3x3_particletop-radar_3x3_particles.model",
+  "vertices": 12,
+  "triangles": 4,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "emitters/barak_3x6_smoke_emitter-barak_3x6_death0.model",
+  "vertices": 42,
+  "triangles": 14,
+  "sceneCheck": "no-scene"
+ },
+ {
+  "source": "emitters/barak_3x6_smoke_emitter-barak_3x6_death1.model",
+  "vertices": 6,
+  "triangles": 2,
+  "sceneCheck": "no-scene"
+ },
+ {
+  "source": "emitters/emitter.model",
+  "vertices": 6,
+  "triangles": 2,
+  "sceneCheck": "no-scene"
+ },
+ {
+  "source": "emitters/emitter_blast.model",
+  "vertices": 6,
+  "triangles": 2,
+  "sceneCheck": "no-scene"
+ },
+ {
+  "source": "emitters/emitter_bullet.model",
+  "vertices": 6,
+  "triangles": 2,
+  "sceneCheck": "no-scene"
+ },
+ {
+  "source": "emitters/emitter_conus.model",
+  "vertices": 60,
+  "triangles": 20,
+  "sceneCheck": "no-scene"
+ },
+ {
+  "source": "emitters/fabrica_6x12_upgr_emitter-fabrica_6x12_upgr_death0.model",
+  "vertices": 12,
+  "triangles": 4,
+  "sceneCheck": "no-scene"
+ },
+ {
+  "source": "emitters/fabrica_6x12_upgr_emitter-fabrica_6x12_upgr_death1.model",
+  "vertices": 24,
+  "triangles": 8,
+  "sceneCheck": "no-scene"
+ },
+ {
+  "source": "emitters/fabrica_6x12_upgr_emitter-fabrica_6x12_upgr_live.model",
+  "vertices": 18,
+  "triangles": 6,
+  "sceneCheck": "no-scene"
+ },
+ {
+  "source": "emitters/house_3x5_emitter-house_3x5_death1.model",
+  "vertices": 6,
+  "triangles": 2,
+  "sceneCheck": "no-scene"
+ },
+ {
+  "source": "emitters/house_3x5_emitter-house_3x5_death2.model",
+  "vertices": 18,
+  "triangles": 6,
+  "sceneCheck": "no-scene"
+ },
+ {
+  "source": "emitters/house_4x4_emitter-house_4x4_death0.model",
+  "vertices": 21,
+  "triangles": 7,
+  "sceneCheck": "no-scene"
+ },
+ {
+  "source": "emitters/house_4x4_emitter-house_4x4_death2.model",
+  "vertices": 72,
+  "triangles": 24,
+  "sceneCheck": "no-scene"
+ },
+ {
+  "source": "emitters/shtab_6x6_emitter-shtab_6x6_death1.model",
+  "vertices": 9,
+  "triangles": 3,
+  "sceneCheck": "no-scene"
+ },
+ {
+  "source": "emitters/trek.model",
+  "vertices": 3,
+  "triangles": 1,
+  "sceneCheck": "no-scene"
+ },
+ {
+  "source": "emitters/wall_1x3_emitter-wall_1x3_live.model",
+  "vertices": 12,
+  "triangles": 4,
+  "sceneCheck": "no-scene"
+ },
+ {
+  "source": "interface/models/cursor_cursor.model",
+  "vertices": 6,
+  "triangles": 2,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "interface/models/joystick_base-joystick_locator1.model",
+  "vertices": 60,
+  "triangles": 20,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "interface/models/joystick_button-joystick_handle-joystick_joint-joystick_locator1.model",
+  "vertices": 90,
+  "triangles": 30,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "interface/models/joystick_handle-joystick_joint-joystick_locator1.model",
+  "vertices": 708,
+  "triangles": 236,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "interface/models/joystick_joint-joystick_locator1.model",
+  "vertices": 168,
+  "triangles": 56,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "interface/models/scene_2_polysurface24-scene_2_locator1.model",
+  "vertices": 1446,
+  "triangles": 482,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "interface/models/scene_2_polysurface49-scene_2_locator1.model",
+  "vertices": 423,
+  "triangles": 141,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "interface/models/scene_2_polysurface50-scene_2_locator1.model",
+  "vertices": 1371,
+  "triangles": 457,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "interface/models/scene_2_pplane1-scene_2_locator2-scene_2_locator5-scene_2_locator1.model",
+  "vertices": 3,
+  "triangles": 1,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "interface/models/scene_2_pplane2-scene_2_locator3-scene_2_locator5-scene_2_locator1.model",
+  "vertices": 3,
+  "triangles": 1,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "interface/models/scene_2_pplane3-scene_2_locator4-scene_2_locator5-scene_2_locator1.model",
+  "vertices": 3,
+  "triangles": 1,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "interface/models/scene_2_reflection_0-scene_2_locator1.model",
+  "vertices": 282,
+  "triangles": 94,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "interface/models/scene_n_2_polysurface24-scene_n_2_locator1.model",
+  "vertices": 1446,
+  "triangles": 482,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "interface/models/scene_n_2_polysurface49-scene_n_2_locator1.model",
+  "vertices": 423,
+  "triangles": 141,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "interface/models/scene_n_2_polysurface50-scene_n_2_locator1.model",
+  "vertices": 1371,
+  "triangles": 457,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "interface/models/scene_n_2_polysurface60.model",
+  "vertices": 282,
+  "triangles": 94,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "interface/models/scene_n_2_pplane1-scene_n_2_locator2-scene_n_2_locator5-scene_n_2_locator1.model",
+  "vertices": 3,
+  "triangles": 1,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "interface/models/scene_n_2_pplane2-scene_n_2_locator3-scene_n_2_locator5-scene_n_2_locator1.model",
+  "vertices": 3,
+  "triangles": 1,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "interface/models/scene_n_2_pplane3-scene_n_2_locator4-scene_n_2_locator5-scene_n_2_locator1.model",
+  "vertices": 3,
+  "triangles": 1,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "interface/models/select_keys_1_pcube2-select_keys_1_locator1.model",
+  "vertices": 84,
+  "triangles": 28,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "interface/models/select_keys_1_pcube3-select_keys_1_locator1.model",
+  "vertices": 84,
+  "triangles": 28,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "interface/models/select_keys_1_pcube4-select_keys_1_locator1.model",
+  "vertices": 120,
+  "triangles": 40,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "interface/models/select_keys_1_pcube5-select_keys_1_locator1.model",
+  "vertices": 84,
+  "triangles": 28,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "interface/models/select_keys_1_pcube6-select_keys_1_locator1.model",
+  "vertices": 84,
+  "triangles": 28,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "interface/models/select_keys_2_pcube2-select_keys_2_locator1.model",
+  "vertices": 84,
+  "triangles": 28,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "interface/models/select_keys_2_pcube3-select_keys_2_locator1.model",
+  "vertices": 84,
+  "triangles": 28,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "interface/models/select_keys_2_pcube4-select_keys_2_locator1.model",
+  "vertices": 120,
+  "triangles": 40,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "interface/models/select_keys_2_pcube5-select_keys_2_locator1.model",
+  "vertices": 84,
+  "triangles": 28,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "interface/models/select_keys_2_pcube6-select_keys_2_locator1.model",
+  "vertices": 84,
+  "triangles": 28,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "levels/models/indikator2_0_0_pplane1.model",
+  "vertices": 6,
+  "triangles": 2,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "levels/models/indikator2_0_0_pplane4.model",
+  "vertices": 6,
+  "triangles": 2,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "levels/models/indikator2_0_1_pplane4.model",
+  "vertices": 6,
+  "triangles": 2,
+  "sceneCheck": "no-scene"
+ },
+ {
+  "source": "levels/models/interface_player1upgrade3.model",
+  "vertices": 6,
+  "triangles": 2,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "levels/models/interface_player2upgrade3.model",
+  "vertices": 6,
+  "triangles": 2,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "levels/models/interface_pplane2.model",
+  "vertices": 6,
+  "triangles": 2,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "levels/models/interface_pplane3.model",
+  "vertices": 6,
+  "triangles": 2,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "levels/models/interface_pplane4.model",
+  "vertices": 6,
+  "triangles": 2,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "levels/models/interface_pplane5.model",
+  "vertices": 6,
+  "triangles": 2,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "levels/models/interface_pplane6.model",
+  "vertices": 6,
+  "triangles": 2,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "levels/models/level_base_1800.model",
+  "vertices": 5400,
+  "triangles": 1800,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "models/loading_2.1_polysurface3_1.model",
+  "vertices": 1200,
+  "triangles": 400,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "models/loading_2_polysurface3_1.model",
+  "vertices": 1200,
+  "triangles": 400,
+  "sceneCheck": "no-scene"
+ },
+ {
+  "source": "models/loading_2_pplane1.model",
+  "vertices": 1536,
+  "triangles": 512,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "models/microphone.model",
+  "vertices": 54,
+  "triangles": 18,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/ammo_1x2_polysurface1-ammo_1x2_live.model",
+  "vertices": 216,
+  "triangles": 72,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/ammo_1x2_polysurface2-ammo_1x2_death0.model",
+  "vertices": 156,
+  "triangles": 52,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/ammo_shadow.model",
+  "vertices": 6,
+  "triangles": 2,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/barak_3x6_polysurface1-barak_3x6_death0.model",
+  "vertices": 60,
+  "triangles": 20,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/barak_3x6_polysurface1-barak_3x6_death1.model",
+  "vertices": 48,
+  "triangles": 16,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/barak_3x6_polysurface7-barak_3x6_live.model",
+  "vertices": 108,
+  "triangles": 36,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/barak_shadow.model",
+  "vertices": 6,
+  "triangles": 2,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/bochka_1x1_pcylinder1-bochka_1x1_death0.model",
+  "vertices": 48,
+  "triangles": 16,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/bochka_1x1_pcylinder1-bochka_1x1_live.model",
+  "vertices": 60,
+  "triangles": 20,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/bochka_1x1_shadow.model",
+  "vertices": 6,
+  "triangles": 2,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/bochka_3x2_polysurface21-bochka_3x2_live.model",
+  "vertices": 144,
+  "triangles": 48,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/bochka_3x2_polysurface22-bochka_3x2_death0.model",
+  "vertices": 102,
+  "triangles": 34,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/bochka_3x2_shadow.model",
+  "vertices": 6,
+  "triangles": 2,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/bullet_polysurface3-bullet_locator1.model",
+  "vertices": 48,
+  "triangles": 16,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/dot_3x3_polysurface1-dot_3x3_death1.model",
+  "vertices": 102,
+  "triangles": 34,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/dot_3x3_psphere1-dot_3x3_death2.model",
+  "vertices": 84,
+  "triangles": 28,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/dot_3x3_psphere1-dot_3x3_live.model",
+  "vertices": 102,
+  "triangles": 34,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/dot_3x3_psphere2-dot_3x3_death0.model",
+  "vertices": 102,
+  "triangles": 34,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/dot_shadow.model",
+  "vertices": 6,
+  "triangles": 2,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/egg_1x1_polysurface11-egg_1x1_live.model",
+  "vertices": 36,
+  "triangles": 12,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/egg_1x1_polysurface12-egg_1x1_death.model",
+  "vertices": 36,
+  "triangles": 12,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/exp3_fin_polysurface3-exp3_fin_pcube3-exp3_fin_locator1.model",
+  "vertices": 48,
+  "triangles": 16,
+  "sceneCheck": "no-scene"
+ },
+ {
+  "source": "objects/models/exp3_fin_polysurface4-exp3_fin_pcube4-exp3_fin_locator1.model",
+  "vertices": 48,
+  "triangles": 16,
+  "sceneCheck": "no-scene"
+ },
+ {
+  "source": "objects/models/exp3_fin_polysurface5-exp3_fin_pcube2-exp3_fin_locator1.model",
+  "vertices": 30,
+  "triangles": 10,
+  "sceneCheck": "no-scene"
+ },
+ {
+  "source": "objects/models/exp3_fin_polysurface7-exp3_fin_pcube1-exp3_fin_locator1.model",
+  "vertices": 42,
+  "triangles": 14,
+  "sceneCheck": "no-scene"
+ },
+ {
+  "source": "objects/models/exp4_fin_pcube1-exp4_fin_locator1.model",
+  "vertices": 48,
+  "triangles": 16,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/exp4_fin_pcube2-exp4_fin_locator1.model",
+  "vertices": 54,
+  "triangles": 18,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/exp4_fin_pcube3-exp4_fin_locator1.model",
+  "vertices": 54,
+  "triangles": 18,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/exp4_fin_pcube4-exp4_fin_locator1.model",
+  "vertices": 30,
+  "triangles": 10,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/exp5_fin_pcube1-exp5_fin_locator1.model",
+  "vertices": 48,
+  "triangles": 16,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/exp5_fin_pcube3-exp5_fin_locator1.model",
+  "vertices": 54,
+  "triangles": 18,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/exp5_fin_pcube4-exp5_fin_locator1.model",
+  "vertices": 30,
+  "triangles": 10,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/exp6_fin_pcube1-exp6_fin_locator1.model",
+  "vertices": 48,
+  "triangles": 16,
+  "sceneCheck": "no-scene"
+ },
+ {
+  "source": "objects/models/exp6_fin_pcube2-exp6_fin_locator1.model",
+  "vertices": 54,
+  "triangles": 18,
+  "sceneCheck": "no-scene"
+ },
+ {
+  "source": "objects/models/exp6_fin_pcube3-exp6_fin_locator1.model",
+  "vertices": 54,
+  "triangles": 18,
+  "sceneCheck": "no-scene"
+ },
+ {
+  "source": "objects/models/exp6_fin_pcube4-exp6_fin_locator1.model",
+  "vertices": 30,
+  "triangles": 10,
+  "sceneCheck": "no-scene"
+ },
+ {
+  "source": "objects/models/explosion_6_1_6_1_pcone1.model",
+  "vertices": 12,
+  "triangles": 4,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/explosion_6_1_6_1_pcube1.model",
+  "vertices": 24,
+  "triangles": 8,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/explosion_6_1_6_1_pcube2.model",
+  "vertices": 24,
+  "triangles": 8,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/explosion_6_1_6_1_pcube3.model",
+  "vertices": 24,
+  "triangles": 8,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/explosion_6_1_6_1_pcube4.model",
+  "vertices": 24,
+  "triangles": 8,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/explosion_6_1_6_1_pcube5.model",
+  "vertices": 42,
+  "triangles": 14,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/explosion_6_1_6_1_pcube6.model",
+  "vertices": 42,
+  "triangles": 14,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/explosion_6_1_6_1_psphere1.model",
+  "vertices": 48,
+  "triangles": 16,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/explosion_6_1_6_1_psphere2.model",
+  "vertices": 18,
+  "triangles": 6,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/explosion_6_1_6_1_psphere3.model",
+  "vertices": 60,
+  "triangles": 20,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/fabrica_6x12_polysurface50-fabrica_6x12_death1.model",
+  "vertices": 264,
+  "triangles": 88,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/fabrica_6x12_polysurface61-fabrica_6x12_live.model",
+  "vertices": 300,
+  "triangles": 100,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/fabrica_6x12_polysurface72-fabrica_6x12_death0.model",
+  "vertices": 300,
+  "triangles": 100,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/fabrica_6x12_pplane1-fabrica_6x12_stvorki_00-fabrica_6x12_live.model",
+  "vertices": 24,
+  "triangles": 8,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/fabrica_6x12_pplane1-fabrica_6x12_stvorki_04-fabrica_6x12_death1.model",
+  "vertices": 24,
+  "triangles": 8,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/fabrica_6x12_pplane1-fabrica_6x12_stvorki_06-fabrica_6x12_death0.model",
+  "vertices": 24,
+  "triangles": 8,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/fabrica_6x12_pplane2-fabrica_6x12_stvorki_05-fabrica_6x12_death1.model",
+  "vertices": 24,
+  "triangles": 8,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/fabrica_6x12_pplane3-fabrica_6x12_stvorki_01-fabrica_6x12_live.model",
+  "vertices": 24,
+  "triangles": 8,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/fabrica_6x12_pplane3-fabrica_6x12_stvorki_07-fabrica_6x12_death0.model",
+  "vertices": 24,
+  "triangles": 8,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/fabrica_shadow.model",
+  "vertices": 6,
+  "triangles": 2,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/gruzovik_2x4_polysurface1-gruzovik_2x4_death1.model",
+  "vertices": 156,
+  "triangles": 52,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/gruzovik_2x4_polysurface1-gruzovik_2x4_live.model",
+  "vertices": 210,
+  "triangles": 70,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/gruzovik_2x4_polysurface2-gruzovik_2x4_death0.model",
+  "vertices": 210,
+  "triangles": 70,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/gruzovik_shadow.model",
+  "vertices": 6,
+  "triangles": 2,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/house_1x1_pcube1-house_1x1_death0.model",
+  "vertices": 48,
+  "triangles": 16,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/house_1x1_pcube1-house_1x1_live.model",
+  "vertices": 48,
+  "triangles": 16,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/house_1x1_shadow.model",
+  "vertices": 6,
+  "triangles": 2,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/house_3x5_polysurface16-house_3x5_live.model",
+  "vertices": 210,
+  "triangles": 70,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/house_3x5_polysurface17-house_3x5_death0.model",
+  "vertices": 210,
+  "triangles": 70,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/house_3x5_polysurface18-house_3x5_death1.model",
+  "vertices": 210,
+  "triangles": 70,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/house_3x5_polysurface19-house_3x5_death2.model",
+  "vertices": 168,
+  "triangles": 56,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/house_3x5_shadow.model",
+  "vertices": 6,
+  "triangles": 2,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/house_4x4_polysurface13-house_4x4_live.model",
+  "vertices": 84,
+  "triangles": 28,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/house_4x4_polysurface14-house_4x4_death0.model",
+  "vertices": 72,
+  "triangles": 24,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/house_4x4_polysurface15-house_4x4_death1.model",
+  "vertices": 72,
+  "triangles": 24,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/house_4x4_polysurface16-house_4x4_death2.model",
+  "vertices": 66,
+  "triangles": 22,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/house_4x4_shadow.model",
+  "vertices": 6,
+  "triangles": 2,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/jeep_1x2_polysurface2-jeep_1x2_death1.model",
+  "vertices": 138,
+  "triangles": 46,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/jeep_1x2_polysurface7-jeep_1x2_live.model",
+  "vertices": 156,
+  "triangles": 52,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/jeep_1x2_polysurface8-jeep_1x2_death0.model",
+  "vertices": 156,
+  "triangles": 52,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/jeep_shadow.model",
+  "vertices": 6,
+  "triangles": 2,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/kolyuchka_1x3_polysurface1-kolyuchka_1x3_live.model",
+  "vertices": 12,
+  "triangles": 4,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/kolyuchka_1x3_polysurface2-kolyuchka_1x3_live.model",
+  "vertices": 12,
+  "triangles": 4,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/kolyuchka_1x3_polysurface3-kolyuchka_1x3_death0.model",
+  "vertices": 12,
+  "triangles": 4,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/kolyuchka_1x3_polysurface4-kolyuchka_1x3_death0.model",
+  "vertices": 12,
+  "triangles": 4,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/lokomotiv_2x4_polysurface51-lokomotiv_2x4_live.model",
+  "vertices": 240,
+  "triangles": 80,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/lokomotiv_2x4_polysurface52-lokomotiv_2x4_death0.model",
+  "vertices": 216,
+  "triangles": 72,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/lokomotiv_2x4_polysurface53-lokomotiv_2x4_death1.model",
+  "vertices": 198,
+  "triangles": 66,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/lokomotiv_shadow.model",
+  "vertices": 6,
+  "triangles": 2,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/mine_psphere1-mine_locator1.model",
+  "vertices": 60,
+  "triangles": 20,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/parashute_polysurface1.model",
+  "vertices": 390,
+  "triangles": 130,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/penek.model",
+  "vertices": 90,
+  "triangles": 30,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/radar_3x3_polysurface2-radar_3x3_death0.model",
+  "vertices": 42,
+  "triangles": 14,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/radar_3x3_polysurface2-radar_3x3_live.model",
+  "vertices": 42,
+  "triangles": 14,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/radar_3x3_polysurface3-radar_3x3_death0.model",
+  "vertices": 66,
+  "triangles": 22,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/radar_3x3_polysurface3-radar_3x3_live.model",
+  "vertices": 66,
+  "triangles": 22,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/radar_3x3_polysurface4-radar_3x3_death1.model",
+  "vertices": 42,
+  "triangles": 14,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/radar_3x3_polysurface5-radar_3x3_death1.model",
+  "vertices": 66,
+  "triangles": 22,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/radar_3x3_polysurface6-radar_3x3_death2.model",
+  "vertices": 36,
+  "triangles": 12,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/radar_3x3_polysurface7-radar_3x3_death2.model",
+  "vertices": 66,
+  "triangles": 22,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/radar_shadow.model",
+  "vertices": 6,
+  "triangles": 2,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/rail_2x4_pplane1-rail_2x4_locator1.model",
+  "vertices": 6,
+  "triangles": 2,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/ring.model",
+  "vertices": 6,
+  "triangles": 2,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/rocket_pcylinder1.model",
+  "vertices": 66,
+  "triangles": 22,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/score.model",
+  "vertices": 6,
+  "triangles": 2,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/shield_shtab_00_polysurface7.model",
+  "vertices": 126,
+  "triangles": 42,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/shield_shtab_01_polysurface7.model",
+  "vertices": 126,
+  "triangles": 42,
+  "sceneCheck": "no-scene"
+ },
+ {
+  "source": "objects/models/shield_tank_tank_psphere1-shield_tank_tank_locator1.model",
+  "vertices": 150,
+  "triangles": 50,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/shtab_6x6_antenna-shtab_6x6_live.model",
+  "vertices": 12,
+  "triangles": 4,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/shtab_6x6_body-shtab_6x6_death0.model",
+  "vertices": 258,
+  "triangles": 86,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/shtab_6x6_body-shtab_6x6_death1.model",
+  "vertices": 270,
+  "triangles": 90,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/shtab_6x6_body-shtab_6x6_death2.model",
+  "vertices": 270,
+  "triangles": 90,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/shtab_6x6_body-shtab_6x6_live.model",
+  "vertices": 258,
+  "triangles": 86,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/shtab_6x6_flag-shtab_6x6_death2.model",
+  "vertices": 6,
+  "triangles": 2,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/shtab_6x6_flag-shtab_6x6_live.model",
+  "vertices": 6,
+  "triangles": 2,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/shtab_shadow.model",
+  "vertices": 60,
+  "triangles": 20,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/speedup_polysurface8-speedup_locator1.model",
+  "vertices": 144,
+  "triangles": 48,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/speedup_pplane1-speedup_locator2-speedup_locator1.model",
+  "vertices": 6,
+  "triangles": 2,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/tank_01_3x3_0_01_3x3_0_polysurface3-tank_01_3x3_0_01_3x3_0_locator1.model",
+  "vertices": 420,
+  "triangles": 140,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/tank_01_3x3_1_01_3x3_1_polysurface4-tank_01_3x3_1_01_3x3_1_locator2.model",
+  "vertices": 462,
+  "triangles": 154,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/tank_01_3x3_2_01_3x3_2_polysurface7-tank_01_3x3_2_01_3x3_2_locator3.model",
+  "vertices": 480,
+  "triangles": 160,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/tank_01_3x3_polysurface1-tank_01_3x3_locator1.model",
+  "vertices": 420,
+  "triangles": 140,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/tank_02_3x3_pcylinder3-tank_02_3x3_locator1.model",
+  "vertices": 60,
+  "triangles": 20,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/tank_02_3x3_pcylinder4-tank_02_3x3_locator1.model",
+  "vertices": 60,
+  "triangles": 20,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/tank_02_3x3_polysurface4-tank_02_3x3_locator1.model",
+  "vertices": 342,
+  "triangles": 114,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/tank_03_3x3_pcube4-tank_03_3x3_locator1.model",
+  "vertices": 414,
+  "triangles": 138,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/tank_04_3x3_pcube1-tank_04_3x3_locator1.model",
+  "vertices": 390,
+  "triangles": 130,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/tank_05_3x3_pcube1-tank_05_3x3_locator1.model",
+  "vertices": 438,
+  "triangles": 146,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/tank_06_3x3_pcylinder10-tank_06_3x3_locator1.model",
+  "vertices": 60,
+  "triangles": 20,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/tank_06_3x3_pcylinder11-tank_06_3x3_locator1.model",
+  "vertices": 60,
+  "triangles": 20,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/tank_06_3x3_pcylinder12-tank_06_3x3_locator1.model",
+  "vertices": 60,
+  "triangles": 20,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/tank_06_3x3_polysurface3-tank_06_3x3_locator1.model",
+  "vertices": 264,
+  "triangles": 88,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/tree_00_tree_02-tree_00_tree_00.model",
+  "vertices": 42,
+  "triangles": 14,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/tree_00_tree_02-tree_00_tree_01.model",
+  "vertices": 42,
+  "triangles": 14,
+  "sceneCheck": "no-scene"
+ },
+ {
+  "source": "objects/models/tree_01_tree_01-tree_01_tree_00.model",
+  "vertices": 108,
+  "triangles": 36,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/tree_01_tree_01-tree_01_tree_01.model",
+  "vertices": 108,
+  "triangles": 36,
+  "sceneCheck": "no-scene"
+ },
+ {
+  "source": "objects/models/tree_02_tree_00-tree_02_tree_00.model",
+  "vertices": 84,
+  "triangles": 28,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/tree_02_tree_00-tree_02_tree_01.model",
+  "vertices": 84,
+  "triangles": 28,
+  "sceneCheck": "no-scene"
+ },
+ {
+  "source": "objects/models/tree_shadow.model",
+  "vertices": 6,
+  "triangles": 2,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/tube_1x3_polysurface11-tube_1x3_live.model",
+  "vertices": 144,
+  "triangles": 48,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/tube_1x3_polysurface12-tube_1x3_death0.model",
+  "vertices": 78,
+  "triangles": 26,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/tube_end_1x1_polysurface1-tube_end_1x1_locator1.model",
+  "vertices": 126,
+  "triangles": 42,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/tube_end_1x1_polysurface1-tube_end_1x1_locator2.model",
+  "vertices": 126,
+  "triangles": 42,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/upgrade_polysurface1-upgrade_locator1.model",
+  "vertices": 120,
+  "triangles": 40,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/vagon_01_2x4_polysurface1-vagon_01_2x4_death0.model",
+  "vertices": 84,
+  "triangles": 28,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/vagon_01_2x4_polysurface1-vagon_01_2x4_live.model",
+  "vertices": 84,
+  "triangles": 28,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/vagon_01_shadow.model",
+  "vertices": 6,
+  "triangles": 2,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/vagon_02_2x4_polysurface1-vagon_02_2x4_death0.model",
+  "vertices": 108,
+  "triangles": 36,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/vagon_02_2x4_polysurface1-vagon_02_2x4_death1.model",
+  "vertices": 84,
+  "triangles": 28,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/vagon_02_2x4_polysurface1-vagon_02_2x4_live.model",
+  "vertices": 108,
+  "triangles": 36,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/vagon_02_shadow.model",
+  "vertices": 6,
+  "triangles": 2,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/vyshka_2x2_polysurface1-vyshka_2x2_death0.model",
+  "vertices": 60,
+  "triangles": 20,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/vyshka_2x2_polysurface1-vyshka_2x2_death1.model",
+  "vertices": 60,
+  "triangles": 20,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/vyshka_2x2_polysurface1-vyshka_2x2_live.model",
+  "vertices": 60,
+  "triangles": 20,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/vyshka_shadow.model",
+  "vertices": 6,
+  "triangles": 2,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/wall_1x3_polysurface1-wall_1x3_live.model",
+  "vertices": 36,
+  "triangles": 12,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/wall_1x3_polysurface2-wall_1x3_death0.model",
+  "vertices": 36,
+  "triangles": 12,
+  "sceneCheck": "MISMATCH"
+ },
+ {
+  "source": "objects/models/wall_shadow.model",
+  "vertices": 6,
+  "triangles": 2,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/wall_st_1x3_pcube1-wall_st_1x3_live.model",
+  "vertices": 48,
+  "triangles": 16,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/wall_st_1x3_pcube2-wall_st_1x3_death0.model",
+  "vertices": 48,
+  "triangles": 16,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/wall_st_1x3_pcube2-wall_st_1x3_death1.model",
+  "vertices": 48,
+  "triangles": 16,
+  "sceneCheck": "match"
+ },
+ {
+  "source": "objects/models/wall_st_shadow.model",
+  "vertices": 6,
+  "triangles": 2,
+  "sceneCheck": "match"
+ }
+]

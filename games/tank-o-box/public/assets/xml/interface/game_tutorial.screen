@@ -1,0 +1,33 @@
+<InterfaceScreenGame>
+<Properties>    
+    <Property Name="TankCountPlayer" Value="0"/>
+    <Property Name="TankCountEnemy" Value="0"/>
+    <Property Name="TotalScore" Value="0"/>
+    <Property Name="BonusScore" Value="0"/>
+    <Property Name="Score" Value="0"/>
+    <Property Name="ScoreTotal0" Value="0"/>    
+    
+    <Property Name="GenerateTankPlayer" Value="0"/>
+    <Property Name="Lives" Value="30"/>
+    
+    <Property Name="GenerateTank2" Value="0"/>
+    <Property Name="GenerateTank2Total" Value="0"/>
+    <Property Name="GenerateTank3" Value="0"/>
+    <Property Name="GenerateTank3Total" Value="0"/>
+    <Property Name="GenerateTank4" Value="0"/>
+    <Property Name="GenerateTank4Total" Value="0"/>
+    <Property Name="GenerateTank5" Value="0"/>
+    <Property Name="GenerateTank5Total" Value="0"/>
+    <Property Name="GenerateTank6" Value="0"/>
+    <Property Name="GenerateTank6Total" Value="0"/>
+
+    <Property Name="BulletPlayerCount" Value="0"/>    
+    <Property Name="BulletPlayer2Count" Value="0"/>
+    <Property Name="HitPoints" Value="1"/>
+    <Property Name="HitPointsMax" Value="1"/>
+    <Property Name="HitPoints2" Value="1"/>
+    <Property Name="HitPointsMax2" Value="1"/>
+    <Property Name="BonusUpgrade" Value="0"/>
+    <Property Name="BonusUpgrade2" Value="0"/>
+</Properties>
+</InterfaceScreenGame>

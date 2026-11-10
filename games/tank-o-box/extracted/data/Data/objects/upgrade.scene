@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Scene>
+    <Node Scale="1.5 1.5 1.5" Name="locator1">
+        <ModelFixed Name="polySurface8" Position="0 1.44966 0" Scale="0.41026 0.41026 0.41026" Source="data/objects/models/speedup_polySurface8-speedup_locator1.model">
+            <#Shaders#>
+                <Shader Name="phong1" TrianglesCount="48">
+                    <Material Transparency="0.001" SpecularPower="40" Emissive="0 1 0"/>
+                    <Emissive Image="data/objects/textures/bonus_glow"/>
+                </Shader>
+            </#Shaders#>
+        </ModelFixed>
+        <Billboard Name="locator2" Position="0 1.45 0">
+            <ModelFixed Name="pPlane1" Scale="2 2 2" Source="data/objects/models/speedup_pPlane1-speedup_locator2-speedup_locator1.model">
+                <#Shaders#>
+                    <Shader Name="phong3" TrianglesCount="2">
+                        <Material Transparency="0.001" SpecularPower="40" Emissive="0 1 0"/>
+                        <Emissive Image="data/objects/textures/bonus_upgrade"/>
+                    </Shader>
+                </#Shaders#>
+            </ModelFixed>
+        </Billboard>
+    </Node>
+</Scene>

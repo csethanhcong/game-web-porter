@@ -1,0 +1,21 @@
+<InterfaceScreenMenu ModelName="data/Interface/MainMenu.scene" AnimationName="data/Interface/_night.anim"
+    Cursor="data/interface/cursor" 
+    Music="data/music/menu">
+    <Controls>
+        <ControlButton Name="data/Interface/EmissiveButton_" NodeName="btn1Player" Link="data/interface/game_select1.screen"/>
+        <ControlButton Name="data/Interface/EmissiveButton_" NodeName="btn2Player" Link="data/interface/game_select2.screen"/>
+        <ControlButton Name="data/Interface/EmissiveButton_" NodeName="btnTutorial" Link="data/interface/game_tutorial.screen" OptionName="EpisodeLink" OptionValue="data/levels/tutorial/tutorial.episode" />
+        <ControlButton Name="data/Interface/EmissiveButton_" NodeName="btnPassword" Link="data/interface/Password.screen"/>
+        <ControlButton Name="data/Interface/EmissiveButton_" NodeName="btnControls" Link="data/interface/controls.screen"/>
+        <ControlButton Name="data/Interface/EmissiveButton_" NodeName="btnHiscore" Link="data/interface/hiscore.screen" />
+        <ControlButton Name="data/Interface/EmissiveButton_" NodeName="btnExit" Link="Exit"/>
+    </Controls>
+    <Properties>    
+        <Property Name="ScoreTotal0" Value="0"/>
+        <Property Name="BonusScore" Value="0"/>
+        <Property Name="Score" Value="0"/>
+        <Property Name="EpisodeLink" Value=""/>
+        <Property Name="GraphNodeName" Value=""/>
+    </Properties>
+
+</InterfaceScreenMenu>

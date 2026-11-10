@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Scene>
+    <Node Name="Corner" Position="22.5 0 -22.5"/>
+
+    <SoundListener Name="SoundListener" Position="0 58.474 35"/>
+
+    <Node Name="CameraBase" Position="0 58.474 35">       
+        <Node Name="snd_win" Children="data/sounds/win.scene"/>
+        <Node Name="snd_loose" Children="data/sounds/loose.scene"/> 
+        <CameraPerspective Name="Camera" Position="0 0 0" Rotation="-1.06811 0 0" Scale="-1 1 -1" Fov="0.660595" Aspect="0.75" NearPlane="0.5" FarPlane="200" ViewportLeft="-1" ViewportRight="1" ViewportTop="1" ViewportBottom="-1"/>
+    </Node>
+</Scene>

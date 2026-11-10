@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Scene>
+    <ModelFixed Name="ring" Position="0 1 0" Scale="0.999196 0.999196 0.999196" Source="data/objects/models/ring.model">
+        <#Shaders#>
+            <Shader Name="phong1" TrianglesCount="2" EmissiveAlphaMultiply="true">
+                <Material Transparency="1" SpecularPower="40" Emissive="2 1.4 0" Specular="0 0 0"/>
+                <Emissive Image="data/objects/textures/ring4"/>
+            </Shader>
+        </#Shaders#>
+    </ModelFixed>
+</Scene>

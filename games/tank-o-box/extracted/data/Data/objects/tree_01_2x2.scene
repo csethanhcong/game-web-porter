@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Scene>
+    <Node Name="snd_death0" Children="data/sounds/fire.scene"/>
+    <Node Name="fire" Children="data/objects/tree_fire.scene"/>
+    <Node Name="live">
+        <ModelMorph Name="tree_01"  Scale="1.5 1.5 1.5"
+            Source="data/objects/models/tree_01_tree_01-tree_01_tree_00.model" 
+            Source2="data/objects/models/tree_01_tree_01-tree_01_tree_01.model" >
+            <#Shaders#>
+                <Shader Name="phong1" TrianglesCount="36">
+                    <Material SpecularPower="40" Diffuse="1 1 1" Transparency="0.001"/>
+                    <Diffuse Image="data/objects/textures/tree_01_new"/>
+                </Shader>
+            </#Shaders#>
+        </ModelMorph>
+    <Node Name="tree_shadow" Children="data/objects/tree_01_shadow.scene"/>
+    </Node>
+	<ModelFixed Name="penek" Visibility="false" Position="0.0140483 0.190074 -0.0297866" Scale="0.197888 0.197888 0.197888" Source="data/objects/models/penek.model">
+		<#Shaders#>
+			<Shader Name="phong1" TrianglesCount="30">
+				<Material SpecularPower="40" Diffuse="1 1 1" Specular="0.5 0.5 0.5"/>
+				<Diffuse Image="data/objects/textures/penek"/>
+			</Shader>
+		</#Shaders#>
+	</ModelFixed>
+</Scene>

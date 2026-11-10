@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Scene>
+        <Billboard Name="bill">
+            <ModelFixed Name="model" Scale="1.5 1.5 1.5" Rotation="0 0 3.141592" Visibility="false" Source="data/objects/models/score.model">
+                <#Shaders#>
+                    <Shader Name="shader" TrianglesCount="2" EmissiveAlphaMultiply="true">
+                        <Material Transparency="0.001" Emissive="1 1 1"/>
+                        <Emissive Image="data/textures/700"/>
+                    </Shader>
+                </#Shaders#>
+            </ModelFixed>
+        </Billboard>
+</Scene>

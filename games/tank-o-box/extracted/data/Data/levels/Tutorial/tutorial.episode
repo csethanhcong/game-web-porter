@@ -1,0 +1,61 @@
+<Episode>
+	<Properties>
+	    <Property Name="ScoreLifeCost" Value="20000"/>   
+	</Properties>    
+
+	<EpisodeNode GraphNodeName="Start" ScreenName="data/levels/Tutorial/DestroyEnemyTanks.screen">
+		<Links>
+			<Link Name="Next" GraphNodeName="0"/>
+		</Links>
+	</EpisodeNode>
+	<EpisodeNode GraphNodeName="0" ScreenName="data/levels/Tutorial/DestroyEnemyTanks.level">
+		<Links>
+			<Link Name="Next" GraphNodeName="1brif"/>
+		</Links>
+	</EpisodeNode>
+	<EpisodeNode GraphNodeName="1brif" ScreenName="data/levels/Tutorial/ProtectYourHQ.screen">
+		<Links>
+			<Link Name="Next" GraphNodeName="1"/>
+		</Links>
+	</EpisodeNode>
+	<EpisodeNode GraphNodeName="1" ScreenName="data/levels/Tutorial/ProtectYourHQ.level">
+		<Links>
+			<Link Name="Next" GraphNodeName="2brif"/>
+		</Links>
+	</EpisodeNode>
+	<EpisodeNode GraphNodeName="2brif" ScreenName="data/levels/Tutorial/Bonuses.screen">
+		<Links>
+			<Link Name="Next" GraphNodeName="2"/>
+		</Links>
+	</EpisodeNode>
+	<EpisodeNode GraphNodeName="2" ScreenName="data/levels/Tutorial/Bonuses.level">
+		<Links>
+			<Link Name="Next" GraphNodeName="3brif"/>
+		</Links>
+	</EpisodeNode>
+	<EpisodeNode GraphNodeName="3brif" ScreenName="data/levels/Tutorial/Upgrade.screen">
+		<Links>
+			<Link Name="Next" GraphNodeName="3"/>
+		</Links>
+	</EpisodeNode>
+	<EpisodeNode GraphNodeName="3" ScreenName="data/levels/Tutorial/Upgrade.level">
+		<Links>
+			<Link Name="Next" GraphNodeName="4brif"/>
+		</Links>
+	</EpisodeNode>
+	<EpisodeNode GraphNodeName="4brif" ScreenName="data/levels/Tutorial/Radar.screen">
+		<Links>
+			<Link Name="Next" GraphNodeName="4"/>
+		</Links>
+	</EpisodeNode>
+	<EpisodeNode GraphNodeName="4" ScreenName="data/levels/Tutorial/Radar.level">
+		<Links>
+			<Link Name="Next" GraphNodeName="5"/>
+		</Links>
+	</EpisodeNode>
+	<EpisodeNode GraphNodeName="5" ScreenName="data/levels/Tutorial/Congratulations.screen">
+		<Links>
+			<Link Name="Next" GraphNodeName="data/interaface/MainMenu.screen"/>
+		</Links>
+	</EpisodeNode>
+</Episode>

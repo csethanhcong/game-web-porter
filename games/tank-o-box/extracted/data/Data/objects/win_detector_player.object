@@ -1,0 +1,31 @@
+<GameObject Type="Object">
+    <GameObjectStates>
+
+        <GameObjectState Name="Default">
+            <Strategies>
+                <StrategyTimeCounter PropertyName="ScoreBonus" StartValue="5000" Step="-10"/>
+                <StrategyCheckGlobalCounter PropertyName="TankCountEnemy" MaxValue="1"/>
+                <StrategyCheckGlobalCounter PropertyName="GenerateTank2" MaxValue="1"/>
+                <StrategyCheckGlobalCounter PropertyName="GenerateTank2Total" MaxValue="1"/>
+                <StrategyCheckGlobalCounter PropertyName="GenerateTank2CatchMe" MaxValue="1"/>
+                <StrategyCheckGlobalCounter PropertyName="GenerateTank2CatchMeTotal" MaxValue="1"/>
+                <StrategyCheckGlobalCounter PropertyName="GenerateTank3" MaxValue="1"/>
+                <StrategyCheckGlobalCounter PropertyName="GenerateTank3FirepowerTotal" MaxValue="1"/>
+                <StrategyCheckGlobalCounter PropertyName="GenerateTank3Firepower" MaxValue="1"/>
+                <StrategyCheckGlobalCounter PropertyName="GenerateTank3Total" MaxValue="1"/>
+                <StrategyCheckGlobalCounter PropertyName="GenerateTank4" MaxValue="1"/>
+                <StrategyCheckGlobalCounter PropertyName="GenerateTank4Total" MaxValue="1"/>
+                <StrategyCheckGlobalCounter PropertyName="GenerateTank5" MaxValue="1"/>
+                <StrategyCheckGlobalCounter PropertyName="GenerateTank5Total" MaxValue="1"/>
+                <StrategyCheckGlobalCounter PropertyName="GenerateTank5Duel" MaxValue="1"/>
+                <StrategyCheckGlobalCounter PropertyName="GenerateTank5DuelTotal" MaxValue="1"/>
+                <StrategyCheckGlobalCounter PropertyName="GenerateTank6" MaxValue="1"/>
+                <StrategyCheckGlobalCounter PropertyName="GenerateTank6Total" MaxValue="1"/>
+                <StrategyGlobalEvent EventName="PlayerWin"/>
+                <StrategyChangeState StateName="Waiting"/>                      
+            </Strategies>       
+        </GameObjectState>
+        <GameObjectState Name="Waiting"/>
+
+    </GameObjectStates>
+</GameObject>

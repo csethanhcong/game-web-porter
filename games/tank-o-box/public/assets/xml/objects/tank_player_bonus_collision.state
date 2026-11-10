@@ -1,0 +1,81 @@
+<GameObjectState>
+    <EventHandlers>
+        <EventHandler>
+            <EventNames>
+                <EventName Name="CollisionTankLand"/>
+                <EventName Name="CollisionPlayerLand"/>
+            </EventNames>
+            <Strategies>
+                <StrategyChangeState StateName="Explode"/>
+            </Strategies>
+         </EventHandler>
+
+         <EventHandler>
+            <EventNames>
+                <EventName Name="CollisionTankBonusFast"/>
+            </EventNames>
+            <Strategies>
+                <StrategyChangeCounter PropertyName="BonusFast" Step="15"/>
+            </Strategies>
+         </EventHandler>
+
+         <EventHandler>
+            <EventNames>
+                <EventName Name="CollisionTankBonusArmor"/>
+            </EventNames>
+            <Strategies>
+                <StrategyChangeCounter PropertyName="BonusArmor" Step="20"/>
+            </Strategies>
+         </EventHandler>
+
+         <EventHandler>
+            <EventNames>
+                <EventName Name="CollisionTankBonusShtabArmor"/>
+            </EventNames>
+            <Strategies>
+                <StrategyGlobalEvent EventName="BonusShtabArmor"/>
+            </Strategies>
+         </EventHandler>
+
+         <EventHandler>
+            <EventNames>
+                <EventName Name="CollisionTankBonusTimeStop"/>
+            </EventNames>
+            <Strategies>
+                <StrategyGlobalEvent EventName="BonusTimeStop"/>
+            </Strategies>
+         </EventHandler>
+
+         <EventHandler>
+            <EventNames>
+                <EventName Name="CollisionTankBonusAirStrike"/>
+            </EventNames>
+            <Strategies>
+                <StrategyGlobalEvent EventName="BonusAirStrike"/>
+            </Strategies>
+         </EventHandler>
+
+         <EventHandler>
+            <EventNames>
+                <EventName Name="CollisionTankBonusUpgrade"/>
+            </EventNames>
+            <Strategies>
+                <StrategyGlobalEvent EventName="PlayerUpgrade"/>
+                <StrategyChangeGlobalCounter PropertyName="BonusUpgrade" Step="1"/>
+                <StrategyChangeStateByGlobalCounter StateName="NoUpgrade" PropertyName="BonusUpgrade" MinValue="0" MaxValue="1"/>
+                <StrategyChangeStateByGlobalCounter StateName="preUpgrade1" PropertyName="BonusUpgrade" MinValue="1" MaxValue="2"/>
+                <StrategyChangeStateByGlobalCounter StateName="preUpgrade2" PropertyName="BonusUpgrade" MinValue="2" MaxValue="3"/>
+                <StrategyCheckUpgrade HPPropertyName="HitPoints" MaxHP ="3" UpgradePropertyName="BonusUpgrade" MaxUpgrade="4"/>
+                <StrategyChangeStateByGlobalCounter StateName="preUpgrade3" PropertyName="BonusUpgrade" MinValue="3" MaxValue="99999"/>
+            </Strategies>
+         </EventHandler>
+
+
+    </EventHandlers>
+
+    <Strategies>
+        <StrategyChangeStateByGlobalCounter StateName="Explode" PropertyName="HitPoints" MinValue="-9999" MaxValue="1"/>
+        <StrategyMoveByKey InputDevicePropertyName="Player1InputDevice" Mask = "111 111 111"/>      
+    </Strategies>
+</GameObjectState>
+

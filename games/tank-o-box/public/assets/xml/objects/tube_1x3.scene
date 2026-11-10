@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Scene>
+    <Node Name="fire" Children="data/objects/tube_steam.scene"/>
+
+    <Node Name="snd_death0" Children="data/sounds/steam.scene"/>
+
+    <Node Name="live">
+        <ModelFixed Name="polySurface11" Source="data/objects/models/tube_1x3_polySurface11-tube_1x3_live.model" >
+            <#Shaders#>
+                <Shader Name="phong1" TrianglesCount="48">
+                    <Material SpecularPower="40" Diffuse="1 1 1"/>
+                    <Diffuse Image="data/objects/textures/tube"/>
+                </Shader>
+            </#Shaders#>
+        </ModelFixed>
+    </Node>
+    <Node Name="death0">
+        <ModelFixed Name="polySurface12" Source="data/objects/models/tube_1x3_polySurface12-tube_1x3_death0.model" >
+            <#Shaders#>
+                <Shader Name="phong1" TrianglesCount="26">
+                    <Material SpecularPower="40" Diffuse="1 1 1"/>
+                    <Diffuse Image="data/objects/textures/tube"/>
+                </Shader>
+            </#Shaders#>
+        </ModelFixed>
+    </Node>
+</Scene>

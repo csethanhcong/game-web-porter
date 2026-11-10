@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Scene>
+	<ModelFixed Name="shadow_0" Position="0 -5.9 0" Rotation="0 3.141592 0" Source="data/objects/models/ammo_shadow.model">
+		<#Shaders#>
+			<Shader Name="phong1" TrianglesCount="2">
+				<Material SpecularPower="40" Transparency="0.5" Diffuse="1 1 1"/>
+				<Diffuse Image="data/objects/textures/ammo_shadow_180"/>
+			</Shader>
+		</#Shaders#>
+	</ModelFixed>
+</Scene>

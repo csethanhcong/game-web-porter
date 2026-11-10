@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Scene>
+    <Node Name="_day" Children="data/interface/_day.scene"/>
+    <Node Name="Base" Children="data/levels/level_base.scene"/>
+    <Light Name="point" ShadowPriority="1000" Position="23.2413 34.8519 13.253" Type="POINT" Intensity="50" Attenuation="LINEAR" Diffuse="0.976471 0.984314 0.87451"/>
+    <Light Name="ambientLight1" Type="AMBIENT" Intensity="0.5" Ambient="1 1 1"/>
+    <ModelFixed Position="0 0 -0.05" Rotation="0 3.141592654 0" Name="pPlane1" Source="data/levels/models/level_base_1800.model">
+        <#Shaders#>
+            <Shader Name="phong1" TrianglesCount="1800">
+                <Material SpecularPower="40" Diffuse="1 1 1" Specular="1 1 1"/>
+                <Diffuse Image="data/levels/terrains/terrain_11"/>
+            </Shader>
+        </#Shaders#>
+    </ModelFixed>
+</Scene>

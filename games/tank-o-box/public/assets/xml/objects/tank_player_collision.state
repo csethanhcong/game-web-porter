@@ -1,0 +1,49 @@
+<GameObjectState TemplateName="data/objects/tank_player_bonus_collision.state">
+    <EventHandlers>
+        <EventHandler>
+            <EventNames>
+                <EventName Name="CollisionEnemyBulletDefault"/>
+            </EventNames>
+            <Strategies>
+                <StrategyCheckCounter PropertyName="Damage" MaxValue="0"/>
+                <StrategyChangeGlobalCounter PropertyName="HitPoints" StepPropertyName="Damage"/>
+                <StrategyGlobalEvent EventName="PlayerHit"/>                
+            </Strategies>
+         </EventHandler>         
+
+        <EventHandler>
+            <EventNames>
+                <EventName Name="CollisionEnemyBulletDoubleDefault"/>
+            </EventNames>
+            <Strategies>
+                <StrategyCheckCounter PropertyName="DamageDouble" MaxValue="0"/>
+                <StrategyChangeGlobalCounter PropertyName="HitPoints" StepPropertyName="DamageDouble"/>
+                <StrategyGlobalEvent EventName="PlayerHit"/>                
+            </Strategies>
+         </EventHandler>         
+
+        <EventHandler>
+            <EventNames>
+                <EventName Name="CollisionEnemyBulletRocketDefault"/>
+            </EventNames>
+            <Strategies>
+                <StrategyCheckCounter PropertyName="DamageRocket" MaxValue="0"/>
+                <StrategyChangeGlobalCounter PropertyName="HitPoints" StepPropertyName="DamageRocket"/>
+                <StrategyGlobalEvent EventName="PlayerHit"/>                
+            </Strategies>
+         </EventHandler>         
+
+        <EventHandler>
+            <EventNames>
+                <EventName Name="CollisionMineDefault"/>
+            </EventNames>
+            <Strategies>
+                <StrategyChangeGlobalCounter PropertyName="HitPoints" StepPropertyName="DamageRocket"/>
+                <StrategyGlobalEvent EventName="PlayerHit"/>                
+            </Strategies>
+         </EventHandler>         
+
+
+    </EventHandlers>
+</GameObjectState>
+

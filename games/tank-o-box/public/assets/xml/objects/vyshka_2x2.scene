@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Scene>
+    <Node Name="snd_death0" Children="data/sounds/fire.scene"/>
+    <Node Name="snd_explode" Children="data/sounds/object_explode.scene"/>
+
+	<Node Name="fire" Children="data/objects/tree_fire.scene"/>
+    <Node Name="live">
+        <ModelFixed Name="polySurface1" Source="data/objects/models/vyshka_2x2_polySurface1-vyshka_2x2_live.model">
+            <#Shaders#>
+                <Shader Name="Default1" TrianglesCount="20">
+                    <Material Transparency="0.001" SpecularPower="40" Diffuse="1 1 1"/>
+                    <Diffuse Image="data/objects/textures/vyshka"/>
+                </Shader>
+            </#Shaders#>
+        </ModelFixed>
+	<Node Name="shadow_0" Visibility="false"  Children="data/objects/vyshka_shadow_0.scene"/>
+	<Node Name="shadow_90" Visibility="false"  Children="data/objects/vyshka_shadow_90.scene"/>
+	<Node Name="shadow_180" Visibility="false"  Children="data/objects/vyshka_shadow_180.scene"/>
+	<Node Name="shadow_270" Visibility="false"  Children="data/objects/vyshka_shadow_270.scene"/>
+    </Node>
+ 
+   <Node Name="death0" Visibility="false">
+        <ModelFixed Name="polySurface1" Source="data/objects/models/vyshka_2x2_polySurface1-vyshka_2x2_death0.model">
+            <#Shaders#>
+                <Shader Name="Default1" TrianglesCount="20">
+                    <Material Transparency="0.001" SpecularPower="40" Diffuse="1 1 1"/>
+                    <Diffuse Image="data/objects/textures/vyshka"/>
+                </Shader>
+            </#Shaders#>
+        </ModelFixed>
+	<Node Name="shadow_0" Visibility="false"  Children="data/objects/vyshka_shadow_0.scene"/>
+	<Node Name="shadow_90" Visibility="false"  Children="data/objects/vyshka_shadow_90.scene"/>
+	<Node Name="shadow_180" Visibility="false"  Children="data/objects/vyshka_shadow_180.scene"/>
+	<Node Name="shadow_270" Visibility="false"  Children="data/objects/vyshka_shadow_270.scene"/>
+    </Node>
+    <Node Name="death1" Visibility="false">
+        <ModelFixed Name="polySurface1" Source="data/objects/models/vyshka_2x2_polySurface1-vyshka_2x2_death1.model" >
+            <#Shaders#>
+                <Shader Name="Default1" TrianglesCount="20">
+                    <Material SpecularPower="40" Diffuse="1 1 1"/>
+                    <Diffuse Image="data/objects/textures/vyshka"/>
+                </Shader>
+            </#Shaders#>
+        </ModelFixed>
+    </Node>
+</Scene>

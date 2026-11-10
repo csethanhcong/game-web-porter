@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Animation>
+    <math::Vector[float,3]>
+        <PrimitiveAnimation Target="" Param="Dumb">
+            <Envelope PreBehave="CONSTANT" PostBehave="CONSTANT">
+                <Keys>
+                    <Key Time="0" Value="0 0 0"/>
+                    <Key Time="5" Value="0 0 0"/>
+                </Keys>
+            </Envelope>
+        </PrimitiveAnimation>
+    </math::Vector[float,3]>
+</Animation>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Animation>
+    <math::Vector[float,3]>
+        <PrimitiveAnimation Target="point" Param="Position">
+            <Envelope PreBehave="CONSTANT" PostBehave="CONSTANT">
+                <Keys>
+                    <Key Time="0" Linear="0 0 -1" Value="23.2413 34.8519 13.253"/>
+                    <Key Time="20" Linear="0 0 1" Value="23.2413 34.8519 -6.747"/>
+                    <Key Time="40" Linear="0 0 0" Value="23.2413 34.8519 13.253"/>
+                </Keys>
+            </Envelope>
+        </PrimitiveAnimation>
+    </math::Vector[float,3]>
+</Animation>

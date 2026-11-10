@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<?v1?>
+
+<Animation>
+    <double>
+        <PrimitiveAnimation Target="bmp_explode|locator1" Param="Visibility">
+            <Envelope PreBehave="CONSTANT" PostBehave="CONSTANT">
+                <Keys>
+                    <Key Time="0.0" Value="1"/>
+                    <Key Time="0.8" Value="0"/>
+                </Keys>
+            </Envelope>
+        </PrimitiveAnimation>
+    </double>
+    <filesystem::String>
+        <PrimitiveAnimation Target="bmp_explode|locator1|locator2|pPlane1|#Shaders#|phong3|Emissive" Param="Image">
+            <Envelope PreBehave="CONSTANT" PostBehave="CONSTANT">
+                <Keys>
+                    <Key Time="0.0" Value="data/objects/textures/bmp2/exp_00"/>
+                    <Key Time="0.05" Value="data/objects/textures/bmp2/exp_01"/>
+                    <Key Time="0.1" Value="data/objects/textures/bmp2/exp_02"/>
+                    <Key Time="0.15" Value="data/objects/textures/bmp2/exp_03"/>
+                    <Key Time="0.2" Value="data/objects/textures/bmp2/exp_04"/>
+                    <Key Time="0.25" Value="data/objects/textures/bmp2/exp_05"/>
+                    <Key Time="0.3" Value="data/objects/textures/bmp2/exp_06"/>
+                    <Key Time="0.35" Value="data/objects/textures/bmp2/exp_07"/>
+                    <Key Time="0.4" Value="data/objects/textures/bmp2/exp_08"/>
+                    <Key Time="0.45" Value="data/objects/textures/bmp2/exp_09"/>
+                    <Key Time="0.5" Value="data/objects/textures/bmp2/exp_10"/>
+                    <Key Time="0.55" Value="data/objects/textures/bmp2/exp_11"/>
+                    <Key Time="0.6" Value="data/objects/textures/bmp2/exp_12"/>
+                    <Key Time="0.65" Value="data/objects/textures/bmp2/exp_13"/>
+                    <Key Time="0.7" Value="data/objects/textures/bmp2/exp_14"/>
+                    <Key Time="0.75" Value="data/objects/textures/bmp2/exp_15"/>
+                </Keys>
+            </Envelope>
+        </PrimitiveAnimation>
+    </filesystem::String>
+</Animation>
